@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 704907223, guid: 538242286e35fb84f8e90dd86ba08b80, type: 3}
+  m_Name: ArticyEditorSettings
+  m_EditorClassIdentifier: 
+  mIsImporting: 0
+  mAwaitingModelImport: 0
+  mAwaitingFragmentsImport: 0
+  mFileHashesKeys:
+  - script_methods.json
+  - hierarchy.json
+  - global_variables.json
+  - object_definitions.json
+  - object_definitions_localization.json
+  - package_0100000000000110_objects.json
+  - package_0100000000000110_localization.json
+  mFileHashesValues:
+  - +Hc7CrqwO4HgaJLz4pXA58UKo/0PYZLVIzK1n03xTOY=
+  - g1ZcLUAcrRJ6aFh/L32mJvx9pEl5POS/wF/pOv1cu9Q=
+  - 5N+1d6+C0A2xv87QZIZwZ/b+muNxkSanCI2t5lgs4fk=
+  - tecYSvGuWxKPkof6dglECAQvK5+0LSq4Rx8Qlb+1OnQ=
+  - RBNvo1WzZ4oRRq0W9+hknpT7T8If536DEMBg9hyq/4o=
+  - 2NhDh87n2NJEA096tnCvOFdZvBpxWfgODTrEJSJqPZY=
+  - mx8qjc0BNt0oi9COnrK2OV/+bkFy47Arhyv29kmRNSw=
+  mScriptFragmentHashesKeys: 1001000000000001
+  mScriptFragmentHashesValues:
+  - IwHgR68A59ALB0VyIWyMBJWq5ugOBoVmwnw43JwxkOo=
+  mLastBuildCode: 1
+  mLastEditorStartupTimeTicks: 638558850858683838
+  mUseModelPickerHierarchyView: 0
+  mNewVersionAvailable: 0
+  mLastSelectedCustomGvPath: 
+  mLastAttachedFlowPlayerValue: 0
