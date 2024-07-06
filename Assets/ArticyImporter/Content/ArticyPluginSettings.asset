@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mUsedImportFile: Assets/King's Courier.articyu3d
   mUsedLocalizationPath: 
-  mSCMIgnoreState: 0
+  mSCMIgnoreState: 1
   mShowObjectsInDatabaseView: 1
   mLastPluginVersion: 1.1.0.41638
   mAutomaticallyTriggerImport: 1

@@ -31,7 +31,7 @@ public class GateRight : MonoBehaviour
             // Calculate the rotation step for this frame
             float rotationStep = rotationSpeed * Time.deltaTime;
 
-            // Rotate the gate
+            // Rotate the gate rightwards (negative y-axis direction)
             gate.Rotate(Vector3.up, -rotationStep);
 
             // Update the current angle
