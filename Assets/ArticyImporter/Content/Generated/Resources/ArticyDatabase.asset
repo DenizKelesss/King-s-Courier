@@ -21,18 +21,6 @@ MonoBehaviour:
     mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
---- !u!114 &-7102874136687491584
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
-  m_Name: ArticyScriptFragments
-  m_EditorClassIdentifier: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,65 +42,14 @@ MonoBehaviour:
     mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
     mTechnicalName: King_s_Courier
   mImportedAssets:
-  - Assets/Audio/line1
-  mDefaultGlobalVariables: {fileID: 2736873968128773677}
-  mScriptFragments: {fileID: -7102874136687491584}
+  - Assets/Voiceover_Lines/Scene1/line1
+  mDefaultGlobalVariables: {fileID: 3334116600245172942}
+  mScriptFragments: {fileID: 5666063433505392350}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
     PackagePath: package_0x100000000000110
     mIsDefaultPackage: 1
---- !u!114 &2736873968128773677
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af3eb1c8993c3e147a5501d689e16a98, type: 3}
-  m_Name: DefaultGlobalVariables
-  m_EditorClassIdentifier: 
-  mBoolVariableCache:
-  - mFullQualifiedName: Objectives.PressEtoTalk
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.OpenGate
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.Understand
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.TalkToLadyU
-    mVar:
-      values: 00
-  - mFullQualifiedName: FallGate.FallGateOpen
-    mVar:
-      values: 00
-  - mFullQualifiedName: Scene1Objectives.TalkToSentryGuard
-    mVar:
-      values: 00
-  - mFullQualifiedName: Scene1Objectives.TalkToKing
-    mVar:
-      values: 00
-  mIntVariableCache:
-  - mFullQualifiedName: KingdomReputation.KingdomRep
-    mVar:
-      values: 32000000
-  mStringVariableCache: []
-  mLiveBoolVariableCache: []
-  mLiveIntVariableCache: []
-  mLiveStringVariableCache: []
-  mIsInitialized: 1
-  mObjectives:
-    _VariableStorage: {fileID: 2736873968128773677}
-  mFallGate:
-    _VariableStorage: {fileID: 2736873968128773677}
-  mScene1Objectives:
-    _VariableStorage: {fileID: 2736873968128773677}
-  mKingdomReputation:
-    _VariableStorage: {fileID: 2736873968128773677}
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -160,7 +97,7 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: GlobalVariables
     articyType: GlobalVariables
-    childCount: 4
+    childCount: 5
   - id: 72057594037928262
     parent: 216172782840400980
     technicalName: 
@@ -181,6 +118,11 @@ MonoBehaviour:
     technicalName: 
     articyType: VariableSet
     childCount: 0
+  - id: 72057594037928507
+    parent: 216172782840400980
+    technicalName: 
+    articyType: VariableSet
+    childCount: 0
   - id: 216172783251375095
     parent: 72057594037927937
     technicalName: Flow
@@ -190,7 +132,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_3B82B7B1
     articyType: Dialogue
-    childCount: 5
+    childCount: 8
   - id: 72057594037928244
     parent: 72057594037928226
     technicalName: DFr_2B4DDE3F
@@ -199,6 +141,11 @@ MonoBehaviour:
   - id: 72057594037928287
     parent: 72057594037928226
     technicalName: Ins_40B63741
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037928501
+    parent: 72057594037928226
+    technicalName: Ins_F3DD9B55
     articyType: Instruction
     childCount: 0
   - id: 72057594037928250
@@ -214,6 +161,16 @@ MonoBehaviour:
   - id: 72057594037928269
     parent: 72057594037928226
     technicalName: DFr_A775F5D8
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928523
+    parent: 72057594037928226
+    technicalName: Ins_1466A114
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037928510
+    parent: 72057594037928226
+    technicalName: DFr_D272AF9A
     articyType: DialogueFragment
     childCount: 0
   - id: 216172785005863603
@@ -255,7 +212,7 @@ MonoBehaviour:
     parent: 216172782815217020
     technicalName: Features
     articyType: Features
-    childCount: 3
+    childCount: 2
   - id: 72057594037927951
     parent: 216172785641213376
     technicalName: DefaultBasicCharacterFeature
@@ -264,11 +221,6 @@ MonoBehaviour:
   - id: 72057594037928016
     parent: 216172785641213376
     technicalName: DefaultExtendedCharacterFeature
-    articyType: Feature
-    childCount: 0
-  - id: 72057594037928293
-    parent: 216172785641213376
-    technicalName: VO
     articyType: Feature
     childCount: 0
   - id: 216172782852592046
@@ -325,11 +277,6 @@ MonoBehaviour:
     parent: 216172784713633229
     technicalName: 
     articyType: TemplateTypeFolder
-    childCount: 1
-  - id: 72057594037928303
-    parent: 216172782164859599
-    technicalName: VO_Dialogue
-    articyType: Template
     childCount: 0
   - id: 216172784493379826
     parent: 216172784713633229
@@ -435,16 +382,11 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: Assets
     articyType: Assets
-    childCount: 5
+    childCount: 6
   - id: 72057594037928215
     parent: 216172783392894804
     technicalName: Ufo_D343BDA7
     articyType: AssetsUserFolder
-    childCount: 1
-  - id: 72057594037928320
-    parent: 72057594037928215
-    technicalName: Ast_E1AB76A5
-    articyType: Asset
     childCount: 0
   - id: 72057594037928217
     parent: 216172783392894804
@@ -466,3 +408,89 @@ MonoBehaviour:
     technicalName: Ufo_5A86E885
     articyType: AssetsUserFolder
     childCount: 0
+  - id: 72057594037928497
+    parent: 216172783392894804
+    technicalName: Ufo_125DE12C
+    articyType: AssetsUserFolder
+    childCount: 1
+  - id: 72057594037928499
+    parent: 72057594037928497
+    technicalName: Ufo_17BA0F02
+    articyType: AssetsUserFolder
+    childCount: 1
+  - id: 72057594037928320
+    parent: 72057594037928499
+    technicalName: Ast_E1AB76A5
+    articyType: Asset
+    childCount: 0
+--- !u!114 &3334116600245172942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3eb1c8993c3e147a5501d689e16a98, type: 3}
+  m_Name: DefaultGlobalVariables
+  m_EditorClassIdentifier: 
+  mBoolVariableCache:
+  - mFullQualifiedName: Objectives.PressEtoTalk
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.OpenGate
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.Understand
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.TalkToLadyU
+    mVar:
+      values: 00
+  - mFullQualifiedName: FallGate.FallGateOpen
+    mVar:
+      values: 00
+  - mFullQualifiedName: Scene1Objectives.TalkToSentryGuard
+    mVar:
+      values: 00
+  - mFullQualifiedName: Scene1Objectives.TalkToKing
+    mVar:
+      values: 00
+  - mFullQualifiedName: VOTriggers.Scene1Line1
+    mVar:
+      values: 00
+  - mFullQualifiedName: VOTriggers.Scene1Line2
+    mVar:
+      values: 00
+  mIntVariableCache:
+  - mFullQualifiedName: KingdomReputation.KingdomRep
+    mVar:
+      values: 32000000
+  mStringVariableCache: []
+  mLiveBoolVariableCache: []
+  mLiveIntVariableCache: []
+  mLiveStringVariableCache: []
+  mIsInitialized: 1
+  mObjectives:
+    _VariableStorage: {fileID: 3334116600245172942}
+  mFallGate:
+    _VariableStorage: {fileID: 3334116600245172942}
+  mScene1Objectives:
+    _VariableStorage: {fileID: 3334116600245172942}
+  mKingdomReputation:
+    _VariableStorage: {fileID: 3334116600245172942}
+  mVOTriggers:
+    _VariableStorage: {fileID: 3334116600245172942}
+--- !u!114 &5666063433505392350
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 

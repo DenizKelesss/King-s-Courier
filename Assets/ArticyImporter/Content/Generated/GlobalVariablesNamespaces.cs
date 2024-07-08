@@ -195,3 +195,48 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
     }
 }
+namespace Articy.King_s_Courier.GlobalVariables
+{
+    
+    
+    [Serializable()]
+    public class VOTriggers : IArticyNamespace
+    {
+        
+        [SerializeField()]
+        private BaseGlobalVariables _VariableStorage;
+        
+        // 
+        public bool Scene1Line1
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(7);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(7, value);
+            }
+        }
+        
+        // 
+        public bool Scene1Line2
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(8);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(8, value);
+            }
+        }
+        
+        public void RegisterVariables(BaseGlobalVariables aStorage)
+        {
+            _VariableStorage = aStorage;
+            aStorage.RegisterVariable("VOTriggers.Scene1Line1", false);
+            aStorage.RegisterVariable("VOTriggers.Scene1Line2", false);
+        }
+    }
+}

@@ -156,33 +156,6 @@ namespace Articy.King_s_Courier
     
     
     [Serializable()]
-    public class ArticyValueVO_DialogueTemplate : ArticyValue<Articy.King_s_Courier.Templates.VO_DialogueTemplate>
-    {
-    }
-}
-namespace Articy.King_s_Courier
-{
-    
-    
-    [Serializable()]
-    public class ArticyValueVOFeature : ArticyValue<Articy.King_s_Courier.Features.VOFeature>
-    {
-    }
-}
-namespace Articy.King_s_Courier
-{
-    
-    
-    [Serializable()]
-    public class ArticyValueVO_Dialogue : ArticyValue<VO_Dialogue>
-    {
-    }
-}
-namespace Articy.King_s_Courier
-{
-    
-    
-    [Serializable()]
     public class ArticyValueHub : ArticyValue<Hub>
     {
     }

@@ -40,6 +40,10 @@ namespace Articy.King_s_Courier.GlobalVariables
         [HideInInspector()]
         private KingdomReputation mKingdomReputation = new KingdomReputation();
         
+        [SerializeField()]
+        [HideInInspector()]
+        private VOTriggers mVOTriggers = new VOTriggers();
+        
         #region Initialize static VariableName set
         static ArticyGlobalVariables()
         {
@@ -51,6 +55,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("Scene1Objectives.TalkToSentryGuard");
             variableNames.Add("Scene1Objectives.TalkToKing");
             variableNames.Add("KingdomReputation.KingdomRep");
+            variableNames.Add("VOTriggers.Scene1Line1");
+            variableNames.Add("VOTriggers.Scene1Line2");
         }
         #endregion
         
@@ -86,6 +92,14 @@ namespace Articy.King_s_Courier.GlobalVariables
             }
         }
         
+        public VOTriggers VOTriggers
+        {
+            get
+            {
+                return mVOTriggers;
+            }
+        }
+        
         public static ArticyGlobalVariables Default
         {
             get
@@ -100,6 +114,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             FallGate.RegisterVariables(this);
             Scene1Objectives.RegisterVariables(this);
             KingdomReputation.RegisterVariables(this);
+            VOTriggers.RegisterVariables(this);
         }
         
         public static ArticyGlobalVariables CreateGlobalVariablesClone()

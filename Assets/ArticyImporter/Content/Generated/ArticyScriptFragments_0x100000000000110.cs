@@ -41,6 +41,24 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             aGlobalVariablesState.KingdomReputation.KingdomRep = 60;
         }
+        
+        /// <summary>
+        /// ObjectID: 0x100000000000235
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928501?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x100000000000235Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.VOTriggers.Scene1Line1 = true;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x10000000000024B
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928523?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x10000000000024BExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.VOTriggers.Scene1Line2 = true;
+        }
         #endregion
         
         #region Unity serialization
@@ -48,6 +66,8 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             Instructions.Add(101404872u, this.Script_720575940379282080x100000000000154Expression);
             Instructions.Add(799694506u, this.Script_720575940379282080x10000000000015FExpression);
+            Instructions.Add(515138219u, this.Script_720575940379282080x100000000000235Expression);
+            Instructions.Add(2526110314u, this.Script_720575940379282080x10000000000024BExpression);
         }
         #endregion
     }

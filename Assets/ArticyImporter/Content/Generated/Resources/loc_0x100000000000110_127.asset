@@ -17,6 +17,7 @@ MonoBehaviour:
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
   - DFr_A775F5D8.Text
+  - DFr_D272AF9A.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_A624AC80.DisplayName
   mLocalizedStringsValues:
@@ -24,9 +25,10 @@ MonoBehaviour:
   - Halt! Who goes there?
   - I'm King Harlach's royal courier, here to deliver a message to your liege lord.
   - Your arrival was expected courier. Open the gates!
+  - Appreciated guard, thank you!
   - Courier
   - Sentry
   mLocalizedAudioAssetsKeys:
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
-  mLocalizedAudioAssetsValues: 00000000000000008001000000000001
+  mLocalizedAudioAssetsValues: 00000000000000000000000000000000

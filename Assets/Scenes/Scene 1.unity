@@ -10089,6 +10089,7 @@ GameObject:
   - component: {fileID: 870049768}
   - component: {fileID: 870049767}
   - component: {fileID: 870049766}
+  - component: {fileID: 870049772}
   m_Layer: 0
   m_Name: GateSentry
   m_TagString: Untagged
@@ -10224,6 +10225,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870049764}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &870049772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870049764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da8d11185d31ac428c6d0905e42a9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene1Line1: {fileID: 8300000, guid: a08fbaf3ec1da084ba4ade9d1c054aaa, type: 3}
+  Scene1Line2: {fileID: 8300000, guid: cc8a57fbf91f86a449a32e4d399ed77d, type: 3}
 --- !u!1 &875237805
 GameObject:
   m_ObjectHideFlags: 0
