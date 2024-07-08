@@ -16,12 +16,53 @@ MonoBehaviour:
   mLanguageId: 127
   mLanguages:
   - mArticyLanguageId: 127
-    mCultureName: 
+    mCultureName: en-GB
     mLanguageName: 
-    mIsVoiceOver: 0
+    mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
---- !u!114 &-5019968322210163243
+--- !u!114 &-7102874136687491584
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: 3217360529399469231}
+  mLocalization: {fileID: -8175130696941439569}
+  mRuleSetId: 269
+  mInternalProject:
+    mName: King's Courier
+    mDetailName: 
+    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
+    mTechnicalName: King_s_Courier
+  mImportedAssets:
+  - Assets/Audio/line1
+  mDefaultGlobalVariables: {fileID: 2736873968128773677}
+  mScriptFragments: {fileID: -7102874136687491584}
+  mPackages:
+  - PackageId: 72057594037928208
+    PackageName: All objects
+    PackagePath: package_0x100000000000110
+    mIsDefaultPackage: 1
+--- !u!114 &2736873968128773677
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,53 +106,13 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: -5019968322210163243}
+    _VariableStorage: {fileID: 2736873968128773677}
   mFallGate:
-    _VariableStorage: {fileID: -5019968322210163243}
+    _VariableStorage: {fileID: 2736873968128773677}
   mScene1Objectives:
-    _VariableStorage: {fileID: -5019968322210163243}
+    _VariableStorage: {fileID: 2736873968128773677}
   mKingdomReputation:
-    _VariableStorage: {fileID: -5019968322210163243}
---- !u!114 &-4892420285853044944
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
-  m_Name: ArticyScriptFragments
-  m_EditorClassIdentifier: 
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ArticyDatabase
-  m_EditorClassIdentifier: 
-  mHierarchy: {fileID: 3217360529399469231}
-  mLocalization: {fileID: -8175130696941439569}
-  mRuleSetId: 269
-  mInternalProject:
-    mName: King's Courier
-    mDetailName: 
-    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
-    mTechnicalName: King_s_Courier
-  mImportedAssets: []
-  mDefaultGlobalVariables: {fileID: -5019968322210163243}
-  mScriptFragments: {fileID: -4892420285853044944}
-  mPackages:
-  - PackageId: 72057594037928208
-    PackageName: All objects
-    PackagePath: package_0x100000000000110
-    mIsDefaultPackage: 1
+    _VariableStorage: {fileID: 2736873968128773677}
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -254,7 +255,7 @@ MonoBehaviour:
     parent: 216172782815217020
     technicalName: Features
     articyType: Features
-    childCount: 2
+    childCount: 3
   - id: 72057594037927951
     parent: 216172785641213376
     technicalName: DefaultBasicCharacterFeature
@@ -263,6 +264,11 @@ MonoBehaviour:
   - id: 72057594037928016
     parent: 216172785641213376
     technicalName: DefaultExtendedCharacterFeature
+    articyType: Feature
+    childCount: 0
+  - id: 72057594037928293
+    parent: 216172785641213376
+    technicalName: VO
     articyType: Feature
     childCount: 0
   - id: 216172782852592046
@@ -319,6 +325,11 @@ MonoBehaviour:
     parent: 216172784713633229
     technicalName: 
     articyType: TemplateTypeFolder
+    childCount: 1
+  - id: 72057594037928303
+    parent: 216172782164859599
+    technicalName: VO_Dialogue
+    articyType: Template
     childCount: 0
   - id: 216172784493379826
     parent: 216172784713633229
@@ -429,6 +440,11 @@ MonoBehaviour:
     parent: 216172783392894804
     technicalName: Ufo_D343BDA7
     articyType: AssetsUserFolder
+    childCount: 1
+  - id: 72057594037928320
+    parent: 72057594037928215
+    technicalName: Ast_E1AB76A5
+    articyType: Asset
     childCount: 0
   - id: 72057594037928217
     parent: 216172783392894804
