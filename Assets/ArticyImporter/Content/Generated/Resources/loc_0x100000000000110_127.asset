@@ -14,20 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mLocalizedStringsKeys:
   - Dlg_3B82B7B1.DisplayName
+  - Dlg_C32A169C.DisplayName
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
   - DFr_A775F5D8.Text
   - DFr_D272AF9A.Text
+  - DFr_A8A8D7B5.Text
+  - DFr_93B95C41.Text
+  - DFr_2F3C8BA6.Text
+  - DFr_85F663F3.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_A624AC80.DisplayName
+  - Ntt_AE9402FD.DisplayName
   mLocalizedStringsValues:
   - SentryGuard
+  - Lord Paramount Philippe
   - Halt! Who goes there?
   - I'm King Harlach's royal courier, here to deliver a message to your liege lord.
   - Your arrival was expected courier. Open the gates!
   - Appreciated guard, thank you!
+  - Oh, you must be the courier my uncle sent.
+  - What news do you bear, do tell.
+  - Thank you for having me  in your halls my lord.
+  - His majesty King Renard demands you pay the fealty of 5000 lejors at once!
   - Courier
   - Sentry
+  - Lord Philippe
   mLocalizedAudioAssetsKeys:
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
