@@ -193,14 +193,14 @@ MonoBehaviour:
     technicalName: DFr_2F3C8BA6
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037928569
-    parent: 72057594037928530
-    technicalName: DFr_A0F24615
-    articyType: DialogueFragment
-    childCount: 0
   - id: 72057594037928561
     parent: 72057594037928530
     technicalName: DFr_85F663F3
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928576
+    parent: 72057594037928530
+    technicalName: DFr_3E765C0A
     articyType: DialogueFragment
     childCount: 0
   - id: 216172785005863603
