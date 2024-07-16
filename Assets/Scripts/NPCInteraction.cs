@@ -34,7 +34,7 @@ public class NPCInteraction : MonoBehaviour
 
     private void Talk()
     {
-        Debug.Log("Talking to NPC...");
+        Debug.Log("Interaction/Talking Key Pressed");
         // Add your conversation logic here
         interactionPrompt.SetActive(false); // Hide the prompt
 
