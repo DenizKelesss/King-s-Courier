@@ -25,4 +25,13 @@ public class QuestMapOpen : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isPlayerInRange = false;
+            QuestMap.SetActive(false); // Hide the prompt
+        }
+    }
+
 }
