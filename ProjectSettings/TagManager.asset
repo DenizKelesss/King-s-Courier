@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - FallGate
   - IntroMusic
+  - Waypoint
   layers:
   - Default
   - TransparentFX
