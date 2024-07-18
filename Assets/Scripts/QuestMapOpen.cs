@@ -30,7 +30,7 @@ public class QuestMapOpen : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            QuestMap.SetActive(false); // Hide the prompt
+            QuestMap.SetActive(false); // Hide
         }
     }
 
