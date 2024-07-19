@@ -79,7 +79,7 @@ Material:
     - _METAL4SMOOTHNESS: 0.766
     - _MetalicOn: 1
     - _OCCLUSION: 0.5
-    - _OTHERSMOOTHNESS: 0.3
+    - _OTHERSMOOTHNESS: 0.33
     - _SCLERASMOOTHNESS: 0.761
     - _SKINSMOOTHNESS: 0.154
     - _SmoothnessOn: 1

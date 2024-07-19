@@ -79,7 +79,7 @@ Material:
     - _METAL4SMOOTHNESS: 0.766
     - _MetalicOn: 1
     - _OCCLUSION: 0.5
-    - _OTHERSMOOTHNESS: 0.3
+    - _OTHERSMOOTHNESS: 0.33
     - _SCLERASMOOTHNESS: 0.761
     - _SKINSMOOTHNESS: 0.154
     - _SmoothnessOn: 1
@@ -92,9 +92,9 @@ Material:
     - _CLOTH1COLOR1: {r: 0, g: 0.1792453, b: 0.05062231, a: 0}
     - _CLOTH2COLOR: {r: 0.745283, g: 0.28634557, b: 0, a: 0}
     - _CLOTH2COLOR1: {r: 1, g: 0, b: 0, a: 0}
-    - _CLOTH3COLOR: {r: 0.26415092, g: 0.08071278, b: 0, a: 0}
+    - _CLOTH3COLOR: {r: 0.38679248, g: 0.3028658, b: 0.26455146, a: 0}
     - _CLOTH3COLOR1: {r: 0.3962264, g: 0.3391397, b: 0.2710039, a: 0}
-    - _CLOTH4COLOR: {r: 0.16981131, g: 0.08891064, b: 0.08891064, a: 0}
+    - _CLOTH4COLOR: {r: 0.028301895, g: 0.011614458, b: 0.011614458, a: 0}
     - _CLOTH4COLOR1: {r: 0.2011392, g: 0.3773585, b: 0.3739074, a: 0}
     - _COATOFARMSCOLOR: {r: 1, g: 0, b: 0, a: 0}
     - _EYESCOLOR: {r: 0, g: 0.00071080215, b: 0.07075471, a: 1}
@@ -105,9 +105,9 @@ Material:
     - _FEATHERS2COLOR1: {r: 0.6792453, g: 0, b: 0, a: 0}
     - _HAIRCOLOR: {r: 0.2264151, g: 0.051673867, b: 0, a: 0}
     - _HAIRCOLOR1: {r: 1, g: 0, b: 0, a: 0}
-    - _LEATHER1COLOR: {r: 0.6226415, g: 0.10605431, b: 0, a: 1}
+    - _LEATHER1COLOR: {r: 0.3679245, g: 0.06247775, b: 0, a: 1}
     - _LEATHER1COLOR1: {r: 0.4811321, g: 0.2041155, b: 0.08851016, a: 1}
-    - _LEATHER2COLOR: {r: 0.5259863, g: 0.47597012, b: 0.5283019, a: 1}
+    - _LEATHER2COLOR: {r: 0.009163808, g: 0.0056514908, b: 0.009433985, a: 1}
     - _LEATHER2COLOR1: {r: 0.4245283, g: 0.190437, b: 0.09011215, a: 1}
     - _LEATHER3COLOR: {r: 0.7830189, g: 0.29227895, b: 0, a: 1}
     - _LEATHER3COLOR1: {r: 0.1698113, g: 0.04637412, b: 0.02963688, a: 1}
