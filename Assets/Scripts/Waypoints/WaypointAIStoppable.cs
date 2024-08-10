@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class WaypointAIStopabble : MonoBehaviour
+public class WaypointAIStoppable : MonoBehaviour
 {
     NavMeshAgent agent;
     private bool isPlayerInRange = false;
@@ -88,6 +88,12 @@ public class WaypointAIStopabble : MonoBehaviour
         {
             isPlayerInRange = false;
             Debug.Log("Player out of range");
+
+            // Restart movement if the NPC was stopped
+            if (!shouldMove)
+            {
+                ContinueMovement();
+            }
         }
     }
 }

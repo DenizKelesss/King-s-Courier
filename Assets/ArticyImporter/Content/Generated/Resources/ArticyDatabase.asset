@@ -127,7 +127,7 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: Flow
     articyType: Flow
-    childCount: 2
+    childCount: 3
   - id: 72057594037928226
     parent: 216172783251375095
     technicalName: Dlg_3B82B7B1
@@ -203,11 +203,46 @@ MonoBehaviour:
     technicalName: DFr_3E765C0A
     articyType: DialogueFragment
     childCount: 0
+  - id: 72057594037928583
+    parent: 216172783251375095
+    technicalName: Dlg_4B1DBD62
+    articyType: Dialogue
+    childCount: 6
+  - id: 72057594037928611
+    parent: 72057594037928583
+    technicalName: DFr_475340F8
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928595
+    parent: 72057594037928583
+    technicalName: DFr_AFA4262D
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928618
+    parent: 72057594037928583
+    technicalName: DFr_B07BC0C2
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928624
+    parent: 72057594037928583
+    technicalName: DFr_071AC678
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928634
+    parent: 72057594037928583
+    technicalName: DFr_41229C34
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928641
+    parent: 72057594037928583
+    technicalName: DFr_2BEB25FC
+    articyType: DialogueFragment
+    childCount: 0
   - id: 216172785005863603
     parent: 72057594037927937
     technicalName: Entities
     articyType: Entities
-    childCount: 3
+    childCount: 4
   - id: 72057594037928232
     parent: 216172785005863603
     technicalName: Ntt_67B1B7A7
@@ -216,6 +251,11 @@ MonoBehaviour:
   - id: 72057594037928541
     parent: 216172785005863603
     technicalName: Ntt_AE9402FD
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037928600
+    parent: 216172785005863603
+    technicalName: Ntt_E6F65F47
     articyType: Entity
     childCount: 0
   - id: 72057594037928240
