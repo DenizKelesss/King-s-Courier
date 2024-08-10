@@ -25,6 +25,7 @@ public class WaypointAI : MonoBehaviour
             IterateWaypointIndex();
             UpdateDestination();
         }
+
     }
     void UpdateDestination()
     {
@@ -40,5 +41,9 @@ public class WaypointAI : MonoBehaviour
             waypointIndex = 0;
         }
     }
+
+
+
+
 
 }
