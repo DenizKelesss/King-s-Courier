@@ -8,6 +8,8 @@ TagManager:
   - FallGate
   - IntroMusic
   - Waypoint
+  - UMAIgnore
+  - UMAKeepChain
   layers:
   - Default
   - TransparentFX
