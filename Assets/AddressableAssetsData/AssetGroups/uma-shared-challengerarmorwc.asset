@@ -16,12 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 68e30ed4513bba74d859ff06c565b5f8
-  m_SerializeEntries:
-  - m_GUID: fab6a422313ad1e488c9e96d2417075a
-    m_Address: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DemoAssetBundles/UnityChallengerArmorSet/WardrobeCollections/Thumbs/MaleChallengerFull.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f9b5ec4d087c88f479882f26e0cf4486, type: 2}
   m_SchemaSet:
