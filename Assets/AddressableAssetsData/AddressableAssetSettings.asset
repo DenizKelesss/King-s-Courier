@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: f37b1e89579cb8a4eb19e6442f1f3b6d
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 7efd2918f0a87df42a101425cdd248d9, type: 2}
+  - {fileID: 11400000, guid: ff91c83d842a5644fa12fb47d62e9903, type: 2}
+  - {fileID: 11400000, guid: adf83d87875c9fe44987c68d1584781b, type: 2}
+  - {fileID: 11400000, guid: 1be1ee0892bbae848bb52cf9e4587464, type: 2}
+  - {fileID: 11400000, guid: e886e6a3139fd8c4ea673d81ec969a7e, type: 2}
+  - {fileID: 11400000, guid: 0228557430ca47e4e9b5026cbe463ab6, type: 2}
+  - {fileID: 11400000, guid: 4643b28d5406d914f8155f83e88989be, type: 2}
+  - {fileID: 11400000, guid: 109ede19b2edf014ab9e266e1f8b7cca, type: 2}
+  - {fileID: 11400000, guid: 23d695bc1be159c4b9a0b8f6a9dd61c1, type: 2}
+  - {fileID: 11400000, guid: d1e4d1f1df7ea944ab0d662c7fdc4ee8, type: 2}
+  - {fileID: 11400000, guid: 872d7b94952951a47869a0f1b7988b8e, type: 2}
+  - {fileID: 11400000, guid: 40f820ee3df39ad4b95f981f8cf2e81e, type: 2}
+  - {fileID: 11400000, guid: bd97b7f1f8e47a64da26286ad6a14353, type: 2}
+  - {fileID: 11400000, guid: d314a825ad95a304f9566b5f5d92f393, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 19d81aad2b7bef247840aa988dcdab6a
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: fd0128cf22ac94c4080952322c43bc1d
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 239d3543ae5bb0342828be42bb9bbbb9
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: e99b58c780b58c3409c1d644480ef7a7
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 6b712936bcbbd1b4da406a4f19f8a88f
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 9bb6a9ff7d70f5b458af70aafe3d4ca0
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    m_ProfileEntryNames:
+    - m_Id: fd0128cf22ac94c4080952322c43bc1d
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 239d3543ae5bb0342828be42bb9bbbb9
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: e99b58c780b58c3409c1d644480ef7a7
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 6b712936bcbbd1b4da406a4f19f8a88f
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 9bb6a9ff7d70f5b458af70aafe3d4ca0
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - UMA_Base
+    - UMA_Default
+    - FemaleTallShoes_Black
+    - FemaleTallShoes_Turquoise
+    - FemaleTallShoes_White
+    - TallShoes_Black_Recipe
+    - Puck
+    - Harold
+    - TallShoes_Recipe
+    - FemaleLongHair_Recipe
+    - FemalePonyTail_Recipe
+    - BoneyTail_Recipe
+    - woman-haircard 4_Recipe
+    - FemaleSportPants_Recipe
+    - FemaleTankTop_Recipe
+    - ShavedHead
+    - MaleHairSlick01_Recipe
+    - MaleShortHair_Recipe
+    - MilCut
+    - MaleBeard1
+    - MaleBeard2
+    - MaleBeard3
+    - MaleBrow01
+    - MaleBrow02
+    - MaleFace Old
+    - MaleHair1
+    - MaleHair2
+    - MaleHair3
+    - MaleRobe Hood
+    - RobeCollection
+    - TrollHead
+    - BasicHuman Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - MaleAnkles_Recipe
+    - MaleHandsMid
+    - ElfMale Base Recipe
+    - HumanMaleHighPoly
+    - DNAConverterControllerExample Base Recipe
+    - Sven
+    - Troll
+    - MaleHoodie_Recipe
+    - MaleSweatPants_Recipe
+    - FemaleHandsMid
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    - FemaleSwappedFace
+    - MaleLowPolyHead
+    - MaleSmoothSkin
+    - MaleShirt1
+    - MaleShirt2
+    - MaleShirt3
+    - OverweightMale
+    - FemaleDefaultUnderwear
+    - FemaleShirt2
+    - FemaleShirt3
+    - FemaleUndies
+    - FemaleHair1
+    - FemaleHair2
+    - FemaleHair3
+    - FemalePants1
+    - FemalePants2
+    - FemaleShirt1
+    - FemaleShirt4
+    - GirlShirt1
+    - MaleBrowHR
+    - MaleBrowHR2
+    - MaleDefaultUnderwear
+    - MaleJeans 1
+    - MaleShorts1
+    - MaleShorts2
+    - CHALLENGERCOLLECTION
+    - MaleEye1
+    - MaleEye2
+    - MaleEye3
+    - MaleEye4
+    - MaleEye5
+    - MaleGloves
+    - MaleJeans
+    - MakeMeFatJeans
+    - MalePants
+    - MaleRobe Shoes
+    - MaleRobe
+    - woman-haircard 7_Recipe
+    - woman-haircard_4_tie_Recipe
+    - Bowler_NoHat_Recipe
+    - Bowler_Recipe
+    - BlendShapeRecipe
+    - AlienHeadMorph
+    - ElfEarsMorph
+    - CapsuleColliderRecipe
+    - FemaleDancer1
+    - ToonSneakers1
+    - ToonDancerCollection
+    - ToonCropTShirt1
+    - ToonHotPants1
+    - ToonCapriPants1
+    - ToonStarDancerCollection
+    - ToonHalterNeck1
+    - FemaleToonBase
+    - ToonFemaleUnderwear1
+    - ToonHair1
+    - ToonFancyFlats1
+    - MaleChallengerBoots
+    - MaleChallengerGloves
+    - MaleChallengerShouderPads
+    - MaleChallengerTorso
+    - WerewolfTShirt
+    - Wolfie
+    - AntennaRecipe
+    - SpoilerRecipe
+    - StripesRecipe
+    - SkyCarBaseRecipe
+    - ClothRobeRecipe
+    - PhysicsStandardRecipe
+    - ExpressionsRecipe
+    - ForearmTwistRecipe
+    - LocomotionRecipe
+    - NormalRecalculatorRecipe
+    - PhysicsHDRecipe
+    - FemaleToonBaseGuide
+    - GirlBaseGuide
+    - JiggleBellyRecipe
+    - JiggleBreastsRecipe
+    - JiggleButtRecipe
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 5ea82d1d57060a14bae0b9d0fd5a7c0f, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 6213c80abe8439648bd1575d7d079410, type: 2}
+  - {fileID: 11400000, guid: 22978eb4223e12c478ae1dd2be3fdb04, type: 2}
+  - {fileID: 11400000, guid: 47e4aa65a862d9f4f9c1c2ad894dd2e7, type: 2}
+  - {fileID: 11400000, guid: 20a71589ca3ee014e941cd604bdddfb1, type: 2}
+  m_ActiveProfileId: 19d81aad2b7bef247840aa988dcdab6a
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
+    m_PingTimeoutInMilliseconds: 5000
