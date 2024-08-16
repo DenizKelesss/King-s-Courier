@@ -43,13 +43,25 @@ MonoBehaviour:
     mTechnicalName: King_s_Courier
   mImportedAssets:
   - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: 3334116600245172942}
-  mScriptFragments: {fileID: 5666063433505392350}
+  mDefaultGlobalVariables: {fileID: 5585248169369676432}
+  mScriptFragments: {fileID: 1149789570053071740}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
     PackagePath: package_0x100000000000110
     mIsDefaultPackage: 1
+--- !u!114 &1149789570053071740
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -498,7 +510,7 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
---- !u!114 &3334116600245172942
+--- !u!114 &5585248169369676432
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -548,24 +560,12 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: 3334116600245172942}
+    _VariableStorage: {fileID: 5585248169369676432}
   mFallGate:
-    _VariableStorage: {fileID: 3334116600245172942}
+    _VariableStorage: {fileID: 5585248169369676432}
   mScene1Objectives:
-    _VariableStorage: {fileID: 3334116600245172942}
+    _VariableStorage: {fileID: 5585248169369676432}
   mKingdomReputation:
-    _VariableStorage: {fileID: 3334116600245172942}
+    _VariableStorage: {fileID: 5585248169369676432}
   mVOTriggers:
-    _VariableStorage: {fileID: 3334116600245172942}
---- !u!114 &5666063433505392350
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
-  m_Name: ArticyScriptFragments
-  m_EditorClassIdentifier: 
+    _VariableStorage: {fileID: 5585248169369676432}
