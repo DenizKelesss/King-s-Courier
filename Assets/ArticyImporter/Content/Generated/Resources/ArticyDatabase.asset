@@ -149,10 +149,15 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_3B82B7B1
     articyType: Dialogue
-    childCount: 8
+    childCount: 9
   - id: 72057594037928244
     parent: 72057594037928226
     technicalName: DFr_2B4DDE3F
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928686
+    parent: 72057594037928226
+    technicalName: DFr_E0EF06E2
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928287
@@ -224,7 +229,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_4B1DBD62
     articyType: Dialogue
-    childCount: 9
+    childCount: 10
   - id: 72057594037928654
     parent: 72057594037928583
     technicalName: Cnd_C5E73719
@@ -238,6 +243,16 @@ MonoBehaviour:
   - id: 72057594037928595
     parent: 72057594037928583
     technicalName: DFr_AFA4262D
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928732
+    parent: 72057594037928583
+    technicalName: Ins_3F2C5285
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037928714
+    parent: 72057594037928583
+    technicalName: DFr_D49E0904
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928618
@@ -264,11 +279,6 @@ MonoBehaviour:
     parent: 72057594037928583
     technicalName: DFr_442F991C
     articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037928668
-    parent: 72057594037928583
-    technicalName: Ins_D5A6565C
-    articyType: Instruction
     childCount: 0
   - id: 216172785005863603
     parent: 72057594037927937
