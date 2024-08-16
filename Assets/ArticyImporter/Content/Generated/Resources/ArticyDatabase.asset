@@ -21,7 +21,7 @@ MonoBehaviour:
     mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
---- !u!114 &-7034288438410713197
+--- !u!114 &-5675257886504208251
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,13 +55,77 @@ MonoBehaviour:
     mTechnicalName: King_s_Courier
   mImportedAssets:
   - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: 7165654909137635085}
-  mScriptFragments: {fileID: -7034288438410713197}
+  mDefaultGlobalVariables: {fileID: 3035623524348147345}
+  mScriptFragments: {fileID: -5675257886504208251}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
     PackagePath: package_0x100000000000110
     mIsDefaultPackage: 1
+--- !u!114 &3035623524348147345
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3eb1c8993c3e147a5501d689e16a98, type: 3}
+  m_Name: DefaultGlobalVariables
+  m_EditorClassIdentifier: 
+  mBoolVariableCache:
+  - mFullQualifiedName: Objectives.PressEtoTalk
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.OpenGate
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.Understand
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.TalkToLadyU
+    mVar:
+      values: 00
+  - mFullQualifiedName: FallGate.FallGateOpen
+    mVar:
+      values: 00
+  - mFullQualifiedName: Scene1Objectives.TalkToSentryGuard
+    mVar:
+      values: 00
+  - mFullQualifiedName: Scene1Objectives.TalkToKing
+    mVar:
+      values: 00
+  - mFullQualifiedName: VOTriggers.Scene1Line1
+    mVar:
+      values: 00
+  - mFullQualifiedName: VOTriggers.Scene1Line2
+    mVar:
+      values: 00
+  - mFullQualifiedName: DialogueOptions.SadKidOpt1
+    mVar:
+      values: 01
+  mIntVariableCache:
+  - mFullQualifiedName: KingdomReputation.KingdomRep
+    mVar:
+      values: 32000000
+  mStringVariableCache: []
+  mLiveBoolVariableCache: []
+  mLiveIntVariableCache: []
+  mLiveStringVariableCache: []
+  mIsInitialized: 1
+  mObjectives:
+    _VariableStorage: {fileID: 3035623524348147345}
+  mFallGate:
+    _VariableStorage: {fileID: 3035623524348147345}
+  mScene1Objectives:
+    _VariableStorage: {fileID: 3035623524348147345}
+  mKingdomReputation:
+    _VariableStorage: {fileID: 3035623524348147345}
+  mVOTriggers:
+    _VariableStorage: {fileID: 3035623524348147345}
+  mDialogueOptions:
+    _VariableStorage: {fileID: 3035623524348147345}
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -229,7 +293,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_4B1DBD62
     articyType: Dialogue
-    childCount: 10
+    childCount: 11
   - id: 72057594037928654
     parent: 72057594037928583
     technicalName: Cnd_C5E73719
@@ -240,15 +304,15 @@ MonoBehaviour:
     technicalName: DFr_475340F8
     articyType: DialogueFragment
     childCount: 0
+  - id: 72057594037928743
+    parent: 72057594037928583
+    technicalName: Ins_33118B18
+    articyType: Instruction
+    childCount: 0
   - id: 72057594037928595
     parent: 72057594037928583
     technicalName: DFr_AFA4262D
     articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037928732
-    parent: 72057594037928583
-    technicalName: Ins_3F2C5285
-    articyType: Instruction
     childCount: 0
   - id: 72057594037928714
     parent: 72057594037928583
@@ -279,6 +343,11 @@ MonoBehaviour:
     parent: 72057594037928583
     technicalName: DFr_442F991C
     articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928839
+    parent: 72057594037928583
+    technicalName: Ins_67CAAAD4
+    articyType: Instruction
     childCount: 0
   - id: 216172785005863603
     parent: 72057594037927937
@@ -540,67 +609,3 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
---- !u!114 &7165654909137635085
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af3eb1c8993c3e147a5501d689e16a98, type: 3}
-  m_Name: DefaultGlobalVariables
-  m_EditorClassIdentifier: 
-  mBoolVariableCache:
-  - mFullQualifiedName: Objectives.PressEtoTalk
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.OpenGate
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.Understand
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.TalkToLadyU
-    mVar:
-      values: 00
-  - mFullQualifiedName: FallGate.FallGateOpen
-    mVar:
-      values: 00
-  - mFullQualifiedName: Scene1Objectives.TalkToSentryGuard
-    mVar:
-      values: 00
-  - mFullQualifiedName: Scene1Objectives.TalkToKing
-    mVar:
-      values: 00
-  - mFullQualifiedName: VOTriggers.Scene1Line1
-    mVar:
-      values: 00
-  - mFullQualifiedName: VOTriggers.Scene1Line2
-    mVar:
-      values: 00
-  - mFullQualifiedName: DialogueOptions.SadKidOpt1
-    mVar:
-      values: 01
-  mIntVariableCache:
-  - mFullQualifiedName: KingdomReputation.KingdomRep
-    mVar:
-      values: 32000000
-  mStringVariableCache: []
-  mLiveBoolVariableCache: []
-  mLiveIntVariableCache: []
-  mLiveStringVariableCache: []
-  mIsInitialized: 1
-  mObjectives:
-    _VariableStorage: {fileID: 7165654909137635085}
-  mFallGate:
-    _VariableStorage: {fileID: 7165654909137635085}
-  mScene1Objectives:
-    _VariableStorage: {fileID: 7165654909137635085}
-  mKingdomReputation:
-    _VariableStorage: {fileID: 7165654909137635085}
-  mVOTriggers:
-    _VariableStorage: {fileID: 7165654909137635085}
-  mDialogueOptions:
-    _VariableStorage: {fileID: 7165654909137635085}
