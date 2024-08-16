@@ -44,6 +44,10 @@ namespace Articy.King_s_Courier.GlobalVariables
         [HideInInspector()]
         private VOTriggers mVOTriggers = new VOTriggers();
         
+        [SerializeField()]
+        [HideInInspector()]
+        private DialogueOptions mDialogueOptions = new DialogueOptions();
+        
         #region Initialize static VariableName set
         static ArticyGlobalVariables()
         {
@@ -57,6 +61,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("KingdomReputation.KingdomRep");
             variableNames.Add("VOTriggers.Scene1Line1");
             variableNames.Add("VOTriggers.Scene1Line2");
+            variableNames.Add("DialogueOptions.SadKidOpt1");
         }
         #endregion
         
@@ -100,6 +105,14 @@ namespace Articy.King_s_Courier.GlobalVariables
             }
         }
         
+        public DialogueOptions DialogueOptions
+        {
+            get
+            {
+                return mDialogueOptions;
+            }
+        }
+        
         public static ArticyGlobalVariables Default
         {
             get
@@ -115,6 +128,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             Scene1Objectives.RegisterVariables(this);
             KingdomReputation.RegisterVariables(this);
             VOTriggers.RegisterVariables(this);
+            DialogueOptions.RegisterVariables(this);
         }
         
         public static ArticyGlobalVariables CreateGlobalVariablesClone()

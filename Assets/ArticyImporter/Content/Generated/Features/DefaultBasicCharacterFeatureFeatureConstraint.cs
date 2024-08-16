@@ -122,7 +122,7 @@ namespace Articy.King_s_Courier.Features
                 return;
             }
             mLoadedConstraints = true;
-            mAge = new Articy.Unity.Constraints.NumberConstraint(-3.40282346638529E+38D, 3.40282346638529E+38D, 0, 0, 0, null);
+            mAge = new Articy.Unity.Constraints.NumberConstraint(-3.4028234663852886E+38D, 3.4028234663852886E+38D, 0, 0, 0, null);
             mSpecies = new Articy.Unity.Constraints.TextConstraint(2048, "", null, true, false);
             mBornIn = new Articy.Unity.Constraints.TextConstraint(2048, "", null, true, false);
             mSex = new Articy.Unity.Constraints.EnumConstraint(true, "BySortIndex");

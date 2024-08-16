@@ -25,6 +25,15 @@ namespace Articy.King_s_Courier.GlobalVariables
         
         #region Script fragments
         /// <summary>
+        /// ObjectID: 0x1000000000002CE
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928654?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_720575940379282080x1000000000002CEExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.DialogueOptions.SadKidOpt1;
+        }
+        
+        /// <summary>
         /// ObjectID: 0x100000000000154
         /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928276?pane=selected&amp;tab=current
         /// </summary>
@@ -59,15 +68,26 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             aGlobalVariablesState.VOTriggers.Scene1Line2 = true;
         }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000002DC
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928668?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000002DCExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.DialogueOptions.SadKidOpt1 = false;
+        }
         #endregion
         
         #region Unity serialization
         public virtual void OnAfterDeserialize_0x100000000000110()
         {
+            Conditions.Add(3880432021u, this.Script_720575940379282080x1000000000002CEExpression);
             Instructions.Add(101404872u, this.Script_720575940379282080x100000000000154Expression);
             Instructions.Add(799694506u, this.Script_720575940379282080x10000000000015FExpression);
             Instructions.Add(515138219u, this.Script_720575940379282080x100000000000235Expression);
             Instructions.Add(2526110314u, this.Script_720575940379282080x10000000000024BExpression);
+            Instructions.Add(2380061437u, this.Script_720575940379282080x1000000000002DCExpression);
         }
         #endregion
     }

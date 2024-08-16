@@ -240,3 +240,34 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
     }
 }
+namespace Articy.King_s_Courier.GlobalVariables
+{
+    
+    
+    [Serializable()]
+    public class DialogueOptions : IArticyNamespace
+    {
+        
+        [SerializeField()]
+        private BaseGlobalVariables _VariableStorage;
+        
+        // 
+        public bool SadKidOpt1
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(9);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(9, value);
+            }
+        }
+        
+        public void RegisterVariables(BaseGlobalVariables aStorage)
+        {
+            _VariableStorage = aStorage;
+            aStorage.RegisterVariable("DialogueOptions.SadKidOpt1", true);
+        }
+    }
+}

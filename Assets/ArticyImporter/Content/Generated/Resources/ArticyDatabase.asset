@@ -17,10 +17,22 @@ MonoBehaviour:
   mLanguages:
   - mArticyLanguageId: 127
     mCultureName: en-GB
-    mLanguageName: 
+    mLanguageName: English (United Kingdom)
     mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
+--- !u!114 &-7034288438410713197
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,25 +55,13 @@ MonoBehaviour:
     mTechnicalName: King_s_Courier
   mImportedAssets:
   - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: 5585248169369676432}
-  mScriptFragments: {fileID: 1149789570053071740}
+  mDefaultGlobalVariables: {fileID: 7165654909137635085}
+  mScriptFragments: {fileID: -7034288438410713197}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
     PackagePath: package_0x100000000000110
     mIsDefaultPackage: 1
---- !u!114 &1149789570053071740
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
-  m_Name: ArticyScriptFragments
-  m_EditorClassIdentifier: 
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -109,7 +109,12 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: GlobalVariables
     articyType: GlobalVariables
-    childCount: 5
+    childCount: 6
+  - id: 72057594037928652
+    parent: 216172782840400980
+    technicalName: 
+    articyType: VariableSet
+    childCount: 0
   - id: 72057594037928262
     parent: 216172782840400980
     technicalName: 
@@ -219,7 +224,12 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_4B1DBD62
     articyType: Dialogue
-    childCount: 6
+    childCount: 9
+  - id: 72057594037928654
+    parent: 72057594037928583
+    technicalName: Cnd_C5E73719
+    articyType: Condition
+    childCount: 0
   - id: 72057594037928611
     parent: 72057594037928583
     technicalName: DFr_475340F8
@@ -249,6 +259,16 @@ MonoBehaviour:
     parent: 72057594037928583
     technicalName: DFr_2BEB25FC
     articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928661
+    parent: 72057594037928583
+    technicalName: DFr_442F991C
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928668
+    parent: 72057594037928583
+    technicalName: Ins_D5A6565C
+    articyType: Instruction
     childCount: 0
   - id: 216172785005863603
     parent: 72057594037927937
@@ -510,7 +530,7 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
---- !u!114 &5585248169369676432
+--- !u!114 &7165654909137635085
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -550,6 +570,9 @@ MonoBehaviour:
   - mFullQualifiedName: VOTriggers.Scene1Line2
     mVar:
       values: 00
+  - mFullQualifiedName: DialogueOptions.SadKidOpt1
+    mVar:
+      values: 01
   mIntVariableCache:
   - mFullQualifiedName: KingdomReputation.KingdomRep
     mVar:
@@ -560,12 +583,14 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: 5585248169369676432}
+    _VariableStorage: {fileID: 7165654909137635085}
   mFallGate:
-    _VariableStorage: {fileID: 5585248169369676432}
+    _VariableStorage: {fileID: 7165654909137635085}
   mScene1Objectives:
-    _VariableStorage: {fileID: 5585248169369676432}
+    _VariableStorage: {fileID: 7165654909137635085}
   mKingdomReputation:
-    _VariableStorage: {fileID: 5585248169369676432}
+    _VariableStorage: {fileID: 7165654909137635085}
   mVOTriggers:
-    _VariableStorage: {fileID: 5585248169369676432}
+    _VariableStorage: {fileID: 7165654909137635085}
+  mDialogueOptions:
+    _VariableStorage: {fileID: 7165654909137635085}
