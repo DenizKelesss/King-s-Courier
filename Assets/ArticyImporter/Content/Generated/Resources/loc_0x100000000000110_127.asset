@@ -16,10 +16,12 @@ MonoBehaviour:
   - Dlg_3B82B7B1.DisplayName
   - Dlg_C32A169C.DisplayName
   - Dlg_4B1DBD62.DisplayName
+  - Dlg_2E6FDE1D.DisplayName
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
   - DFr_A775F5D8.Text
   - DFr_D272AF9A.Text
+  - DFr_E0EF06E2.Text
   - DFr_A8A8D7B5.Text
   - DFr_93B95C41.Text
   - DFr_2F3C8BA6.Text
@@ -32,20 +34,23 @@ MonoBehaviour:
   - DFr_41229C34.Text
   - DFr_2BEB25FC.Text
   - DFr_442F991C.Text
-  - DFr_E0EF06E2.Text
   - DFr_D49E0904.Text
+  - DFr_9B47FA1C.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_A624AC80.DisplayName
   - Ntt_AE9402FD.DisplayName
   - Ntt_E6F65F47.DisplayName
+  - Ntt_1AA5ACA3.DisplayName
   mLocalizedStringsValues:
   - SentryGuard
   - Lord Paramount Philippe
   - Sad Kid
+  - Leaning Villager
   - Halt by the name of King Harlach!
   - I'm King Harlach's royal courier, here to deliver a message to your liege lord.
   - Your arrival was expected courier. Open the gates!
   - Appreciated guard, thank you!
+  - Who goes there?
   - Oh, you must be the courier my uncle sent.
   - What news do you bear, do tell.
   - Thank you for having me  in your halls my lord.
@@ -58,12 +63,13 @@ MonoBehaviour:
   - You! You're the courier!? Just leave me alone!
   - That's the thing... they're gone, both of them.
   - Go away, I won't talk to you!
-  - Who goes there?
   - Hey
+  - Fuck my life...
   - Courier
   - Sentry
   - Lord Philippe
   - Sad Kid
+  - Leaning Villager
   mLocalizedAudioAssetsKeys:
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
