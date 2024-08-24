@@ -1,0 +1,4661 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UMA_SharedItems
+  m_EditorClassIdentifier: 
+  m_GroupName: UMA_SharedItems
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3066dd162f5d7f24bbcc07e011e33c6c
+  m_SerializeEntries:
+  - m_GUID: 8330dd99316da2b45a5b8f209f6ac121
+    m_Address: UMA/SlotDataAsset-JiggleButt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - JiggleButtRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c8093fd4489d1d46a72b9e5165f8106
+    m_Address: UMA/SlotDataAsset-JiggleBreasts
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - JiggleBreastsRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14b95a97d992339419108e1bfb596c42
+    m_Address: UMA/SlotDataAsset-JiggleBelly
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - JiggleBellyRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1aecfca7f741eb948a8e5973ce0c0fac
+    m_Address: UMA/SlotDataAsset-MaleHead_ElvenEars
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a209ee514b60b9044bdef1bcbf69967d
+    m_Address: UMA/OverlayDataAsset-Skin Patches
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1320201c90abfb148ba70377406b5dc4
+    m_Address: UMA/OverlayDataAsset-Skin patches Face
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3693609360e037e40a7784ab3308e7c0
+    m_Address: UMA/OverlayDataAsset-ElvenEars-1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Shelly
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e2301213b719e549ad53ae013abcde2
+    m_Address: UMA/OverlayDataAsset-FemaleEyebrow01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3ed1216fb09ee24f83e35b72805413f
+    m_Address: UMA/OverlayDataAsset-FemaleUnderwear01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c601176f98bef942b8787fe6421b0f4
+    m_Address: UMA/SlotDataAsset-FemaleFace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1d782df9dd936a4db81356428f06892
+    m_Address: UMA/OverlayDataAsset-SkyCarTiresOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3787093e63eb3a449d40959588abcb7
+    m_Address: UMA/SlotDataAsset-SkyCarTires
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45c60a52856ef014db9ac30909401956
+    m_Address: UMA/SlotDataAsset-SkyCarSuspension
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e355a06d2222734f92344952e5cc8e5
+    m_Address: UMA/SlotDataAsset-SkyCarMudGuards
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e17ed6a342f054b4ab8f3dd2fdea7fa1
+    m_Address: UMA/OverlayDataAsset-SkyCarWindowsOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7b8e0cbb5d59684fa2c2dc87d360ea8
+    m_Address: UMA/OverlayDataAsset-SkyCarHubCapsOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 230ec082a97430c4da05bcd1157f7b44
+    m_Address: UMA/SlotDataAsset-SkyCarHubCaps
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7432026abcc621b4f9b72ce698b0e1c3
+    m_Address: UMA/SlotDataAsset-FemaleEyelashGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0dc50436d1fb0a49b53658adecaacf9
+    m_Address: UMA/SlotDataAsset-FemaleEyesGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 672ff22b18b5252489801090dc0e68a8
+    m_Address: UMA/SlotDataAsset-FemaleInnerMouthGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4abeb20a4257e8b4f837411cb588f6ca
+    m_Address: UMA/SlotDataAsset-FemaleTorsoGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e54abd995fa77947ab57e75d12fe27b
+    m_Address: UMA/SlotDataAsset-FemaleLegsGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 454cabd70f40e964cb305d827f400774
+    m_Address: UMA/SlotDataAsset-FemaleHandsGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0295a68ebb3f445488d01e1e501afe45
+    m_Address: UMA/SlotDataAsset-FemaleFeetGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d262af4b07475c448abbc6ec5e59b135
+    m_Address: UMA/SlotDataAsset-FemaleFaceGuide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46906d9a196de0a4c88a8fe830ab7aed
+    m_Address: UMA/SlotDataAsset-UMA_Toon_TORSO-Female-Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 917d126d626e02c408f7cb57bd44e83b
+    m_Address: UMA/SlotDataAsset-UMA_Toon_LEGS-Female-Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a2c1f4009edc2343a2e2da1342f64e2
+    m_Address: UMA/SlotDataAsset-UMA_Toon_LASHES-Female-Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41c114273632845418c2782ce5be2634
+    m_Address: UMA/SlotDataAsset-UMA_Toon_INNERMOUTH_Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 080febfeb9fabef40869c10c29e7b808
+    m_Address: UMA/SlotDataAsset-UMA_Toon_HANDS_Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 356ec1d28bd925b498e3fd04cc23502c
+    m_Address: UMA/SlotDataAsset-UMA_Toon_FEET_Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e73f83b679477241bb3714a0071641f
+    m_Address: UMA/SlotDataAsset-UMA_Toon_FACE-Female-Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07908c48b4fc24542bd91f7d94e4a4f7
+    m_Address: UMA/OverlayDataAsset-GuideMeshOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    - GirlBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48a01bab7f0078a49a6375335b25a2ac
+    m_Address: UMA/SlotDataAsset-UMA_Toon_EYES_Guide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBaseGuide
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b1e4f14e3922614c95b147bed97cf3a
+    m_Address: UMA/OverlayDataAsset-WerewolfEyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1e94d3cf1101164fa077e48b9276643
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Eyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6144f3f9b3aeee4884f86cf9ff32816
+    m_Address: UMA/OverlayDataAsset-WerewolfHead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e51f46710c96a924aa03b2f4dd7bfe7a
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Face
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c812749c2cd1a541b79b1fe749694c2
+    m_Address: UMA/OverlayDataAsset-WerewolfTeeth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58f931091c1c4f24c93d1d911b8c032b
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Teeth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5f6390fe392d644697f86246391cb8c
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caea7f4665259e949a142041d05e3d94
+    m_Address: UMA/OverlayDataAsset-WerewolfInnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2cfb51958276a643b9e80a541702b9d
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_InnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a301cdd355272946a7fcf42c36e2337
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Hands
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd983ace9923d5244bf7876fb75df05a
+    m_Address: UMA/OverlayDataAsset-WerewolfHandsAndFeet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 407eef4d2f8612444bdf249bedb33cce
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Feet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0ee18ecb3eb22847b9dafe3ac63c42a
+    m_Address: UMA/OverlayDataAsset-WerewolfClaws
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cda4a55bec197c646a1e3e11583d7ef4
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Claws
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff4587ecabedb304595865825949f485
+    m_Address: UMA/SlotDataAsset-UMA_Toon_LEGS-Female
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f56427ed446efb4ab930c97d3076a8e
+    m_Address: UMA/OverlayDataAsset-UMA_Toon_F_Lashes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a5bad3721ee48742ab9520a0afee680
+    m_Address: UMA/SlotDataAsset-UMA_Toon_LASHES-Female
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4652d37480c971743a1b555c6e3ea849
+    m_Address: UMA/SlotDataAsset-UMA_Toon_FEET
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e81fb0b8a05fdfe48a4f248a0816e6cb
+    m_Address: UMA/SlotDataAsset-UMA_Toon_HANDS
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aac8da086dd8f7748ae3dc6b43ce490d
+    m_Address: UMA/OverlayDataAsset-UMA_Toon_InnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3d3ab10c4fb9b748805d896685c7911
+    m_Address: UMA/SlotDataAsset-UMA_Toon_INNERMOUTH
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3c1dfe0b3c39a640bd2a2aacd9c2325
+    m_Address: UMA/OverlayDataAsset-UMA_Toon_Eyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9259f183d811e5c4e8abc46ba7c5e7ec
+    m_Address: UMA/SlotDataAsset-UMA_Toon_EYES
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fd5270c8c2ab624caef7289850414e0
+    m_Address: UMA/SlotDataAsset-UMA_Toon_FACE-Female
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a63f3d521484f345b330eaa6ddd496e
+    m_Address: UMA/OverlayDataAsset-EyeOverlayAdjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Puck
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc5ef2dcc0274644bb1733e78ad1514d
+    m_Address: UMA/SlotDataAsset-PhysicsHD
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - PhysicsHDRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c53f4b81d5b26314fbb34224aa1ce11f
+    m_Address: UMA/SlotDataAsset-NormalRecalculator
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - NormalRecalculatorRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fbc0a0bbfb29084bbeafb0876b6e28b
+    m_Address: UMA/SlotDataAsset-Locomotion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LocomotionRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98c6dc40a5e2e4f3f92aabfafaf67c78
+    m_Address: UMA/SlotDataAsset-ForearmTwist
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ForearmTwistRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edcf92bdef3d2e04c980749f7d702647
+    m_Address: UMA/SlotDataAsset-Expressions
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ExpressionsRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b303347cfd390c2498c1ced0e283fb7a
+    m_Address: UMA/SlotDataAsset-FR_High_MaleTorso
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanMaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd50b9aff9cd4354d9277d32cd1d2ee5
+    m_Address: UMA/SlotDataAsset-FR_High_MaleLegs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanMaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f6339dbb4c5d5148b78392c0e0a61a3
+    m_Address: UMA/SlotDataAsset-FR_High_MaleHands
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanMaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dee0f4140aea78547ba9aceaa3beb372
+    m_Address: UMA/SlotDataAsset-FR_High_MaleFeet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanMaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c191e1f833bf8d438a245aa7c88749b
+    m_Address: UMA/SlotDataAsset-FR_High_MaleInnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanMaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce30b1350e107d447b58027f4df2af16
+    m_Address: UMA/SlotDataAsset-FR_High_MaleEyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanMaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66b309e501ffaf648976cd864885adfc
+    m_Address: UMA/SlotDataAsset-FR_High_MaleFace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanMaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4513bf429a9e5648b4937fa4469105f
+    m_Address: UMA/OverlayDataAsset-M_Eyelash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d95a711691eb7c499b2676fdfeb6be2
+    m_Address: UMA/SlotDataAsset-M_High poly Eyelash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22b28fb80ffe4104f99ce8b185e5528d
+    m_Address: UMA/SlotDataAsset-MaleHead_ElvenEars2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1230573bff5087944ad7f54ac9cb9e50
+    m_Address: UMA/SlotDataAsset-MaleHead_Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec65688ddc5ea174393cf54b001486ab
+    m_Address: UMA/SlotDataAsset-MaleHead_Mouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79a651e12128b644b87154ac802583be
+    m_Address: UMA/SlotDataAsset-MaleHead_Eyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b50f6d2798a571440add3c6a65a833a7
+    m_Address: UMA/SlotDataAsset-MaleHead_Nose
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa24076dd31d7334bb7741205a3b439c
+    m_Address: UMA/SlotDataAsset-MaleHands
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    - BasicHuman Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88189b4b69536ab4ea34e6b2974baed7
+    m_Address: UMA/SlotDataAsset-MaleFeet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    - BasicHuman Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deb3453bc9bb8564aa6e03f0fe057a91
+    m_Address: UMA/SlotDataAsset-MaleInnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfMale Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b412947a734f7347a7d7fb3bc3bd7f1
+    m_Address: UMA/SlotDataAsset-FR_High_FemaleFace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ade72c73b264994b9ecae5a125d2e7f
+    m_Address: UMA/SlotDataAsset-FR_High_FemaleTorso
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e913820d10d545d4caa7b3221853e8d2
+    m_Address: UMA/SlotDataAsset-FR_High_FemaleLegs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18c5922fb2bcf334fb36963c4168859e
+    m_Address: UMA/SlotDataAsset-FR_High_FemaleInnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fff2e38737b1bc42842ab99f23ace26
+    m_Address: UMA/SlotDataAsset-FR_High_FemaleHands
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2e11d8a75e5b7642847b0f0609aeb11
+    m_Address: UMA/SlotDataAsset-FR_High_FemaleFeet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 810b579078122004a94ac82abc7c2fe5
+    m_Address: UMA/SlotDataAsset-FR_High_FemaleEyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemaleHighPoly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 784e2bdb161346c4895dbdcf9375fe22
+    m_Address: UMA/OverlayDataAsset-f_buzz_overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58e5a93186f923c4ca7910365d807714
+    m_Address: UMA/SlotDataAsset-F_High poly head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afecbdb8f051eff408e0749bb6a44bf1
+    m_Address: UMA/OverlayDataAsset-ElvenEars
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - ElfMale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7175f4c977569f748a2c19a6c9f2ab10
+    m_Address: UMA/OverlayDataAsset-FemaleLipstick01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f8b15f6d0318a24cb5264f835574c0c
+    m_Address: UMA/SlotDataAsset-FemaleFeet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4755d55edbb90be4f9de4b4081105c55
+    m_Address: UMA/SlotDataAsset-FemaleHands
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14b559b20b0cd6f49b744d3a6b826e57
+    m_Address: UMA/OverlayDataAsset-FemaleEyelash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7f8c8e371a310347b9e97420ed8def8
+    m_Address: UMA/SlotDataAsset-FemaleEyelashfix
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31b625579c8744547b02bdd5c42c557e
+    m_Address: UMA/OverlayDataAsset-Default Eye Adjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - ElfMale Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - HumanMaleHighPoly
+    - DNAConverterControllerExample Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98b05b17b4e8ff142b1f16df2ef2315b
+    m_Address: UMA/OverlayDataAsset-Eye Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - ElfMale Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - HumanMaleHighPoly
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - KimCardassian
+    - Shelly
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e7ddc02cd51b41488288a4982ca4274
+    m_Address: UMA/SlotDataAsset-FemaleEyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fc6a3cb4dc899e4986ce3fefabf62a9
+    m_Address: UMA/OverlayDataAsset-SchoesSteelCapBrightF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpCapBrownF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65d302eccec2a444fb1034f5b78f9e77
+    m_Address: UMA/OverlayDataAsset-SchoesLacedHardLeatherF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpCapBrownF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 724a907e168cdd94185f78d878785f5c
+    m_Address: UMA/OverlayDataAsset-SchoesBuckledSoftLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesSideOverlaySoftM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3914df8700c04ad4ca622c707b51e7c2
+    m_Address: UMA/OverlayDataAsset-BootsSteelAddsDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82e3a4662b51a0a44a8e7b7b80f63c00
+    m_Address: UMA/SlotDataAsset-FootProtectionM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55e898e8b021b1b4bb6b99129d6e938c
+    m_Address: UMA/OverlayDataAsset-SchoesLacedSoftLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18b88519b20a22344892f69bf6bbbb28
+    m_Address: UMA/OverlayDataAsset-SchoesLacedMiddleSoftLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpBlackYellowM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 285776c07622e084ba8a3e2870f21b01
+    m_Address: UMA/SlotDataAsset-TrousersBeltBagM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersTiedGreenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 898fd30cfd50e7f4eae3d9737a89bb44
+    m_Address: UMA/OverlayDataAsset-trousersGaitorsLacingM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersTiedGreenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4eb60f0ba529f44297a6ebd1fa5a5fa
+    m_Address: UMA/OverlayDataAsset-trousersGaitorsM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersTiedGreenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2939edb91381b84a803eb40c1c58bd9
+    m_Address: UMA/OverlayDataAsset-TrousersLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersLeatherM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d430a328fb4612545a5d95a46a852c76
+    m_Address: UMA/SlotDataAsset-TrousersBeltPouchM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd0dbcdb4d3310a4c97421a9dea0001e
+    m_Address: UMA/OverlayDataAsset-TrousersPatch4M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d61064f4892db8246a8a133c428d0903
+    m_Address: UMA/OverlayDataAsset-TrousersPatch3M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca19d94efef77d347b8756745e5239d7
+    m_Address: UMA/OverlayDataAsset-TrousersPatch2M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f0401abf4ee4d1438a693afb8f4f45c
+    m_Address: UMA/OverlayDataAsset-TrousersPatch1M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4a8cf4ab76feeb4aa4da3358309fe4f
+    m_Address: UMA/OverlayDataAsset-trousersBeltFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltLinenM_Recipe
+    - TrousersBeltPatchedM_Recipe
+    - TrousersBeltRedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc1f7a86ad0f6034887bde01c42c3e7f
+    m_Address: UMA/OverlayDataAsset-trousersBeltBeltM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltBlueM_Recipe
+    - TrousersBeltLinenM_Recipe
+    - TrousersBeltPatchedM_Recipe
+    - TrousersBeltRedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab29d211b82c0244f98db9d5134beeb3
+    m_Address: UMA/OverlayDataAsset-trousersBeltRoughLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltBlueM_Recipe
+    - TrousersRoughM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8885a2c2b60ca848bdf8ac89ef44b37
+    m_Address: UMA/OverlayDataAsset-trousersBeltBeltF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltBlueF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b734275e5c38aa46b3d4218e854d69a
+    m_Address: UMA/OverlayDataAsset-trousersBeltRoughLinenF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltBlueF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e52cce39352a9944888351f960deb54f
+    m_Address: UMA/SlotDataAsset-BasicTrousersF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrousersBeltBlueF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 052db6936b1b81242b972bfa5e1bb9c7
+    m_Address: UMA/OverlayDataAsset-trousersAddsM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MinerTrousersM_Recipe
+    - TrousersBeltPatchedM_Recipe
+    - TrousersTiedGreenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7697653dafbf3b94ca09fbda1b4383c4
+    m_Address: UMA/SlotDataAsset-BackskinM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MinerTrousersM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be992292726b3744db6557010afae216
+    m_Address: UMA/OverlayDataAsset-TrousersKneeLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MinerTrousersM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f9ac5d9e486b084abf330956fe654a2
+    m_Address: UMA/OverlayDataAsset-trousersLacedRopeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MinerTrousersM_Recipe
+    - TrousersTiedGreenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4746aac7e39f97c41b4837dec2cac3f8
+    m_Address: UMA/OverlayDataAsset-trousersLacedM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MinerTrousersM_Recipe
+    - TrousersTiedGreenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbe049b21db7d1c4880c0ecddb7e5fe1
+    m_Address: UMA/SlotDataAsset-BasicTrousersM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MinerTrousersM_Recipe
+    - TrousersBeltBlueM_Recipe
+    - TrousersBeltLinenM_Recipe
+    - TrousersBeltPatchedM_Recipe
+    - TrousersBeltRedM_Recipe
+    - TrousersLeatherM_Recipe
+    - TrousersRoughM_Recipe
+    - TrousersTiedGreenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a98c7ca8b2d30c9479374ec956f7a532
+    m_Address: UMA/OverlayDataAsset-GlovesFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cdf48be5f19abd4d8f478e016a15f66
+    m_Address: UMA/SlotDataAsset-BasicGlovesM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aed7d583ba1f6b4da82371c216a9b87
+    m_Address: UMA/OverlayDataAsset-GlovesFineLinenF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLinenF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de037e6c06705ca44b76317b66170e3e
+    m_Address: UMA/SlotDataAsset-BasicGlovesF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLinenF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5f45281c9431eb478d152f09fb05c44
+    m_Address: UMA/OverlayDataAsset-BasicGlovesLongM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BasicGlovesLongM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d347f5f985aa0e409f32a85237c36ad
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsButtonsM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeGreenApplicationBeltM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02d2faff67357d742ae30678928c11bd
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsLeafsM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeGreenApplicationBeltM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4938229b5062414c8ff7fcc8ff80565
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsButtonsF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeGreenApplicationBeltF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09fc1de014e91ce43ab226d479252dd9
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsLeafsF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeGreenApplicationBeltF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c95312316be5422449b6caab33c17374
+    m_Address: UMA/OverlayDataAsset-BasicRobeF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BasicRobeF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2ee7d7c9f8ec4848a0d440f44ebe3df
+    m_Address: UMA/OverlayDataAsset-RobeBeltM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeWhiteBlackBeltM_Recipe
+    - RobeGreenApplicationBeltM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75f695986a3d6d843aec984bf3645e51
+    m_Address: UMA/OverlayDataAsset-RobeSkapulierM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeWhiteBlackBeltM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2a0c002933088545bddcb195c1313a2
+    m_Address: UMA/OverlayDataAsset-RobeSimpleFineM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeWhiteBlackBeltM_Recipe
+    - RobeGreenApplicationBeltM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91ab47b260d265543a497609ba5a9b95
+    m_Address: UMA/OverlayDataAsset-RobeRopeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeRawRopeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 158a25da8e80fb243a7701e8c9be8192
+    m_Address: UMA/OverlayDataAsset-RobeSimpleRoughM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeRawRopeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c09e8de853989a94b919fd61c34a910d
+    m_Address: UMA/OverlayDataAsset-RobeSashM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2678f8b16f7c8c0438ef45f359f1a1f7
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsChainM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cfbd931e237bbd4a85b89349aa241b2
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueM_Recipe
+    - RobeGreenApplicationBeltM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a02c9adb922b2a94e9338c6f950b7c5e
+    m_Address: UMA/OverlayDataAsset-RobeSimpleMageM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e27c65b487e78bd4c82074e1a9dea67b
+    m_Address: UMA/OverlayDataAsset-RobeSashF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f3e55bc9a1b9b841b6064e3c78936fc
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsChainF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c695154ca89caa64091900beb36cb75a
+    m_Address: UMA/OverlayDataAsset-RobeApplicationsFineLinenF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueF_Recipe
+    - RobeGreenApplicationBeltF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30a234c5f3dc7014492d4b2d0b933514
+    m_Address: UMA/OverlayDataAsset-RobeSimpleMageF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeMageSashBlueF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7b15e917fc5cb84586ab39fa6c485bb
+    m_Address: UMA/OverlayDataAsset-BasicRobeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BasicRobeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13b17bffee8703543b29ff2bd041dcbe
+    m_Address: UMA/SlotDataAsset-BasicRobeM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BasicRobeM_Recipe
+    - RobeMageSashBlueM_Recipe
+    - RobeRawRopeM_Recipe
+    - RobeWhiteBlackBeltM_Recipe
+    - RobeGreenApplicationBeltM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d92b6b0d9af4f594ead34b8640d35d56
+    m_Address: UMA/OverlayDataAsset-ShirtPatches6F_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80676e7f34bcd4444bd1752bfe492dae
+    m_Address: UMA/OverlayDataAsset-ShirtPatches5F_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a53ffea6ee8ad264084afb82e7c7f47d
+    m_Address: UMA/OverlayDataAsset-ShirtPatches4F_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aff5bee865a87f244b56a6a77b4f2ab0
+    m_Address: UMA/OverlayDataAsset-ShirtPatches3F_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5d5f69d22c8a514c913c8fad86cc863
+    m_Address: UMA/OverlayDataAsset-ShirtPatches2F_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b90b2c87d7f0bbc47b800e415b04c5f7
+    m_Address: UMA/OverlayDataAsset-ShirtPatches1F_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee0f79e8fc052bd448c21d5714ef9d5c
+    m_Address: UMA/OverlayDataAsset-DressApronFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - DressGreyApronM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6fa87886d3b69d4496645fb7c6ee00f
+    m_Address: UMA/OverlayDataAsset-BootsSteelAddsDarkF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d435770ac1468e42886938286f669f5
+    m_Address: UMA/SlotDataAsset-FootProtectionF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50e6dfe7aaa3a9244b19c7a13ed32a22
+    m_Address: UMA/OverlayDataAsset-SchoesLacedLacingF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedF_Recipe
+    - SchoesLaceUpCapBrownF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d6f2dcce0f1c4c42ad0200d28c5ce26
+    m_Address: UMA/OverlayDataAsset-SchoesLacedHolesF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedF_Recipe
+    - SchoesLaceUpCapBrownF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0065927ba0708b4a8aef92155880e56
+    m_Address: UMA/OverlayDataAsset-SchoesLacedSoftLeatherF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesProtectedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcd268dc92f92c642b2987d467274eef
+    m_Address: UMA/OverlayDataAsset-BasicShoesM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BasicShoesM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3591e7d3b93061442a5fa65742406f4c
+    m_Address: UMA/OverlayDataAsset-SchoesSoleF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesSideOverlaySturdyF_Recipe
+    - SchoesLaceUpCapBrownF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30b01bf6e3d5c2a4a85d1edf7b42840b
+    m_Address: UMA/OverlayDataAsset-SchoesBuckledClaspF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesSideOverlaySturdyF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d24ebb4c6ca2ea40b5fca88c1a91f89
+    m_Address: UMA/OverlayDataAsset-SchoesBuckledHardLeatherF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesSideOverlaySturdyF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad2d55095c881ef4aad975b4723698a6
+    m_Address: UMA/SlotDataAsset-BasicShoesF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesSideOverlaySturdyF_Recipe
+    - ShoesProtectedF_Recipe
+    - SchoesLaceUpCapBrownF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0334564127ef924abcdcc933c5facf5
+    m_Address: UMA/OverlayDataAsset-DressBeltM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - DressDarkRedLaceM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c25b326cacc71764d8df0602e2106042
+    m_Address: UMA/OverlayDataAsset-DressApplicationsLaceM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - DressDarkRedLaceM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ede916114545a4445b3965c99a558f0a
+    m_Address: UMA/OverlayDataAsset-DressApplicationsFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - DressDarkRedLaceM_Recipe
+    - DressGreyApronM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12fe4fa914290614e8cc2f1ee3de81ef
+    m_Address: UMA/OverlayDataAsset-DressFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - DressDarkRedLaceM_Recipe
+    - DressGreyApronM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1da6e65b1bf86b47b002f1e3e8b3e23
+    m_Address: UMA/SlotDataAsset-DressM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - DressDarkRedLaceM_Recipe
+    - DressGreyApronM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a9a48e8d02089246b27daad971538c1
+    m_Address: UMA/OverlayDataAsset-BasicHauberkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BasicHauberkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11e4eb51bdc450249b1ec0adc62a89e3
+    m_Address: UMA/OverlayDataAsset-GlovesLongForearmPipeDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongDarkArmorM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5ffec5af13a14342821a3583f987b4e
+    m_Address: UMA/OverlayDataAsset-GlovesLongFingerArmorDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongDarkArmorM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7c3a07a4e28cb84798b7d12960aa59f
+    m_Address: UMA/OverlayDataAsset-ForearmWideParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a856cd777617fb43926653fade8c5ac
+    m_Address: UMA/SlotDataAsset-ForearmWideM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43fcf97232ed03842b0e705cfefa96b3
+    m_Address: UMA/OverlayDataAsset-GlovesLongFingerArmorParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e820aa7e3ef25f246ab6b3d7802d9b14
+    m_Address: UMA/OverlayDataAsset-GlovesLongForearmPipeParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e8994e03f88854cb3708fdbbc9fd59
+    m_Address: UMA/OverlayDataAsset-GlovesLongGauntletSoftLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongSturdyLeatherGauntletM_Recipe
+    - GlovesLongSoftLeatherM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fef8b6b8269d8ad44a09b7b43dae2a39
+    m_Address: UMA/SlotDataAsset-GlovesLongGauntletM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongSturdyLeatherGauntletM_Recipe
+    - GlovesLongSoftLeatherM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa7b3d3ea0902514cba75d33f465713c
+    m_Address: UMA/OverlayDataAsset-GlovesLongGauntletSoftLeatherF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongSturdyLeatherGauntletF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56374dafb185794479872c5342913f3a
+    m_Address: UMA/SlotDataAsset-GlovesLongGauntletF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongSturdyLeatherGauntletF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51ef5830e083c8d4e89212a0cdf84c3d
+    m_Address: UMA/OverlayDataAsset-GlovesLongHardLeatherF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongSturdyLeatherGauntletF_Recipe
+    - GlovesLongSturdyLeatherF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e8d8e54d42dd0948b7a0238dbdef317
+    m_Address: UMA/SlotDataAsset-BasicGlovesLongF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongSturdyLeatherGauntletF_Recipe
+    - GlovesLongSturdyLeatherF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c997e1904a376ea4daba137ef0a90be9
+    m_Address: UMA/OverlayDataAsset-GlovesLongHardLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongSturdyLeatherM_Recipe
+    - GlovesLongSturdyLeatherGauntletM_Recipe
+    - GlovesLongDarkArmorM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04326489bda780f43bae9c22ccd99bf0
+    m_Address: UMA/OverlayDataAsset-GlovesLongArmoredDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongArmoredM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9633d6175f1f94c46be75cc70354a57e
+    m_Address: UMA/OverlayDataAsset-GlovesLongSoftLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongArmoredM_Recipe
+    - GlovesLongSoftLeatherM_Recipe
+    - GlovesLongParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62aaad1130ab32948915608e3ba7b149
+    m_Address: UMA/SlotDataAsset-BasicGlovesLongM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesLongArmoredM_Recipe
+    - GlovesLongSturdyLeatherM_Recipe
+    - GlovesLongSturdyLeatherGauntletM_Recipe
+    - GlovesLongSoftLeatherM_Recipe
+    - GlovesLongParadeM_Recipe
+    - GlovesLongDarkArmorM_Recipe
+    - BasicGlovesLongM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 413efb3d7750f07408a89bbbdd84331e
+    m_Address: UMA/OverlayDataAsset-SteelBootsM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SteelBootsM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 733721d237c3f6440a5362a390dbdc29
+    m_Address: UMA/SlotDataAsset-SteelBootsM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SteelBootsM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4ff98ce9e99be8499b8426b672a4632
+    m_Address: UMA/OverlayDataAsset-SteelLegginsSimpleM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SteelLegginsSimpleM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbb8201ec45c44a428b96e8acffb3b49
+    m_Address: UMA/SlotDataAsset-SteelLegginsSimpleM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SteelLegginsSimpleM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6685cb8ca62f6ec4ea596c405183ef1e
+    m_Address: UMA/OverlayDataAsset-LegArmorKneeUpperBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorPartBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7c679322d36a334a838e23921fe6819
+    m_Address: UMA/SlotDataAsset-LegArmorBeltM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorFullParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 793d02237aa2cde44af0ab5e4ab9097c
+    m_Address: UMA/SlotDataAsset-UpperLegPipeM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorFullParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8b1411cf8baf042b95572e359ec080
+    m_Address: UMA/OverlayDataAsset-LegArmorKneeUpperParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorFullParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb39ef9a09de19e41a8594134eaa1922
+    m_Address: UMA/SlotDataAsset-KneeKapSpikeM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorFullParadeM_Recipe
+    - LegArmorPartBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33122317063c6114190e54b32eca0c16
+    m_Address: UMA/OverlayDataAsset-LegArmorBeltLowerParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorFullParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcebd3530d7a8c24d878b268d43c18a4
+    m_Address: UMA/SlotDataAsset-LowerLegPipeM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorFullParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e63869b49e4ea048ba1abc0c328982a
+    m_Address: UMA/SlotDataAsset-UpperLegPipeHalfM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorDarkM_Recipe
+    - LegArmorPartBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa9d9885a89cce48a01b501ac7d27d4
+    m_Address: UMA/OverlayDataAsset-LegArmorKneeUpperDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5e44cfbcb8c2884ab5dfe30408711e3
+    m_Address: UMA/SlotDataAsset-KneeKapM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90c8577771155194f88d85ba2db5aaeb
+    m_Address: UMA/OverlayDataAsset-LegArmorBeltLowerDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbb20d3cd83e674429113f7932447f0d
+    m_Address: UMA/SlotDataAsset-LowerLegPipeHalfM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9296b10d36ba5194fa9da1609bbe8ab3
+    m_Address: UMA/OverlayDataAsset-LegCushionM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorDarkM_Recipe
+    - LegArmorFullParadeM_Recipe
+    - LegArmorPartBrightM_Recipe
+    - LegCushionM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb6073ccf2edc61409ae0db2da04342d
+    m_Address: UMA/SlotDataAsset-BasicLegArmorM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegArmorDarkM_Recipe
+    - LegArmorFullParadeM_Recipe
+    - LegArmorPartBrightM_Recipe
+    - LegCushionM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74006729fde656c4dbb7f95973026bc2
+    m_Address: UMA/OverlayDataAsset-PauldronParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HauberkMaxParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff36257ecea98c04fa986424d9ccacdf
+    m_Address: UMA/SlotDataAsset-PauldronBreakerM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HauberkMaxParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd852b80598bcdd46862e253475f76ba
+    m_Address: UMA/OverlayDataAsset-ArmPipeParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HauberkMaxParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27572e2edb29ce4439490fba644c2070
+    m_Address: UMA/OverlayDataAsset-CuirassParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HauberkCuirassM_Recipe
+    - HauberkMaxParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9f1c370a7e736e48bd00cb82219e4e3
+    m_Address: UMA/OverlayDataAsset-HauberkBaseChainmailM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HauberkBreastplateBrightM_Recipe
+    - HauberkCuirassM_Recipe
+    - HauberkMaxParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dd76fbb79f4afa4b8abdf17e919a0bd
+    m_Address: UMA/SlotDataAsset-BasicHauberkM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HauberkBreastplateBrightM_Recipe
+    - HauberkCuirassM_Recipe
+    - HauberkMaxParadeM_Recipe
+    - BasicHauberkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e85b53f0b8cce434697fb3004072f2e4
+    m_Address: UMA/OverlayDataAsset-PauldronDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GambesonMaxDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9475074824e7ded4b864fb099e947f41
+    m_Address: UMA/OverlayDataAsset-ArmPipeDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GambesonMaxDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbbced2361d9bea4198fe9babc52b802
+    m_Address: UMA/SlotDataAsset-ArmPipeM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GambesonMaxDarkM_Recipe
+    - HauberkMaxParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6b814e6804f45a4bb8a255abeec0ee0
+    m_Address: UMA/OverlayDataAsset-CuirassBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GambesonCuirassBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e284315730f78dc44a8db31de013410f
+    m_Address: UMA/OverlayDataAsset-BreastplateParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c4f9408abf21b343beaaa665e7e5c9a
+    m_Address: UMA/OverlayDataAsset-BreastplateDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ee220f73c2d98947a5f56e407cdaf27
+    m_Address: UMA/OverlayDataAsset-PauldronPartLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f30b72738bca5e94ba76f99a71a7da34
+    m_Address: UMA/OverlayDataAsset-PauldronBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3a301a56873fb84689d05d078a17dfe
+    m_Address: UMA/SlotDataAsset-PauldronM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    - GambesonMaxDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd3534b206de5874181d65a786d85996
+    m_Address: UMA/OverlayDataAsset-ArmPipeBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7193c6662b76f8c41ae0f00146666f06
+    m_Address: UMA/SlotDataAsset-ArmPipeHalfM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb9015dbc2e32e444a4034d7724adef9
+    m_Address: UMA/OverlayDataAsset-BreastplateBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    - HauberkBreastplateBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2096d09f1ecb6ed42b2044d64af61ce9
+    m_Address: UMA/SlotDataAsset-BreastplateM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    - BreastplateDarkM_Recipe
+    - BreastplateParadeM_Recipe
+    - HauberkBreastplateBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6cf3077a64609541811ebcb5acf9af3
+    m_Address: UMA/OverlayDataAsset-GambesonFasteningM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    - BreastplateDarkM_Recipe
+    - BreastplateParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 264f55abf6a83f843ad3a26aac633fb5
+    m_Address: UMA/OverlayDataAsset-GambesonM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    - BreastplateDarkM_Recipe
+    - BreastplateParadeM_Recipe
+    - GambesonCuirassBrightM_Recipe
+    - GambesonM_Recipe
+    - GambesonMaxDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c4ef7e16321a2a4c99085e9bea0653f
+    m_Address: UMA/SlotDataAsset-GambesonM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BreastplateArmPipeHalfPauldronBrightM_Recipe
+    - BreastplateDarkM_Recipe
+    - BreastplateParadeM_Recipe
+    - GambesonCuirassBrightM_Recipe
+    - GambesonM_Recipe
+    - GambesonMaxDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d8b52cb1bfc30d4bbb8a31d642fdec2
+    m_Address: UMA/OverlayDataAsset-CuirassDarktM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BodyArmorChainmailCuirassDarkM_Recipe
+    - GambesonMaxDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f70d6f7dbe4bbab4aba738630abf8231
+    m_Address: UMA/SlotDataAsset-CuirassM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BodyArmorChainmailCuirassDarkM_Recipe
+    - GambesonCuirassBrightM_Recipe
+    - GambesonMaxDarkM_Recipe
+    - HauberkCuirassM_Recipe
+    - HauberkMaxParadeM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df69636a8b741ac4eaf006530402e72a
+    m_Address: UMA/OverlayDataAsset-BodyArmorChainmailM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BodyArmorChainmailCuirassDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 236d40c4f97c8d04cb3b40ea2d520988
+    m_Address: UMA/SlotDataAsset-BasicBodyArmorM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BodyArmorChainmailCuirassDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b0dbaaa1c3cb0f4bbc0432a718738be
+    m_Address: UMA/OverlayDataAsset-SimpleHarnishM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SimpleHarnishM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbed5190f3fcbb64b960fd07393f249b
+    m_Address: UMA/SlotDataAsset-SimpleHarnishM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SimpleHarnishM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5ec13b7442df354e8a69ac872d6a6bd
+    m_Address: UMA/SlotDataAsset-HelmetNoseProtectionF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecde633959d31b6469dee30b87a1cf23
+    m_Address: UMA/OverlayDataAsset-HelmetAttachmentsLeatherNeckF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 468198aac032aea46940df0c6157d36c
+    m_Address: UMA/OverlayDataAsset-HelmetAttachmentsDarkF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20ac962e64d18f248a95ec4deba75a9e
+    m_Address: UMA/SlotDataAsset-HelmetNeckProtectionF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4af1425a317a7b45a6382360f7df6a1
+    m_Address: UMA/OverlayDataAsset-HelmetRoundDarkF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0214ed46bcaf1f44baf44529d1ad7f1
+    m_Address: UMA/SlotDataAsset-HelmetRoundF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe99d90d68e2ead4aa1781da4fbe2aa9
+    m_Address: UMA/OverlayDataAsset-HatsBandM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatZylinderBlackM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f03439822434f24691195ffcbeab547
+    m_Address: UMA/SlotDataAsset-HatZylinderM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatZylinderBlackM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc661b738ec11ec4ca6c967e78fac7f9
+    m_Address: UMA/OverlayDataAsset-HatsLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatLeatherM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62f82b6bd3159f64ebb71d92ffb2b6fe
+    m_Address: UMA/OverlayDataAsset-HatsRopeF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatLeatherF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c78a4f9632ab08449862701fe9d21307
+    m_Address: UMA/OverlayDataAsset-HatsLeatherF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatLeatherF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c7b421eefb8d484b91fce4f46aad8a1
+    m_Address: UMA/SlotDataAsset-HelmetWideBorderM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetCockscombParadeNoseWideMouthM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd7a5e753cc8ed24e90cbc1e0b466098
+    m_Address: UMA/OverlayDataAsset-HelmetMouthProtectionParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetCockscombParadeNoseWideMouthM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5773c52d9c5e85c4b94b9ad1ff74b0bd
+    m_Address: UMA/SlotDataAsset-HelmetMouthProtectionM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetCockscombParadeNoseWideMouthM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fd8bf98d7b142c42b110031e4ce15ac
+    m_Address: UMA/OverlayDataAsset-HelmetAttachmentsParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetCockscombParadeNoseWideMouthM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 731165daadc381b469b61ab852989305
+    m_Address: UMA/OverlayDataAsset-HelmetCockscombParadeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetCockscombParadeNoseWideMouthM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 138c4fb9f0c617b4cbac97ff9584d46d
+    m_Address: UMA/OverlayDataAsset-HelmetCockscombBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetCockscombBrightM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c175ec551b0ba44f8c4977498074fc2
+    m_Address: UMA/SlotDataAsset-HelmetCockscombM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetCockscombBrightM_Recipe
+    - HelmetCockscombParadeNoseWideMouthM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06755ddd7f7827e42814677b1351744a
+    m_Address: UMA/OverlayDataAsset-HelmetMouthProtectionBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19d4bfe062a0b6f4db4c308e15b545dc
+    m_Address: UMA/SlotDataAsset-HelmetMouthGridM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 405e3ec2f96d3e84dae97527d156bbaf
+    m_Address: UMA/OverlayDataAsset-HelmetAttachmentsBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f40b7319bbe8d924d8504760461f3772
+    m_Address: UMA/OverlayDataAsset-HelmetRoundLeatherNeckM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb79fbdee746b364e81fe1d5b915f482
+    m_Address: UMA/OverlayDataAsset-HelmetRoundBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 044972d3b5e643147aba3c3b1adaa2b9
+    m_Address: UMA/SlotDataAsset-HelmetNoseProtectionM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseM_Recipe
+    - HelmetCockscombParadeNoseWideMouthM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14a41bebabf2c3c4e80a55bcff8564e2
+    m_Address: UMA/OverlayDataAsset-HelmetAttachmentsLeatherNeckM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseM_Recipe
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed0429dac348b014681dd6a6d868bf8d
+    m_Address: UMA/OverlayDataAsset-HelmetAttachmentsDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84b427b43252604eba3c49de6fa76be
+    m_Address: UMA/SlotDataAsset-HelmetNeckProtectionM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseM_Recipe
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e60b5beaf9990b64c9150cf8c426eb5e
+    m_Address: UMA/OverlayDataAsset-HelmetRoundDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f62db6a22818f0143be72024e213b055
+    m_Address: UMA/SlotDataAsset-HelmetRoundM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmetRoundDarkNeckNoseM_Recipe
+    - HelmetRoundLeatherNeckMouthGridM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8a0a3ec4cc2f5e4284e6fe9636fd30f
+    m_Address: UMA/OverlayDataAsset-SchoesBuckledClaspM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesSideOverlaySturdyM_Recipe
+    - ShoesSideOverlaySoftM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbecfff83c963cd4fb8593ce1dc89063
+    m_Address: UMA/OverlayDataAsset-SchoesBuckledHardLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShoesSideOverlaySturdyM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89bc056adf022f84e8bae9dd13d81a7d
+    m_Address: UMA/OverlayDataAsset-SchoesSteelCapBrightM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpCapBrownM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ab13fbc913b1bf48a9ee9ae4f5c7794
+    m_Address: UMA/OverlayDataAsset-SchoesSoleM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpBlackM_Recipe
+    - SchoesLaceUpCapBrownM_Recipe
+    - ShoesSideOverlaySturdyM_Recipe
+    - SchoesLaceUpBlackYellowM_Recipe
+    - ShoesProtectedM_Recipe
+    - ShoesSideOverlaySoftM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6380f58b67c3cf2439fb456a8c9ceaf0
+    m_Address: UMA/OverlayDataAsset-SchoesLacedLacingM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpBlackM_Recipe
+    - SchoesLaceUpCapBrownM_Recipe
+    - SchoesLaceUpBlackYellowM_Recipe
+    - ShoesProtectedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52a741e89f9ce4847aeea532b9cbf3c7
+    m_Address: UMA/OverlayDataAsset-SchoesLacedHolesM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpBlackM_Recipe
+    - SchoesLaceUpCapBrownM_Recipe
+    - SchoesLaceUpBlackYellowM_Recipe
+    - ShoesProtectedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dea999195b01cdd4db83b6d56e1b9f30
+    m_Address: UMA/OverlayDataAsset-SchoesLacedHardLeatherM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpBlackM_Recipe
+    - SchoesLaceUpCapBrownM_Recipe
+    - SchoesLaceUpBlackYellowM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b40080c7ff9352449957438eeb2f1b54
+    m_Address: UMA/SlotDataAsset-BasicShoesM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SchoesLaceUpBlackM_Recipe
+    - SchoesLaceUpCapBrownM_Recipe
+    - ShoesSideOverlaySturdyM_Recipe
+    - BasicShoesM_Recipe
+    - SchoesLaceUpBlackYellowM_Recipe
+    - ShoesProtectedM_Recipe
+    - ShoesSideOverlaySoftM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fec1c0adbdd05b4d98ca00078bd0dbc
+    m_Address: UMA/OverlayDataAsset-KnickerbockerRopeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - KnickerbockerBlackM_Recipe
+    - KnickerbockerGreyM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3835c0823926ed46b2e58c2446aa9e2
+    m_Address: UMA/OverlayDataAsset-KnickerbockerUpperM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - KnickerbockerBlackM_Recipe
+    - KnickerbockerGreyM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69ef728b14aca2f45b13ddd547f0cae7
+    m_Address: UMA/OverlayDataAsset-KnickerbockerLowerM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - KnickerbockerBlackM_Recipe
+    - KnickerbockerGreyM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4565ba355bfa634e9e949ff646d3092
+    m_Address: UMA/SlotDataAsset-KnickerbockerFabricM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - KnickerbockerBlackM_Recipe
+    - KnickerbockerGreyM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f1d6a1a823eb8f469fa156334651aa4
+    m_Address: UMA/OverlayDataAsset-ShirtPatchesEllbowM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d8970892de02e3489d7b4cd401d02e0
+    m_Address: UMA/OverlayDataAsset-CollarsFineLinenF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b4a672b51c6b26428112af92a3b1dfd
+    m_Address: UMA/SlotDataAsset-CollarF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28bc2df093efc3145871de515949a137
+    m_Address: UMA/OverlayDataAsset-ShirtButtonsF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteF_Recipe
+    - ShirtButtonDownLinenF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e389ac5d1d95544690ded93ebfe01f4
+    m_Address: UMA/OverlayDataAsset-ShirtButtonUpFineLinenF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteF_Recipe
+    - ShirtButtonDownLinenF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3559641a8d5f77a46a7380965f39ad27
+    m_Address: UMA/OverlayDataAsset-CollarsFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e93bf17a0b81a6644a302ffe61453609
+    m_Address: UMA/SlotDataAsset-CollarM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 939c4bee4d99a544fbca61122114049b
+    m_Address: UMA/OverlayDataAsset-ShirtButtonsM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteM_Recipe
+    - ShirtButtonDownLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d84c7ebee762e34f9c2f9b83741a6ce
+    m_Address: UMA/OverlayDataAsset-ShirtButtonUpFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtButtonDownWhiteM_Recipe
+    - ShirtButtonDownLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3b78954cbcd7e6429472c7cadcd4a0f
+    m_Address: UMA/OverlayDataAsset-ShirtPatches6M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff839a1dd9215fc4d83a6067c8bfba3c
+    m_Address: UMA/OverlayDataAsset-ShirtPatches5M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89c0310c65a5fda4e82d7af363a6d06c
+    m_Address: UMA/OverlayDataAsset-ShirtPatches4M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03511ca3bad59004db0e88d04076cedd
+    m_Address: UMA/OverlayDataAsset-ShirtPatches3M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d46be9ab9cee6c498dcaaaad65264f2
+    m_Address: UMA/OverlayDataAsset-ShirtPatches2M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50238f76fed99bb48954f1047221088d
+    m_Address: UMA/OverlayDataAsset-ShirtPatches1M_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de69dc5762f60f14fb9c186d2fc2f512
+    m_Address: UMA/OverlayDataAsset-ShirtLacedFineLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenPatchedM_Recipe
+    - ShirtLacedLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 399cba75108eec3479a60cff90a03eee
+    m_Address: UMA/OverlayDataAsset-ShirtLacedRoughLinenF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedRoughF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 028ce5046e70f094496acda0628fe677
+    m_Address: UMA/OverlayDataAsset-ShirtLacedLacingM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedRoughM_Recipe
+    - ShirtLacedLinenPatchedM_Recipe
+    - ShirtLacedLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1462ff8f2c4e79742a17d700d6d15f13
+    m_Address: UMA/OverlayDataAsset-ShirtLacedRoughLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedRoughM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bbacf401e5091e47abc9aa27b8720d5
+    m_Address: UMA/SlotDataAsset-BasicShirtM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedRoughM_Recipe
+    - ShirtLacedLinenPatchedM_Recipe
+    - ShirtButtonDownWhiteM_Recipe
+    - ShirtButtonDownLinenM_Recipe
+    - ShirtLacedLinenM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f79351f7a0ddd454b9dc88426c5dd644
+    m_Address: UMA/OverlayDataAsset-HatsRopeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatRoundRedRopeM_Recipe
+    - HatLeatherM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da3dd57042024b24f80428cb355bb515
+    m_Address: UMA/OverlayDataAsset-HatsLinenM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatRoundRedRopeM_Recipe
+    - HatZylinderBlackM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 684886ff0fd6fc6408e7f17ecafdd54b
+    m_Address: UMA/OverlayDataAsset-HatSteelDarkM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatSteelDarkM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29d56c7118bb44342acaa2f83108c2ea
+    m_Address: UMA/SlotDataAsset-HatRoundM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatSteelDarkM_Recipe
+    - HatRoundRedRopeM_Recipe
+    - HatLeatherM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f136296385db894a9fe251a882b85b6
+    m_Address: UMA/OverlayDataAsset-HatSteelDarkF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatSteelDarkF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f11fbe126d314248a1e5129a83350d5
+    m_Address: UMA/SlotDataAsset-HatRoundF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatSteelDarkF_Recipe
+    - HatLeatherF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad9b395d00695eb4e9df6de66193005c
+    m_Address: UMA/OverlayDataAsset-HatWitchRopeM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatWitchColorfulM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7095e372c135074e9a0ffc791838f27
+    m_Address: UMA/OverlayDataAsset-HatWitchBaseM_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatWitchColorfulM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30d2073607cfc544694fb6e91c51ca83
+    m_Address: UMA/SlotDataAsset-HatWitchM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HatWitchColorfulM_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 465c70603f73fcc4ebf4f7d60b72d4ef
+    m_Address: UMA/OverlayDataAsset-RobeBeltF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeWhiteBlackBeltF_Recipe
+    - RobeGreenApplicationBeltF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13ffa0edc949bad409639c1c61fb9946
+    m_Address: UMA/OverlayDataAsset-RobeSkapulierF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeWhiteBlackBeltF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0307ad28be60b94180ab1755929a969
+    m_Address: UMA/OverlayDataAsset-RobeSimpleFineF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeWhiteBlackBeltF_Recipe
+    - RobeGreenApplicationBeltF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccc3a53ff8af25c4db149af8a37fea6e
+    m_Address: UMA/SlotDataAsset-BasicRobeF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - RobeWhiteBlackBeltF_Recipe
+    - RobeMageSashBlueF_Recipe
+    - BasicRobeF_Recipe
+    - RobeGreenApplicationBeltF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbc12f0461dbadb44a26880634b29ca9
+    m_Address: UMA/OverlayDataAsset-ShirtPatchesEllbowF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ab19fd2b49d37342accd36be1ea4ccd
+    m_Address: UMA/OverlayDataAsset-ShirtLacedLacingF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenF_Recipe
+    - ShirtLacedRoughF_Recipe
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26c321f0370593c4fb6473fa8b71bd49
+    m_Address: UMA/OverlayDataAsset-ShirtLacedFineLinenF_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenF_Recipe
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8f64867b64525c47a480986f080728d
+    m_Address: UMA/SlotDataAsset-BasicShirtF
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShirtLacedLinenF_Recipe
+    - ShirtLacedRoughF_Recipe
+    - ShirtButtonDownWhiteF_Recipe
+    - ShirtButtonDownLinenF_Recipe
+    - ShirtLacedLinenPatchedF_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ef4a6a87dfa9e948802e694fb62c571
+    m_Address: UMA/OverlayDataAsset-BootsMalePack1Type2a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BootsMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3f9230d15172d943a4652fbe2efc6ba
+    m_Address: UMA/SlotDataAsset-BootsMalePack1Type2a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BootsMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5bd3656c4f4c9644881ebdd1a3f702c
+    m_Address: UMA/OverlayDataAsset-TorsoMalePack1Type2a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TorsoMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e731ee088bca9d841a0becb1281c7fca
+    m_Address: UMA/SlotDataAsset-TorsoMalePack1Type2a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TorsoMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d324d0c3d4b53ba43931f2f068d31d24
+    m_Address: UMA/OverlayDataAsset-LegsMalePack1Type2a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegsMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3ed4b8db35fefd42abed3d694991446
+    m_Address: UMA/SlotDataAsset-LegsMalePack1Type2a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegsMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b1e534c3e739c4bb14226619ccb54a
+    m_Address: UMA/OverlayDataAsset-GlovesMalePack1Type3b_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesMalePack1Type3b_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97b1c5a59ed54a0448869bfd01722e90
+    m_Address: UMA/SlotDataAsset-GlovesMalePack1Type3b
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesMalePack1Type3b_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf2cd86ba6554df42a0ea0067294dd7d
+    m_Address: UMA/OverlayDataAsset-TorsoMalePack1Type3b_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TorsoMalePack1Type3b_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0ff8635d4f6a8c40a3c67d809330743
+    m_Address: UMA/SlotDataAsset-TorsoMalePack1Type3b
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TorsoMalePack1Type3b_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbec59c64711a124bbf5c971e1912a8e
+    m_Address: UMA/OverlayDataAsset-HelmMalePack1Type1a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2306f2800fa4f4f44b55782cda45114d
+    m_Address: UMA/SlotDataAsset-HelmMalePack1Type1a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: debe52d7b282baa4e86ca7edb824c129
+    m_Address: UMA/OverlayDataAsset-LegsMalePack1Type1a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegsMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2699a93e98725642a004bbb287ed031
+    m_Address: UMA/SlotDataAsset-LegsMalePack1Type1a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - LegsMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 658a3e631e617e142abd766b11e2e61c
+    m_Address: UMA/OverlayDataAsset-TorsoMalePack1Type1a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TorsoMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f50b095b67b17b042917112fac22a64f
+    m_Address: UMA/SlotDataAsset-TorsoMalePack1Type1a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TorsoMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7481693634496f644a5bc2379f688b68
+    m_Address: UMA/OverlayDataAsset-GlovesMalePack1Type1a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41df53766de0692448ae762459534c5c
+    m_Address: UMA/SlotDataAsset-GlovesMalePack1Type1a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aed1fea9dd48f347b62770c4a1787df
+    m_Address: UMA/OverlayDataAsset-BootsMalePack1Type1a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BootsMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4d231f247c9c124fa1cbeb33037ea31
+    m_Address: UMA/SlotDataAsset-BootsMalePack1Type1a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BootsMalePack1Type1a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a63725e429f1664aaee5b95a85f7d47
+    m_Address: UMA/OverlayDataAsset-GlovesMalePack1Type2a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4abefa887c84d89439182d3eadcbddf9
+    m_Address: UMA/SlotDataAsset-GlovesMalePack1Type2a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GlovesMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: babe39fc5bef32c439d0c8702ef13bd4
+    m_Address: UMA/OverlayDataAsset-HelmMalePack1Type2a_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb48b4f86f74bc44399d5a9bcb185342
+    m_Address: UMA/SlotDataAsset-HelmMalePack1Type2a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - HelmMalePack1Type2a_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 515a46b056a0d8d4d8fc2de3b7f58d29
+    m_Address: UMA/SlotDataAsset-PhysicsStandard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BoneyTail_Recipe
+    - PhysicsStandardRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e414c14586660fb46865f0168c8d01dd
+    m_Address: UMA/SlotDataAsset-BoneyTail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BoneyTail_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34dcbac549d5c964f8c01cb8719d0a99
+    m_Address: UMA/SlotDataAsset-BoneyTail_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BoneyTail_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e06be47adf242924c9fff2c65c65ad5c
+    m_Address: UMA/OverlayDataAsset-ClothRobeSimulatedOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ClothRobeRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ab9cab67c9728b42a2ef6bd5f13cf4f
+    m_Address: UMA/SlotDataAsset-ClothRobeSimulated
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ClothRobeRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d98ac0c301fa0d4c83550c332d2321a
+    m_Address: UMA/OverlayDataAsset-ClothRobeNonSimulatedOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ClothRobeRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0de49c6701b6fb468994f0dfc267dc9
+    m_Address: UMA/SlotDataAsset-ClothRobeNonSimulated
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ClothRobeRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c494b917f233f9e42a6e34e169909743
+    m_Address: UMA/OverlayDataAsset-SkyCarStripesOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - StripesRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccdf514727275dc45914627958155442
+    m_Address: UMA/SlotDataAsset-SkyCarBody
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - StripesRecipe
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e03cfedafaf94f48b148cfe04d24f96
+    m_Address: UMA/SlotDataAsset-SkyCarSpoiler
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - SpoilerRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27adb7051154579498a6b0ee107ce813
+    m_Address: UMA/OverlayDataAsset-SkyCarBodyOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - AntennaRecipe
+    - SpoilerRecipe
+    - StripesRecipe
+    - SkyCarBaseRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a47975f4a828bdf4194bc7c5c27da7f4
+    m_Address: UMA/SlotDataAsset-SkyCarAntenna
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - AntennaRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a04e469a0d80a6742a85658cd80912ab
+    m_Address: UMA/OverlayDataAsset-WerewolfShirt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - WerewolfTShirt
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4990462eeb5376a469915d0af3986876
+    m_Address: UMA/OverlayDataAsset-WerewolfBody
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - WerewolfTShirt
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 156f9f45fa760b845b6411b1010bf360
+    m_Address: UMA/SlotDataAsset-UMA_Werewolf_Torso
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - WerewolfTShirt
+    - Wolfie
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 809c22fcd6389e742a62ec4905d1a101
+    m_Address: UMA/OverlayDataAsset-ChallengerTorsoArmorMetal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerTorso
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 734fcc8a0fd1912478c8566fc6eceda7
+    m_Address: UMA/OverlayDataAsset-ChallengerTorsoArmorLeather
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerTorso
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 863f68599d8ad8b4989c7724bb3b8dd1
+    m_Address: UMA/SlotDataAsset-MaleChallengerTorsoArmor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerTorso
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b7f847e474a9ce43b6dbb01f4b645d0
+    m_Address: UMA/OverlayDataAsset-ChallengerShoulderPadsMetal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerShouderPads
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9efda53d0ad2efb4da46ef74f26564ce
+    m_Address: UMA/OverlayDataAsset-ChallengerShoulderPadsLeather
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerShouderPads
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dcb82ea78983cf4da0c206fc9de96ae
+    m_Address: UMA/SlotDataAsset-MaleChallengerShouderPads
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerShouderPads
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e84b15df5103d0a419f01ffe3e77fb53
+    m_Address: UMA/OverlayDataAsset-ChallengerGlovesMetal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerGloves
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a460597f78928e04a8db0940885eb72a
+    m_Address: UMA/OverlayDataAsset-ChallengerGlovesLeather
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerGloves
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 073bb8d1e3dc03140ada534c06d42dff
+    m_Address: UMA/SlotDataAsset-MaleChallengerGloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerGloves
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 850d610cf1e6f7b4eb4157fc242d5074
+    m_Address: UMA/OverlayDataAsset-ChallengerBootsMetal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerBoots
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52356e7a7ac1a79468d88e2b3f918bd6
+    m_Address: UMA/OverlayDataAsset-ChallengerBootsLeather
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerBoots
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c5d912ba8fa77f449e43391d2d87d88
+    m_Address: UMA/SlotDataAsset-MaleChallengerBoots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleChallengerBoots
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ec96409ed505ea41a08ee9f877fb5cc
+    m_Address: UMA/SlotDataAsset-Tops_Female_Halter_Neck_1_TORSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonHalterNeck1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ce8f2c72d5601d4881a47725978e325
+    m_Address: UMA/OverlayDataAsset-Halter_Neck_1_detail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonHalterNeck1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0b2da7dcebf2534c9359d5d87fa9d50
+    m_Address: UMA/OverlayDataAsset-Halter_Neck_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonHalterNeck1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c03cf28ed277e7246a4dfc2e6b550cc1
+    m_Address: UMA/SlotDataAsset-Tops_Female_Halter_Neck_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonHalterNeck1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70b61d5f511fec649a7f297690b022a1
+    m_Address: UMA/OverlayDataAsset-Fancy_Flats_1_detail1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonFancyFlats1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2aa0d5cae5c57a146ad6e43889520c12
+    m_Address: UMA/OverlayDataAsset-Fancy_Flats_1_detail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonFancyFlats1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af723046b087198438ac4a32f7c25186
+    m_Address: UMA/OverlayDataAsset-Fancy_Flats_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonFancyFlats1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c93c34e5ba9413419409dce673c4656
+    m_Address: UMA/SlotDataAsset-Shoes_Fancy_Flats_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonFancyFlats1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b66591cce48d21043a814071716e6281
+    m_Address: UMA/OverlayDataAsset-Smart_Pants_1_detail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonCapriPants1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58d7ecb23020d4146a31d6e77ff22557
+    m_Address: UMA/OverlayDataAsset-Smart_Pants_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonCapriPants1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41ad70ca423c43740a5fa85f0ef62442
+    m_Address: UMA/SlotDataAsset-Bottoms_Female_Capri_Pants_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonCapriPants1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afd670bc70f75274eb4fae71aa23eaac
+    m_Address: UMA/SlotDataAsset-Bottoms_Female_Capri_Pants_1_LEGS
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonCapriPants1
+    - ToonStarDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f6302b08fbd3fd4abc60ce8e15d57e3
+    m_Address: UMA/OverlayDataAsset-Long_Braided_Hair_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonHair1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 297b82798f9c2de4b891d273268dd65b
+    m_Address: UMA/SlotDataAsset-Hair_Long_Braided_Hair_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonHair1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 333cdac71ded22f46b6a0de15b091978
+    m_Address: UMA/OverlayDataAsset-Female_Underwear_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonFemaleUnderwear1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 899377113242564478958a9647388a80
+    m_Address: UMA/SlotDataAsset-UMA_Toon_TORSO-Female
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ToonFemaleUnderwear1
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebe828fad47d6974d98f634f415815f9
+    m_Address: UMA/OverlayDataAsset-Jeans_1_detail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonHotPants1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe66eff1c0defe44aa57e93eb152305a
+    m_Address: UMA/OverlayDataAsset-Jeans_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonHotPants1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bc264c391455944a94d094e18d6cbd0
+    m_Address: UMA/SlotDataAsset-Bottoms_Female_Hot_Pants_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonHotPants1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba8d7b4967d3f084b94f53b31d7a5b00
+    m_Address: UMA/SlotDataAsset-Bottoms_Female_Hot_Pants_1_LEGS
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonHotPants1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28864c26b3f4bea4bb382e8ca1b60565
+    m_Address: UMA/OverlayDataAsset-UMA_Toon_F_Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonCropTShirt1
+    - ToonDancerCollection
+    - ToonHotPants1
+    - ToonCapriPants1
+    - ToonStarDancerCollection
+    - ToonHalterNeck1
+    - FemaleToonBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27cecc42eea01ba4080fa8703b35100f
+    m_Address: UMA/SlotDataAsset-Toon_Female_Crop_TShirt_1_TORSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonCropTShirt1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c36f948b8e7aab409933dec824d011d
+    m_Address: UMA/OverlayDataAsset-Crop_TShirt_1_detail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonCropTShirt1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b97f19d37b372b14b894ee308237f40c
+    m_Address: UMA/OverlayDataAsset-Crop_TShirt_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonCropTShirt1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca20f7bc9c16c314991839b46ccfd3f4
+    m_Address: UMA/SlotDataAsset-Tops_Female_Crop_TShirt_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonCropTShirt1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5cb9c792e8a0684da24546a08a4ab2a
+    m_Address: UMA/OverlayDataAsset-Sneakers_1_detail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonSneakers1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faede5ef802a4d04080266de31601bc8
+    m_Address: UMA/OverlayDataAsset-Sneakers_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonSneakers1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3c19ea60a30aca45aabae54d1068387
+    m_Address: UMA/SlotDataAsset-Shoes_Sneakers_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDancer1
+    - ToonSneakers1
+    - ToonDancerCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1aa0614c0ce2f242a448e8f80248623
+    m_Address: UMA/SlotDataAsset-MakeMeFatJeans
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MakeMeFatJeans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82e2d1671a9ac524d805de01b9408543
+    m_Address: UMA/SlotDataAsset-ElfEarsMorph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ElfEarsMorph
+    - DNAConverterControllerExample Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04442629189f10a48bc3238f44aa9856
+    m_Address: UMA/SlotDataAsset-CapsuleCollider
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - AlienHeadMorph
+    - CapsuleColliderRecipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 344a9e3f0f0a6384da7335c405e65999
+    m_Address: UMA/SlotDataAsset-MaleAlienHead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - AlienHeadMorph
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7035932bba9111c4991e2489ca9b744b
+    m_Address: UMA/SlotDataAsset-Trollface_slot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TrollHead
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6cf693702694d2448630418e711ffe6
+    m_Address: UMA/SlotDataAsset-OverweightMale_Slot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - OverweightMale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19ca51fa9b344074ebeaad4c873fd125
+    m_Address: UMA/OverlayDataAsset-M_Face
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BlendShapeRecipe
+    - AlienHeadMorph
+    - ElfEarsMorph
+    - ElfMale Base Recipe
+    - BasicHuman Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - HumanMaleHighPoly
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Sven
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36832eb4f58c963418b5be22d9a7eafb
+    m_Address: UMA/SlotDataAsset-MaleEarsMorph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - BlendShapeRecipe
+    - Puck
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca7465fced8b9e848b4d14c1a1bc5285
+    m_Address: UMA/SlotDataAsset-HairCutoff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Bowler_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e3a65a362388e54baa4800463a97eb9
+    m_Address: UMA/OverlayDataAsset-Bowler_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Bowler_NoHat_Recipe
+    - Bowler_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caa8e18369f17f5488e9bff59a0d46b0
+    m_Address: UMA/SlotDataAsset-Bowler
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - Bowler_NoHat_Recipe
+    - Bowler_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4219fd2b8f1290e4dab65630460abc13
+    m_Address: UMA/SlotDataAsset-woman-haircard 7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - woman-haircard 7_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13ec784be1fc2b24080a24f6dde66f6e
+    m_Address: UMA/SlotDataAsset-woman-haircard_4_tie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - woman-haircard 4_Recipe
+    - woman-haircard_4_tie_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff02b91324862a848a1766b8b73d5871
+    m_Address: UMA/OverlayDataAsset-NewHairOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - woman-haircard 4_Recipe
+    - woman-haircard 7_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca814d57603a0d2439f2f24d0e75edf6
+    m_Address: UMA/SlotDataAsset-woman-haircard 4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - woman-haircard 4_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c94cdeabfed7814d9717b1f8b5a49ba
+    m_Address: UMA/OverlayDataAsset-MaleUnderwear_hearts
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleShorts2
+    - CHALLENGERCOLLECTION
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e443d543c17d314984f1bf934677b05
+    m_Address: UMA/OverlayDataAsset-MaleUnderwear01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleShorts1
+    - MaleShorts2
+    - CHALLENGERCOLLECTION
+    - Puck
+    - Harold
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc78262a19833744f9ee5b3389aec814
+    m_Address: UMA/OverlayDataAsset-MaleShirt01Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleShirt1
+    - MaleShirt3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43b1b1d7ba147c648a052d284467dcf7
+    m_Address: UMA/OverlayDataAsset-MaleShirt01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleShirt1
+    - MaleShirt2
+    - MaleShirt3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42352aba049ed6d4494cafe7e3bbadc0
+    m_Address: UMA/OverlayDataAsset-M_Freebie Robeset Robe AC
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c901b9f1e6dc2dd4190fe7ae4272a633
+    m_Address: UMA/OverlayDataAsset-M_Freebie Robeset Robe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8aae7e72162c0c74b9326dbca416651a
+    m_Address: UMA/SlotDataAsset-M_Freebie Robeset Robe_Slot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4708a9c854404ac48b9f7e39847a91db
+    m_Address: UMA/OverlayDataAsset-M_Freebie Robeset Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe Shoes
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0554501454a6ba40a5eff3443477dc4
+    m_Address: UMA/SlotDataAsset-M_Freebie Robeset Boots_Slot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe Shoes
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e37a792c969bb454c804c435f8c1c285
+    m_Address: UMA/OverlayDataAsset-M_Freebie Robeset Hood AC
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe Hood
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33cad728009b0ab439083a8ddf6a92ba
+    m_Address: UMA/OverlayDataAsset-M_Freebie Robeset Hood
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe Hood
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 356925f858219b04797c21d4cb7a43f4
+    m_Address: UMA/SlotDataAsset-M_Freebie Robeset Hood_Slot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleRobe Hood
+    - RobeCollection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 161a5c050c3f1f74fb47075770f15450
+    m_Address: UMA/OverlayDataAsset-Wrapped Pants
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MalePants
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8af4a60576514c7478104a0a50713222
+    m_Address: UMA/SlotDataAsset-M_Wrapped Pants
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MalePants
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65887f0e5072b8b499a7760e4392741d
+    m_Address: UMA/OverlayDataAsset-MaleJeans01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleJeans
+    - MakeMeFatJeans
+    - Sven
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db59a2fec12e144498fed4c62c157859
+    m_Address: UMA/SlotDataAsset-MaleJeans02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleJeans
+    - Sven
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0f7dbe2fc5d2564e903f99bd19fa89b
+    m_Address: UMA/OverlayDataAsset-MaleJeans02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleJeans 1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10329f729c6ed4b4795e6c1986c8a496
+    m_Address: UMA/OverlayDataAsset-MaleHair01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHair3
+    - MaleRobe Hood
+    - RobeCollection
+    - Harold
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5a79dacb1617ae44a91c53832515bbb
+    m_Address: UMA/SlotDataAsset-MaleHair1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHair2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8583b6d72b2766c40a789f2f24e2de26
+    m_Address: UMA/OverlayDataAsset-Gloves of Hammer Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleGloves
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bdd7530c4c3080479f05405559b6f67
+    m_Address: UMA/SlotDataAsset-_Gloves of Hammer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleGloves
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74fbe497c697690488fbdfeee0fae3d6
+    m_Address: UMA/OverlayDataAsset-M_Face_Old
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleFace Old
+    - TrollHead
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10d1e2ac030a2d54e8dffe526204097f
+    m_Address: UMA/OverlayDataAsset-Eye_Large_Adjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleEye5
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76a2d7b941eeeda4ba2df5ea0e2fb266
+    m_Address: UMA/OverlayDataAsset-Cat_eye_Alternate_adjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleEye4
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c830213a9d6eef409a4b7ce0e388acf
+    m_Address: UMA/OverlayDataAsset-Cat_eye_adjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleEye3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cda7e080be988c44ab8341720f86d6cd
+    m_Address: UMA/OverlayDataAsset-Alligator_eye_Alternate_adjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleEye2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40b53c0fadbef334ca1842707ed2929a
+    m_Address: UMA/OverlayDataAsset-Alligator_eye_adjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleEye1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d875ad325d19b924f961f76ec21a1737
+    m_Address: UMA/SlotDataAsset-MaleEyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleEye1
+    - MaleEye2
+    - MaleEye3
+    - MaleEye4
+    - MaleEye5
+    - ElfMale Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e3423fc7dbaee44397ec91baa5ce828
+    m_Address: UMA/OverlayDataAsset-M_Underwear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleDefaultUnderwear
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b3e7011ea87d7479417712563fbec8
+    m_Address: UMA/SlotDataAsset-MaleLegs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleDefaultUnderwear
+    - MaleJeans 1
+    - MaleShorts1
+    - MaleShorts2
+    - CHALLENGERCOLLECTION
+    - ElfMale Base Recipe
+    - BasicHuman Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c857aa47837303d4aa8696115dc0f618
+    m_Address: UMA/OverlayDataAsset-M_Face 1 eyebrows2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBrowHR2
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29a929c318e07dd409a59412bc7d4cdc
+    m_Address: UMA/OverlayDataAsset-M_Eyebrow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBrowHR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b232fbd9c99b3149bc6c4f6cb7afb7d
+    m_Address: UMA/SlotDataAsset-M_Eyebrow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBrowHR
+    - MaleBrowHR2
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eea2e3c934a89a549bcc3dc6427c16ad
+    m_Address: UMA/OverlayDataAsset-MaleEyebrow02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBrow02
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77a1606bb44cacf46b25dcf362209aa5
+    m_Address: UMA/OverlayDataAsset-MaleEyebrow01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBrow01
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f78229f3dbb8e34f904840f3db74e72
+    m_Address: UMA/OverlayDataAsset-MaleBeard03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBeard3
+    - Harold
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4542d0190eae184d8f1e1e277208fd7
+    m_Address: UMA/OverlayDataAsset-MaleBeard02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBeard2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c49ebdd154238b45bb1a3338a613193
+    m_Address: UMA/OverlayDataAsset-MaleBeard01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleBeard1
+    - Sven
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c4ecf1627276e74292e6455114acb04
+    m_Address: UMA/OverlayDataAsset-GirlShirt01Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - GirlShirt1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73cf00c391282944c8251cee30c6cb68
+    m_Address: UMA/OverlayDataAsset-FemaleUnderwear02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleUndies
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c7d4dd46aadf264ca87a97b357a238e
+    m_Address: UMA/OverlayDataAsset-FemaleTshirt02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleShirt4
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61ff84e89ca1f5c41856a75449025092
+    m_Address: UMA/OverlayDataAsset-FemaleShirt02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleShirt3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ef21f95dae467b4788ba5a084b94b9d
+    m_Address: UMA/OverlayDataAsset-FemaleShirt01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleShirt2
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63212701cc50fca4eac77618947eb849
+    m_Address: UMA/OverlayDataAsset-FemaleTshirt01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleShirt1
+    - GirlShirt1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 664ce06cddaec764a95d67b79505d8dc
+    m_Address: UMA/SlotDataAsset-FemaleTshirt01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleShirt1
+    - FemaleShirt4
+    - GirlShirt1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 959afba629a4847498616df7ba10a543
+    m_Address: UMA/OverlayDataAsset-FemaleJeans02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemalePants2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6b6f8e091fafc644b63f4064102382a
+    m_Address: UMA/OverlayDataAsset-FemaleJeans01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemalePants1
+    - FemalePants2
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e40f405bbd058a0419b3d09cf94ee7de
+    m_Address: UMA/SlotDataAsset-FemaleLegs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemalePants1
+    - FemalePants2
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 475458bd3c70c4148997ace0f6619dbb
+    m_Address: UMA/OverlayDataAsset-MeshHairStd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair3
+    - MaleHair2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 911a7511737178d4dbfe1ab52a2d8887
+    m_Address: UMA/SlotDataAsset-UMA_fem_hair_1_005
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30819781a55e5b540abd5f8a35901ca2
+    m_Address: UMA/OverlayDataAsset-FemaleShortHair01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair2
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5baae6388af63c0448e6d614fa7586b3
+    m_Address: UMA/SlotDataAsset-FemaleShortHair01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair2
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 335dc3fe2bdb9a24ea853d1023a2ab3e
+    m_Address: UMA/OverlayDataAsset-FemaleLongHair01_Module
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair1
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce2cca2d60a3a964e96c77683b6263db
+    m_Address: UMA/SlotDataAsset-FemaleLongHair01_Module
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair1
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25df90b5e017453499c48fdb9051267c
+    m_Address: UMA/OverlayDataAsset-FemaleLongHair01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair1
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dfbf95a2c3548040a6cc23330e64d76
+    m_Address: UMA/SlotDataAsset-FemaleLongHair01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHair1
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a43aa28029a29d42954e05d04d1bec3
+    m_Address: UMA/OverlayDataAsset-FemaleUnderwear-2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDefaultUnderwear
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e9cc6816f5c700409fef511dd2dd2d1
+    m_Address: UMA/SlotDataAsset-FemaleTorso
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleDefaultUnderwear
+    - FemaleShirt2
+    - FemaleShirt3
+    - FemaleUndies
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f57c699e06562b84fb91461077d470a9
+    m_Address: UMA/OverlayDataAsset-M_Bod smooth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleSmoothSkin
+    - OverweightMale
+    - HumanBoy Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f44f393c2761113499160bf3976bea56
+    m_Address: UMA/SlotDataAsset-MaleTorso
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleSmoothSkin
+    - MaleShirt1
+    - MaleShirt2
+    - MaleShirt3
+    - OverweightMale
+    - ElfMale Base Recipe
+    - BasicHuman Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 815c7ed9756d5494fa8b506a319f9f9b
+    m_Address: UMA/SlotDataAsset-MaleFace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleLowPolyHead
+    - Harold
+    - Sven
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8fd136dcf7f53341a4c9b5399ef5dc8
+    m_Address: UMA/SlotDataAsset-UMA_Human_Male_Hands_HQ
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHandsMid
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5746c09014733de4bbf208291c61aaea
+    m_Address: UMA/OverlayDataAsset-InnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - ElfMale Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    - HumanMaleHighPoly
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - KimCardassian
+    - Shelly
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ce0f12b23c3c9941a8f257ae9ddd78f
+    m_Address: UMA/SlotDataAsset-FemaleInnerMouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25c63a2415552414fbc33e7a48efc961
+    m_Address: UMA/SlotDataAsset-FemaleHead_Mouth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc845162d92a43f4ea04d9bece6f503f
+    m_Address: UMA/OverlayDataAsset-F_HighPoly_EyeBrow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 407823accaae39a4a902c6e4b2bfa383
+    m_Address: UMA/SlotDataAsset-F_High poly Eyebrows
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanGirl Base Recipe
+    - KimCardassian
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ddf3b23c4342294988947a71af2d7ab
+    m_Address: UMA/SlotDataAsset-FemaleHead_Nose
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47737e92a689d49489b317bdd98ff50c
+    m_Address: UMA/SlotDataAsset-FemaleHead_Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdb13e3982c3e4644b863ae1c9bdafe1
+    m_Address: UMA/SlotDataAsset-FemaleHead_Eyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d813f8755f9fdee489b781e0d5e404c5
+    m_Address: UMA/OverlayDataAsset-F_H_Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a82f5f7511df8940a287c5d1d34e6ef
+    m_Address: UMA/SlotDataAsset-FemaleHead_ElvenEars
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSwappedFace
+    - Elf Female Base Race Recipe
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19656603ac354ad4aa0dee0018f7f6d5
+    m_Address: UMA/OverlayDataAsset-F_H_Bod
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHandsMid
+    - Elf Female Base Race Recipe
+    - HumanFemale Base Recipe
+    - HumanFemaleHighPoly
+    - HumanGirl Base Recipe
+    - KimCardassian
+    - Shelly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 869cee25167e44f42907bc39ae048a4a
+    m_Address: UMA/SlotDataAsset-UMA_Human_Female_Hands_HQ
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleHandsMid
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccc8f1668f1d19549bf1a2fbb88a4157
+    m_Address: UMA/SlotDataAsset-Milcut
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MilCut
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48d4f8e0253d2c843a6365a1c560a556
+    m_Address: UMA/OverlayDataAsset-Milcap_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MilCut
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 048d03b875302a3449e9c7af9097c814
+    m_Address: UMA/OverlayDataAsset-MaleSweatPants_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleSweatPants_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2be54f8bb776cf440b3f9cc8d1fa9b31
+    m_Address: UMA/SlotDataAsset-MaleSweatPants
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleSweatPants_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 157a4bd45f8a79447b6d4e320310ded5
+    m_Address: UMA/OverlayDataAsset-MaleShortHair_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleShortHair_Recipe
+    - MilCut
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c205402b9dc47943b10ac61ce5639e6
+    m_Address: UMA/SlotDataAsset-MaleShortHair
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleShortHair_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f8517ff4e839574d90631d851147e81
+    m_Address: UMA/OverlayDataAsset-MaleHoodie_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHoodie_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 049023c663609fb4b995c6206aa43ca7
+    m_Address: UMA/SlotDataAsset-MaleHoodie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHoodie_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa8d990ec3c557445ada4c167873bec5
+    m_Address: UMA/OverlayDataAsset-Maincap_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHairSlick01_Recipe
+    - MaleShortHair_Recipe
+    - MaleHair2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fb90046504df7043bd90524f2823733
+    m_Address: UMA/OverlayDataAsset-MaleHairSlick01_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHairSlick01_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b50583b1ad6156647a9340322eca92b2
+    m_Address: UMA/SlotDataAsset-MaleHairSlick01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleHairSlick01_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03e5bfa4f7f2fd445974ed61bdf5d9cf
+    m_Address: UMA/OverlayDataAsset-M_Bod Overlay 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleAnkles_Recipe
+    - MaleHandsMid
+    - ElfMale Base Recipe
+    - BasicHuman Base Recipe
+    - HumanMale Base Recipe
+    - HumanMaleHighPoly
+    - Puck
+    - DNAConverterControllerExample Base Recipe
+    - Harold
+    - Sven
+    - Troll
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45b6d4db30ba89c4fbc26dbc580b78ad
+    m_Address: UMA/SlotDataAsset-MaleAnkles
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - MaleAnkles_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f552f5dd25919084fa1077b6df706c9d
+    m_Address: UMA/SlotDataAsset-TallShoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - TallShoes_Black_Recipe
+    - TallShoes_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d10c6db5c35334a4c87b351ed1e142bf
+    m_Address: UMA/OverlayDataAsset-Cap_Hair_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShavedHead
+    - MilCut
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b6ada5c5a1cbdd41bb96770d71b16c1
+    m_Address: UMA/OverlayDataAsset-Cap_Rash_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShavedHead
+    - MilCut
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f37b7c5bd4158be44880557cefabb033
+    m_Address: UMA/OverlayDataAsset-Cap_Shadow_overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShavedHead
+    - MilCut
+    - MaleHair1
+    - HumanBoy Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdd55e27c6850d64fb01592e11424e79
+    m_Address: UMA/SlotDataAsset-M_High poly Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - ShavedHead
+    - MaleHairSlick01_Recipe
+    - MaleShortHair_Recipe
+    - MilCut
+    - MaleBeard1
+    - MaleBeard2
+    - MaleBeard3
+    - MaleBrow01
+    - MaleBrow02
+    - MaleFace Old
+    - MaleHair1
+    - MaleHair2
+    - MaleHair3
+    - MaleRobe Hood
+    - RobeCollection
+    - TrollHead
+    - BasicHuman Base Recipe
+    - HumanBoy Base Recipe
+    - HumanMale Base Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd3e9381ee9d87d4a8e18517f090469e
+    m_Address: UMA/OverlayDataAsset-FemaleTankTop_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleTankTop_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5af6f0e864cd3d46b3c4f61535aa584
+    m_Address: UMA/SlotDataAsset-FemaleTankTop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleTankTop_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52ecbbea436af6c4596d67e66a65d7ef
+    m_Address: UMA/OverlayDataAsset-FemaleSportPants_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSportPants_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cc8858db5c0c9a48a27dc5797bb3a37
+    m_Address: UMA/SlotDataAsset-FemaleSportPants
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleSportPants_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b53229351f1835947840963cdd44227e
+    m_Address: UMA/OverlayDataAsset-PonyTail_Scrunchie_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemalePonyTail_Recipe
+    - woman-haircard 4_Recipe
+    - BoneyTail_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a03e04a4f448b74ebf93711f9f15a86
+    m_Address: UMA/SlotDataAsset-FemalePonyTail_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemalePonyTail_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf8631a0e0aefb34aa822421f8d5f826
+    m_Address: UMA/OverlayDataAsset-FemalePonyTail_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemalePonyTail_Recipe
+    - BoneyTail_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f4fa762be2c12049baf6abfea653205
+    m_Address: UMA/SlotDataAsset-FemalePonyTail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemalePonyTail_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 304fc44cf9ff5ad428e4802e082702c5
+    m_Address: UMA/OverlayDataAsset-FemaleLongHair_Overlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleLongHair_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1aadd11c8710fd842821fa962b7d66c4
+    m_Address: UMA/SlotDataAsset-FemaleLongHair
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleLongHair_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad54ecc72b1634b42a6b2ef9c5dbcdfa
+    m_Address: UMA/OverlayDataAsset-TallShoes_White
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleTallShoes_White
+    - TallShoes_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 907de3008710e7f41b1ff076aac06cf2
+    m_Address: UMA/OverlayDataAsset-TallShoes_Turquoise
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleTallShoes_Turquoise
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 060710660a79b9549b07a47ba0c1fbe2
+    m_Address: UMA/OverlayDataAsset-Body Hair
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleTallShoes_Black
+    - Puck
+    - Harold
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8bd3f6c4901d6d4c986bb042def995c
+    m_Address: UMA/OverlayDataAsset-TallShoes_Black
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleTallShoes_Black
+    - TallShoes_Black_Recipe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c5c96e8edf9cdc4abf5fed26d977b87
+    m_Address: UMA/SlotDataAsset-FemaleTallShoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UMA_Base
+    - UMA_Default
+    - FemaleTallShoes_Black
+    - FemaleTallShoes_Turquoise
+    - FemaleTallShoes_White
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 151b2e96239dcc642ae35c7eff437317, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c4f09c6c504a337408dc48ba9daa6854, type: 2}
+    - {fileID: 11400000, guid: bb82120e716fb054cbbd31d6bca4f3a6, type: 2}
