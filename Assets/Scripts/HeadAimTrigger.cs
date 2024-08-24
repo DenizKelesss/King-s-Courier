@@ -10,17 +10,25 @@ public class HeadAimTrigger : MonoBehaviour
 
     private void Start()
     {
-        Rig1 = GetComponent<RigBuilder>();            
+        Rig1 = GetComponent<RigBuilder>();
+        if (Rig1 == null)
+        {
+            Debug.LogError("RigBuilder component not found on the GameObject.");
+        }
     }
     private void Update()
     {
         if (isPlayerInRange)
         {
             Rig1.enabled = true;
+            Debug.Log("Player entered trigger zone.");
+
         }
         else
         {
             Rig1.enabled = false;
+            Debug.Log("Player exited trigger zone.");
+
         }
     }
 
