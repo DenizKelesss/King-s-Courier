@@ -39,7 +39,7 @@ namespace Articy.King_s_Courier.GlobalVariables
         /// </summary>
         public bool Script_720575940379282080x100000000000412Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
         {
-            return aGlobalVariablesState.DialogueOptions.SadKidRegOpt1Visited ||aGlobalVariablesState.DialogueOptions.SadKidRegOpt2Visited;
+            return aGlobalVariablesState.DialogueOptions.SadKidRegOpt1Visited && aGlobalVariablesState.DialogueOptions.SadKidRegOpt2Visited;
         }
         
         /// <summary>
