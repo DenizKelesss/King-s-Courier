@@ -240,6 +240,11 @@ MonoBehaviour:
     technicalName: DFr_475340F8
     articyType: DialogueFragment
     childCount: 0
+  - id: 72057594037928866
+    parent: 72057594037928583
+    technicalName: Ins_4035774E
+    articyType: Instruction
+    childCount: 0
   - id: 72057594037928595
     parent: 72057594037928583
     technicalName: DFr_AFA4262D
@@ -274,11 +279,6 @@ MonoBehaviour:
     parent: 72057594037928583
     technicalName: DFr_442F991C
     articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037928839
-    parent: 72057594037928583
-    technicalName: Ins_67CAAAD4
-    articyType: Instruction
     childCount: 0
   - id: 72057594037928851
     parent: 216172783251375095
