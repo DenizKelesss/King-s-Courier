@@ -34,6 +34,15 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
         
         /// <summary>
+        /// ObjectID: 0x100000000000412
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928978?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_720575940379282080x100000000000412Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.DialogueOptions.SadKidRegOpt1Visited ||aGlobalVariablesState.DialogueOptions.SadKidRegOpt2Visited;
+        }
+        
+        /// <summary>
         /// ObjectID: 0x100000000000154
         /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928276?pane=selected&amp;tab=current
         /// </summary>
@@ -86,18 +95,39 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             aGlobalVariablesState.DialogueOptions.SadKidOpt1 = false;
         }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000003FF
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928959?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000003FFExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.DialogueOptions.SadKidRegOpt2Visited = true;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000003FB
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928955?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000003FBExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.DialogueOptions.SadKidRegOpt1Visited = true;
+        }
         #endregion
         
         #region Unity serialization
         public virtual void OnAfterDeserialize_0x100000000000110()
         {
             Conditions.Add(3880432021u, this.Script_720575940379282080x1000000000002CEExpression);
+            Conditions.Add(633960395u, this.Script_720575940379282080x100000000000412Expression);
             Instructions.Add(101404872u, this.Script_720575940379282080x100000000000154Expression);
             Instructions.Add(799694506u, this.Script_720575940379282080x10000000000015FExpression);
             Instructions.Add(515138219u, this.Script_720575940379282080x100000000000235Expression);
             Instructions.Add(2526110314u, this.Script_720575940379282080x10000000000024BExpression);
             Instructions.Add(4206923804u, this.Script_720575940379282080x1000000000003ABExpression);
             Instructions.Add(993695338u, this.Script_720575940379282080x1000000000003AFExpression);
+            Instructions.Add(54601524u, this.Script_720575940379282080x1000000000003FFExpression);
+            Instructions.Add(4154552118u, this.Script_720575940379282080x1000000000003FBExpression);
         }
         #endregion
     }

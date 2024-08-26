@@ -264,10 +264,38 @@ namespace Articy.King_s_Courier.GlobalVariables
             }
         }
         
+        // 
+        public bool SadKidRegOpt1Visited
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(10);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(10, value);
+            }
+        }
+        
+        // 
+        public bool SadKidRegOpt2Visited
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(11);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(11, value);
+            }
+        }
+        
         public void RegisterVariables(BaseGlobalVariables aStorage)
         {
             _VariableStorage = aStorage;
             aStorage.RegisterVariable("DialogueOptions.SadKidOpt1", true);
+            aStorage.RegisterVariable("DialogueOptions.SadKidRegOpt1Visited", false);
+            aStorage.RegisterVariable("DialogueOptions.SadKidRegOpt2Visited", false);
         }
     }
 }

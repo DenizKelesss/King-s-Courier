@@ -62,6 +62,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("VOTriggers.Scene1Line1");
             variableNames.Add("VOTriggers.Scene1Line2");
             variableNames.Add("DialogueOptions.SadKidOpt1");
+            variableNames.Add("DialogueOptions.SadKidRegOpt1Visited");
+            variableNames.Add("DialogueOptions.SadKidRegOpt2Visited");
         }
         #endregion
         
