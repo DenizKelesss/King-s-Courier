@@ -70,10 +70,19 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
         
         /// <summary>
-        /// ObjectID: 0x100000000000387
-        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928839?pane=selected&amp;tab=current
+        /// ObjectID: 0x1000000000003AB
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928875?pane=selected&amp;tab=current
         /// </summary>
-        public void Script_720575940379282080x100000000000387Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        public void Script_720575940379282080x1000000000003ABExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.DialogueOptions.SadKidOpt1 = false;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000003AF
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928879?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000003AFExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
         {
             aGlobalVariablesState.DialogueOptions.SadKidOpt1 = false;
         }
@@ -87,7 +96,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             Instructions.Add(799694506u, this.Script_720575940379282080x10000000000015FExpression);
             Instructions.Add(515138219u, this.Script_720575940379282080x100000000000235Expression);
             Instructions.Add(2526110314u, this.Script_720575940379282080x10000000000024BExpression);
-            Instructions.Add(4268022659u, this.Script_720575940379282080x100000000000387Expression);
+            Instructions.Add(4206923804u, this.Script_720575940379282080x1000000000003ABExpression);
+            Instructions.Add(993695338u, this.Script_720575940379282080x1000000000003AFExpression);
         }
         #endregion
     }

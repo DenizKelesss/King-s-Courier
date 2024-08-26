@@ -21,18 +21,6 @@ MonoBehaviour:
     mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
---- !u!114 &-170915097006539962
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
-  m_Name: ArticyScriptFragments
-  m_EditorClassIdentifier: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,13 +43,25 @@ MonoBehaviour:
     mTechnicalName: King_s_Courier
   mImportedAssets:
   - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: 8209309029834332431}
-  mScriptFragments: {fileID: -170915097006539962}
+  mDefaultGlobalVariables: {fileID: 7795278811758901489}
+  mScriptFragments: {fileID: 600237668476192186}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
     PackagePath: package_0x100000000000110
     mIsDefaultPackage: 1
+--- !u!114 &600237668476192186
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -229,7 +229,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_4B1DBD62
     articyType: Dialogue
-    childCount: 10
+    childCount: 11
   - id: 72057594037928654
     parent: 72057594037928583
     technicalName: Cnd_C5E73719
@@ -239,11 +239,6 @@ MonoBehaviour:
     parent: 72057594037928583
     technicalName: DFr_475340F8
     articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037928866
-    parent: 72057594037928583
-    technicalName: Ins_4035774E
-    articyType: Instruction
     childCount: 0
   - id: 72057594037928595
     parent: 72057594037928583
@@ -265,6 +260,21 @@ MonoBehaviour:
     technicalName: DFr_071AC678
     articyType: DialogueFragment
     childCount: 0
+  - id: 72057594037928875
+    parent: 72057594037928583
+    technicalName: Ins_4726C8D9
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037928879
+    parent: 72057594037928583
+    technicalName: Ins_6A7B1CD4
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037928661
+    parent: 72057594037928583
+    technicalName: DFr_442F991C
+    articyType: DialogueFragment
+    childCount: 0
   - id: 72057594037928634
     parent: 72057594037928583
     technicalName: DFr_41229C34
@@ -273,11 +283,6 @@ MonoBehaviour:
   - id: 72057594037928641
     parent: 72057594037928583
     technicalName: DFr_2BEB25FC
-    articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037928661
-    parent: 72057594037928583
-    technicalName: DFr_442F991C
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928851
@@ -555,7 +560,7 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
---- !u!114 &8209309029834332431
+--- !u!114 &7795278811758901489
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -608,14 +613,14 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: 8209309029834332431}
+    _VariableStorage: {fileID: 7795278811758901489}
   mFallGate:
-    _VariableStorage: {fileID: 8209309029834332431}
+    _VariableStorage: {fileID: 7795278811758901489}
   mScene1Objectives:
-    _VariableStorage: {fileID: 8209309029834332431}
+    _VariableStorage: {fileID: 7795278811758901489}
   mKingdomReputation:
-    _VariableStorage: {fileID: 8209309029834332431}
+    _VariableStorage: {fileID: 7795278811758901489}
   mVOTriggers:
-    _VariableStorage: {fileID: 8209309029834332431}
+    _VariableStorage: {fileID: 7795278811758901489}
   mDialogueOptions:
-    _VariableStorage: {fileID: 8209309029834332431}
+    _VariableStorage: {fileID: 7795278811758901489}
