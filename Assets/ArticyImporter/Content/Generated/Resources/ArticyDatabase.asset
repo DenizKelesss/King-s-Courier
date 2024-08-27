@@ -21,7 +21,7 @@ MonoBehaviour:
     mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
---- !u!114 &-5964508501474582243
+--- !u!114 &-5655356209359042475
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,76 +33,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
   m_Name: ArticyScriptFragments
   m_EditorClassIdentifier: 
---- !u!114 &-5175291741958318094
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af3eb1c8993c3e147a5501d689e16a98, type: 3}
-  m_Name: DefaultGlobalVariables
-  m_EditorClassIdentifier: 
-  mBoolVariableCache:
-  - mFullQualifiedName: Objectives.PressEtoTalk
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.OpenGate
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.Understand
-    mVar:
-      values: 00
-  - mFullQualifiedName: Objectives.TalkToLadyU
-    mVar:
-      values: 00
-  - mFullQualifiedName: FallGate.FallGateOpen
-    mVar:
-      values: 00
-  - mFullQualifiedName: Scene1Objectives.TalkToSentryGuard
-    mVar:
-      values: 00
-  - mFullQualifiedName: Scene1Objectives.TalkToKing
-    mVar:
-      values: 00
-  - mFullQualifiedName: VOTriggers.Scene1Line1
-    mVar:
-      values: 00
-  - mFullQualifiedName: VOTriggers.Scene1Line2
-    mVar:
-      values: 00
-  - mFullQualifiedName: DialogueOptions.SadKidOpt1
-    mVar:
-      values: 01
-  - mFullQualifiedName: DialogueOptions.SadKidRegOpt1Visited
-    mVar:
-      values: 00
-  - mFullQualifiedName: DialogueOptions.SadKidRegOpt2Visited
-    mVar:
-      values: 00
-  mIntVariableCache:
-  - mFullQualifiedName: KingdomReputation.KingdomRep
-    mVar:
-      values: 32000000
-  mStringVariableCache: []
-  mLiveBoolVariableCache: []
-  mLiveIntVariableCache: []
-  mLiveStringVariableCache: []
-  mIsInitialized: 1
-  mObjectives:
-    _VariableStorage: {fileID: -5175291741958318094}
-  mFallGate:
-    _VariableStorage: {fileID: -5175291741958318094}
-  mScene1Objectives:
-    _VariableStorage: {fileID: -5175291741958318094}
-  mKingdomReputation:
-    _VariableStorage: {fileID: -5175291741958318094}
-  mVOTriggers:
-    _VariableStorage: {fileID: -5175291741958318094}
-  mDialogueOptions:
-    _VariableStorage: {fileID: -5175291741958318094}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,8 +55,8 @@ MonoBehaviour:
     mTechnicalName: King_s_Courier
   mImportedAssets:
   - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: -5175291741958318094}
-  mScriptFragments: {fileID: -5964508501474582243}
+  mDefaultGlobalVariables: {fileID: 8020523931728591871}
+  mScriptFragments: {fileID: -5655356209359042475}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
@@ -369,7 +299,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_AF4221C7
     articyType: Dialogue
-    childCount: 11
+    childCount: 14
   - id: 72057594037928978
     parent: 72057594037928891
     technicalName: Cnd_A2C612E9
@@ -384,6 +314,16 @@ MonoBehaviour:
     parent: 72057594037928891
     technicalName: DFr_1E8C3F95
     articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928989
+    parent: 72057594037928891
+    technicalName: Cnd_D567163F
+    articyType: Condition
+    childCount: 0
+  - id: 72057594037928994
+    parent: 72057594037928891
+    technicalName: Cnd_78555E0C
+    articyType: Condition
     childCount: 0
   - id: 72057594037928941
     parent: 72057594037928891
@@ -424,6 +364,11 @@ MonoBehaviour:
     parent: 72057594037928891
     technicalName: DFr_538F7AAD
     articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929007
+    parent: 72057594037928891
+    technicalName: Jmp_04AC0FCD
+    articyType: Jump
     childCount: 0
   - id: 216172785005863603
     parent: 72057594037927937
@@ -690,3 +635,73 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
+--- !u!114 &8020523931728591871
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3eb1c8993c3e147a5501d689e16a98, type: 3}
+  m_Name: DefaultGlobalVariables
+  m_EditorClassIdentifier: 
+  mBoolVariableCache:
+  - mFullQualifiedName: Objectives.PressEtoTalk
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.OpenGate
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.Understand
+    mVar:
+      values: 00
+  - mFullQualifiedName: Objectives.TalkToLadyU
+    mVar:
+      values: 00
+  - mFullQualifiedName: FallGate.FallGateOpen
+    mVar:
+      values: 00
+  - mFullQualifiedName: Scene1Objectives.TalkToSentryGuard
+    mVar:
+      values: 00
+  - mFullQualifiedName: Scene1Objectives.TalkToKing
+    mVar:
+      values: 00
+  - mFullQualifiedName: VOTriggers.Scene1Line1
+    mVar:
+      values: 00
+  - mFullQualifiedName: VOTriggers.Scene1Line2
+    mVar:
+      values: 00
+  - mFullQualifiedName: DialogueOptions.SadKidOpt1
+    mVar:
+      values: 01
+  - mFullQualifiedName: DialogueOptions.SadKidRegOpt1Visited
+    mVar:
+      values: 00
+  - mFullQualifiedName: DialogueOptions.SadKidRegOpt2Visited
+    mVar:
+      values: 00
+  mIntVariableCache:
+  - mFullQualifiedName: KingdomReputation.KingdomRep
+    mVar:
+      values: 32000000
+  mStringVariableCache: []
+  mLiveBoolVariableCache: []
+  mLiveIntVariableCache: []
+  mLiveStringVariableCache: []
+  mIsInitialized: 1
+  mObjectives:
+    _VariableStorage: {fileID: 8020523931728591871}
+  mFallGate:
+    _VariableStorage: {fileID: 8020523931728591871}
+  mScene1Objectives:
+    _VariableStorage: {fileID: 8020523931728591871}
+  mKingdomReputation:
+    _VariableStorage: {fileID: 8020523931728591871}
+  mVOTriggers:
+    _VariableStorage: {fileID: 8020523931728591871}
+  mDialogueOptions:
+    _VariableStorage: {fileID: 8020523931728591871}
