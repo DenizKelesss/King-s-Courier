@@ -144,7 +144,7 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: Flow
     articyType: Flow
-    childCount: 5
+    childCount: 6
   - id: 72057594037928226
     parent: 216172783251375095
     technicalName: Dlg_3B82B7B1
@@ -233,6 +233,46 @@ MonoBehaviour:
   - id: 72057594037928576
     parent: 72057594037928530
     technicalName: DFr_3E765C0A
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929013
+    parent: 216172783251375095
+    technicalName: Dlg_71F837B6
+    articyType: Dialogue
+    childCount: 7
+  - id: 72057594037929034
+    parent: 72057594037929013
+    technicalName: DFr_9FAC80A8
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929041
+    parent: 72057594037929013
+    technicalName: DFr_AD61BE9E
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929062
+    parent: 72057594037929013
+    technicalName: DFr_C55ED6E9
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929069
+    parent: 72057594037929013
+    technicalName: DFr_27D5B2EB
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929076
+    parent: 72057594037929013
+    technicalName: DFr_DCC8721E
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929083
+    parent: 72057594037929013
+    technicalName: DFr_7A3F4E04
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929090
+    parent: 72057594037929013
+    technicalName: DFr_F62C04A0
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928583
@@ -374,7 +414,17 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: Entities
     articyType: Entities
-    childCount: 5
+    childCount: 7
+  - id: 72057594037929019
+    parent: 216172785005863603
+    technicalName: Ntt_766664CD
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929023
+    parent: 216172785005863603
+    technicalName: Ntt_FAA63B2B
+    articyType: Entity
+    childCount: 0
   - id: 72057594037928232
     parent: 216172785005863603
     technicalName: Ntt_67B1B7A7
