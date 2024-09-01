@@ -19,6 +19,7 @@ MonoBehaviour:
   - Dlg_2E6FDE1D.DisplayName
   - Dlg_AF4221C7.DisplayName
   - Dlg_71F837B6.DisplayName
+  - Dlg_22C536F6.DisplayName
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
   - DFr_A775F5D8.Text
@@ -53,6 +54,7 @@ MonoBehaviour:
   - DFr_DCC8721E.Text
   - DFr_7A3F4E04.Text
   - DFr_F62C04A0.Text
+  - DFr_80EA439F.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_A624AC80.DisplayName
   - Ntt_AE9402FD.DisplayName
@@ -60,6 +62,7 @@ MonoBehaviour:
   - Ntt_1AA5ACA3.DisplayName
   - Ntt_766664CD.DisplayName
   - Ntt_FAA63B2B.DisplayName
+  - Ntt_BC330191.DisplayName
   mLocalizedStringsValues:
   - SentryGuard
   - Lord Paramount Philippe
@@ -67,6 +70,7 @@ MonoBehaviour:
   - Leaning Villager
   - Sad Kid experiment
   - ArgueMomSon
+  - SittingLady
   - Halt by the name of King Harlach!
   - I'm King Harlach's royal courier, here to deliver a message to your liege lord.
   - Your arrival was expected courier. Open the gates!
@@ -103,6 +107,7 @@ MonoBehaviour:
   - I heard the kids talking about Proctor Lewis, he's not a good man ma...
   - Shush! No more of that none sense! Proctor is a kind and noble man who means
     for the good of us all.
+  - Hey there hot stuff
   - Courier
   - Sentry
   - Lord Philippe
@@ -110,6 +115,7 @@ MonoBehaviour:
   - Leaning Villager
   - ArgueMom
   - ArgueSon
+  - SittingLady
   mLocalizedAudioAssetsKeys:
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
