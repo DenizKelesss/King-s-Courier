@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private float speed = 10f;
     private float rotationSpeed = 1f; // Speed of camera rotation
-    private float jumpForce = 5f;
+    private float jumpForce = 3.5f;
     private bool isGrounded = true; // Check if the player is on the ground
     private bool canJump = true; // Check if the player can jump
 

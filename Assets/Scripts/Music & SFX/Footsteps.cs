@@ -16,5 +16,10 @@ public class Footsteps : MonoBehaviour
         {
             footStepsSource.enabled = false;
         }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            footStepsSource.enabled = false;
+        }
     }
 }
