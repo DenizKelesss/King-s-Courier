@@ -299,3 +299,34 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
     }
 }
+namespace Articy.King_s_Courier.GlobalVariables
+{
+    
+    
+    [Serializable()]
+    public class EventTriggers : IArticyNamespace
+    {
+        
+        [SerializeField()]
+        private BaseGlobalVariables _VariableStorage;
+        
+        // 
+        public bool CultistLadyRun
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(12);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(12, value);
+            }
+        }
+        
+        public void RegisterVariables(BaseGlobalVariables aStorage)
+        {
+            _VariableStorage = aStorage;
+            aStorage.RegisterVariable("EventTriggers.CultistLadyRun", false);
+        }
+    }
+}

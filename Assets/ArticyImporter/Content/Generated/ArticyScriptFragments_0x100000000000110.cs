@@ -131,6 +131,15 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             aGlobalVariablesState.DialogueOptions.SadKidRegOpt2Visited = true;
         }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000004A2
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929122?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000004A2Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.EventTriggers.CultistLadyRun = true;
+        }
         #endregion
         
         #region Unity serialization
@@ -148,6 +157,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             Instructions.Add(993695338u, this.Script_720575940379282080x1000000000003AFExpression);
             Instructions.Add(4154552118u, this.Script_720575940379282080x1000000000003FBExpression);
             Instructions.Add(54601524u, this.Script_720575940379282080x1000000000003FFExpression);
+            Instructions.Add(1050936218u, this.Script_720575940379282080x1000000000004A2Expression);
         }
         #endregion
     }

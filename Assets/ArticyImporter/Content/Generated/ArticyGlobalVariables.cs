@@ -48,6 +48,10 @@ namespace Articy.King_s_Courier.GlobalVariables
         [HideInInspector()]
         private DialogueOptions mDialogueOptions = new DialogueOptions();
         
+        [SerializeField()]
+        [HideInInspector()]
+        private EventTriggers mEventTriggers = new EventTriggers();
+        
         #region Initialize static VariableName set
         static ArticyGlobalVariables()
         {
@@ -64,6 +68,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("DialogueOptions.SadKidOpt1");
             variableNames.Add("DialogueOptions.SadKidRegOpt1Visited");
             variableNames.Add("DialogueOptions.SadKidRegOpt2Visited");
+            variableNames.Add("EventTriggers.CultistLadyRun");
         }
         #endregion
         
@@ -115,6 +120,14 @@ namespace Articy.King_s_Courier.GlobalVariables
             }
         }
         
+        public EventTriggers EventTriggers
+        {
+            get
+            {
+                return mEventTriggers;
+            }
+        }
+        
         public static ArticyGlobalVariables Default
         {
             get
@@ -131,6 +144,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             KingdomReputation.RegisterVariables(this);
             VOTriggers.RegisterVariables(this);
             DialogueOptions.RegisterVariables(this);
+            EventTriggers.RegisterVariables(this);
         }
         
         public static ArticyGlobalVariables CreateGlobalVariablesClone()
