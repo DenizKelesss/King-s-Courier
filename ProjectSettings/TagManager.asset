@@ -10,6 +10,7 @@ TagManager:
   - Waypoint
   - UMAIgnore
   - UMAKeepChain
+  - CultLady
   layers:
   - Default
   - TransparentFX

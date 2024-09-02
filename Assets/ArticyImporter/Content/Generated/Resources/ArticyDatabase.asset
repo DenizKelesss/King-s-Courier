@@ -212,7 +212,7 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: Flow
     articyType: Flow
-    childCount: 7
+    childCount: 8
   - id: 72057594037928226
     parent: 216172783251375095
     technicalName: Dlg_3B82B7B1
@@ -498,11 +498,21 @@ MonoBehaviour:
     technicalName: Jmp_04AC0FCD
     articyType: Jump
     childCount: 0
+  - id: 72057594037929158
+    parent: 216172783251375095
+    technicalName: Dlg_F461E9F9
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057594037929165
+    parent: 72057594037929158
+    technicalName: DFr_AE889D6F
+    articyType: DialogueFragment
+    childCount: 0
   - id: 216172785005863603
     parent: 72057594037927937
     technicalName: Entities
     articyType: Entities
-    childCount: 8
+    childCount: 9
   - id: 72057594037929019
     parent: 216172785005863603
     technicalName: Ntt_766664CD
@@ -516,6 +526,11 @@ MonoBehaviour:
   - id: 72057594037928232
     parent: 216172785005863603
     technicalName: Ntt_67B1B7A7
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929150
+    parent: 216172785005863603
+    technicalName: Ntt_B97CC7E8
     articyType: Entity
     childCount: 0
   - id: 72057594037928847

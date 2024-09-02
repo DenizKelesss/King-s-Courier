@@ -20,6 +20,7 @@ MonoBehaviour:
   - Dlg_AF4221C7.DisplayName
   - Dlg_71F837B6.DisplayName
   - Dlg_22C536F6.DisplayName
+  - Dlg_F461E9F9.DisplayName
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
   - DFr_A775F5D8.Text
@@ -39,6 +40,7 @@ MonoBehaviour:
   - DFr_442F991C.Text
   - DFr_D49E0904.Text
   - DFr_9B47FA1C.Text
+  - DFr_AE889D6F.Text
   - DFr_1E8C3F95.Text
   - DFr_ED397613.Text
   - DFr_59F48133.Text
@@ -64,6 +66,7 @@ MonoBehaviour:
   - Ntt_766664CD.DisplayName
   - Ntt_FAA63B2B.DisplayName
   - Ntt_BC330191.DisplayName
+  - Ntt_B97CC7E8.DisplayName
   mLocalizedStringsValues:
   - SentryGuard
   - Lord Paramount Philippe
@@ -72,6 +75,7 @@ MonoBehaviour:
   - Sad Kid experiment
   - ArgueMomSon
   - SittingLady
+  - CultLady
   - Halt by the name of King Harlach!
   - I'm King Harlach's royal courier, here to deliver a message to your liege lord.
   - Your arrival was expected courier. Open the gates!
@@ -91,6 +95,7 @@ MonoBehaviour:
   - Go away, I won't talk to you!
   - Hey
   - Fuck my life...
+  - I'm trying to pray, go away!
   - Everything...
   - What's wrong kid?
   - You can tell me about it if you want, I'm the king's courier.
@@ -118,6 +123,7 @@ MonoBehaviour:
   - ArgueMom
   - ArgueSon
   - SittingLady
+  - CultLady
   mLocalizedAudioAssetsKeys:
   - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
