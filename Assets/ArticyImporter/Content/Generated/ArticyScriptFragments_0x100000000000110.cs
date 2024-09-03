@@ -97,6 +97,15 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
         
         /// <summary>
+        /// ObjectID: 0x1000000000004B6
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929142?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000004B6Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.EventTriggers.CultistLadyRun = true;
+        }
+        
+        /// <summary>
         /// ObjectID: 0x1000000000003AB
         /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928875?pane=selected&amp;tab=current
         /// </summary>
@@ -133,12 +142,21 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
         
         /// <summary>
-        /// ObjectID: 0x1000000000004B6
-        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929142?pane=selected&amp;tab=current
+        /// ObjectID: 0x1000000000004DC
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929180?pane=selected&amp;tab=current
         /// </summary>
-        public void Script_720575940379282080x1000000000004B6Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        public void Script_720575940379282080x1000000000004DCExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
         {
-            aGlobalVariablesState.EventTriggers.CultistLadyRun = true;
+            aGlobalVariablesState.Scene1Finishing.LordPhilppeDone = true;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000004E3
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929187?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000004E3Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Scene1Finishing.CultLadyDone = true;
         }
         #endregion
         
@@ -153,11 +171,13 @@ namespace Articy.King_s_Courier.GlobalVariables
             Instructions.Add(799694506u, this.Script_720575940379282080x10000000000015FExpression);
             Instructions.Add(515138219u, this.Script_720575940379282080x100000000000235Expression);
             Instructions.Add(2526110314u, this.Script_720575940379282080x10000000000024BExpression);
+            Instructions.Add(3358781116u, this.Script_720575940379282080x1000000000004B6Expression);
             Instructions.Add(4206923804u, this.Script_720575940379282080x1000000000003ABExpression);
             Instructions.Add(993695338u, this.Script_720575940379282080x1000000000003AFExpression);
             Instructions.Add(4154552118u, this.Script_720575940379282080x1000000000003FBExpression);
             Instructions.Add(54601524u, this.Script_720575940379282080x1000000000003FFExpression);
-            Instructions.Add(3358781116u, this.Script_720575940379282080x1000000000004B6Expression);
+            Instructions.Add(3656637139u, this.Script_720575940379282080x1000000000004DCExpression);
+            Instructions.Add(1822887771u, this.Script_720575940379282080x1000000000004E3Expression);
         }
         #endregion
     }

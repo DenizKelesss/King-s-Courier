@@ -52,6 +52,10 @@ namespace Articy.King_s_Courier.GlobalVariables
         [HideInInspector()]
         private EventTriggers mEventTriggers = new EventTriggers();
         
+        [SerializeField()]
+        [HideInInspector()]
+        private Scene1Finishing mScene1Finishing = new Scene1Finishing();
+        
         #region Initialize static VariableName set
         static ArticyGlobalVariables()
         {
@@ -69,6 +73,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("DialogueOptions.SadKidRegOpt1Visited");
             variableNames.Add("DialogueOptions.SadKidRegOpt2Visited");
             variableNames.Add("EventTriggers.CultistLadyRun");
+            variableNames.Add("Scene1Finishing.CultLadyDone");
+            variableNames.Add("Scene1Finishing.LordPhilppeDone");
         }
         #endregion
         
@@ -128,6 +134,14 @@ namespace Articy.King_s_Courier.GlobalVariables
             }
         }
         
+        public Scene1Finishing Scene1Finishing
+        {
+            get
+            {
+                return mScene1Finishing;
+            }
+        }
+        
         public static ArticyGlobalVariables Default
         {
             get
@@ -145,6 +159,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             VOTriggers.RegisterVariables(this);
             DialogueOptions.RegisterVariables(this);
             EventTriggers.RegisterVariables(this);
+            Scene1Finishing.RegisterVariables(this);
         }
         
         public static ArticyGlobalVariables CreateGlobalVariablesClone()

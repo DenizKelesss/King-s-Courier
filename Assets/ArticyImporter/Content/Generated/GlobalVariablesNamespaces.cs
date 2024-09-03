@@ -330,3 +330,48 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
     }
 }
+namespace Articy.King_s_Courier.GlobalVariables
+{
+    
+    
+    [Serializable()]
+    public class Scene1Finishing : IArticyNamespace
+    {
+        
+        [SerializeField()]
+        private BaseGlobalVariables _VariableStorage;
+        
+        // 
+        public bool CultLadyDone
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(13);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(13, value);
+            }
+        }
+        
+        // 
+        public bool LordPhilppeDone
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(14);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(14, value);
+            }
+        }
+        
+        public void RegisterVariables(BaseGlobalVariables aStorage)
+        {
+            _VariableStorage = aStorage;
+            aStorage.RegisterVariable("Scene1Finishing.CultLadyDone", false);
+            aStorage.RegisterVariable("Scene1Finishing.LordPhilppeDone", false);
+        }
+    }
+}

@@ -31,6 +31,7 @@ MonoBehaviour:
   - DFr_2F3C8BA6.Text
   - DFr_85F663F3.Text
   - DFr_3E765C0A.Text
+  - DFr_511985D8.Text
   - DFr_AFA4262D.Text
   - DFr_475340F8.Text
   - DFr_B07BC0C2.Text
@@ -40,7 +41,6 @@ MonoBehaviour:
   - DFr_442F991C.Text
   - DFr_D49E0904.Text
   - DFr_9B47FA1C.Text
-  - DFr_AE889D6F.Text
   - DFr_1E8C3F95.Text
   - DFr_ED397613.Text
   - DFr_59F48133.Text
@@ -57,7 +57,8 @@ MonoBehaviour:
   - DFr_7A3F4E04.Text
   - DFr_F62C04A0.Text
   - DFr_80EA439F.Text
-  - DFr_511985D8.Text
+  - DFr_AE889D6F.Text
+  - DFr_70992D00.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_A624AC80.DisplayName
   - Ntt_AE9402FD.DisplayName
@@ -86,6 +87,7 @@ MonoBehaviour:
   - Thank you for having me  in your halls my lord.
   - His majesty King Renard demands you pay the fealty of 5000 lejors at once!
   - It's my duty to host the King's envoy.
+  - Farewell, my lord.
   - Everything...
   - What's wrong kid?
   - You can tell me about it if you want, I'm the king's courier.
@@ -95,7 +97,6 @@ MonoBehaviour:
   - Go away, I won't talk to you!
   - Hey
   - Fuck my life...
-  - I'm trying to pray, go away!
   - Everything...
   - What's wrong kid?
   - You can tell me about it if you want, I'm the king's courier.
@@ -114,7 +115,8 @@ MonoBehaviour:
   - Shush! No more of that none sense! Proctor is a kind and noble man who means
     for the good of us all.
   - Hey there hot stuff
-  - Farewell, my lord.
+  - I'm trying to pray, go away!
+  - Go, begone I say!
   - Courier
   - Sentry
   - Lord Philippe

@@ -21,36 +21,7 @@ MonoBehaviour:
     mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ArticyDatabase
-  m_EditorClassIdentifier: 
-  mHierarchy: {fileID: 3217360529399469231}
-  mLocalization: {fileID: -8175130696941439569}
-  mRuleSetId: 269
-  mInternalProject:
-    mName: King's Courier
-    mDetailName: 
-    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
-    mTechnicalName: King_s_Courier
-  mImportedAssets:
-  - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: 1856023221109456336}
-  mScriptFragments: {fileID: 4274333971609641753}
-  mPackages:
-  - PackageId: 72057594037928208
-    PackageName: All objects
-    PackagePath: package_0x100000000000110
-    mIsDefaultPackage: 1
---- !u!114 &1856023221109456336
+--- !u!114 &-7928194042734289438
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,6 +73,12 @@ MonoBehaviour:
   - mFullQualifiedName: EventTriggers.CultistLadyRun
     mVar:
       values: 00
+  - mFullQualifiedName: Scene1Finishing.CultLadyDone
+    mVar:
+      values: 00
+  - mFullQualifiedName: Scene1Finishing.LordPhilppeDone
+    mVar:
+      values: 00
   mIntVariableCache:
   - mFullQualifiedName: KingdomReputation.KingdomRep
     mVar:
@@ -112,19 +89,62 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: 1856023221109456336}
+    _VariableStorage: {fileID: -7928194042734289438}
   mFallGate:
-    _VariableStorage: {fileID: 1856023221109456336}
+    _VariableStorage: {fileID: -7928194042734289438}
   mScene1Objectives:
-    _VariableStorage: {fileID: 1856023221109456336}
+    _VariableStorage: {fileID: -7928194042734289438}
   mKingdomReputation:
-    _VariableStorage: {fileID: 1856023221109456336}
+    _VariableStorage: {fileID: -7928194042734289438}
   mVOTriggers:
-    _VariableStorage: {fileID: 1856023221109456336}
+    _VariableStorage: {fileID: -7928194042734289438}
   mDialogueOptions:
-    _VariableStorage: {fileID: 1856023221109456336}
+    _VariableStorage: {fileID: -7928194042734289438}
   mEventTriggers:
-    _VariableStorage: {fileID: 1856023221109456336}
+    _VariableStorage: {fileID: -7928194042734289438}
+  mScene1Finishing:
+    _VariableStorage: {fileID: -7928194042734289438}
+--- !u!114 &-1423023965136684725
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: 3217360529399469231}
+  mLocalization: {fileID: -8175130696941439569}
+  mRuleSetId: 269
+  mInternalProject:
+    mName: King's Courier
+    mDetailName: 
+    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
+    mTechnicalName: King_s_Courier
+  mImportedAssets:
+  - Assets/Voiceover_Lines/Scene1/line1
+  mDefaultGlobalVariables: {fileID: -7928194042734289438}
+  mScriptFragments: {fileID: -1423023965136684725}
+  mPackages:
+  - PackageId: 72057594037928208
+    PackageName: All objects
+    PackagePath: package_0x100000000000110
+    mIsDefaultPackage: 1
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -172,7 +192,7 @@ MonoBehaviour:
     parent: 72057594037927937
     technicalName: GlobalVariables
     articyType: GlobalVariables
-    childCount: 7
+    childCount: 8
   - id: 72057594037928652
     parent: 216172782840400980
     technicalName: 
@@ -194,6 +214,11 @@ MonoBehaviour:
     articyType: VariableSet
     childCount: 0
   - id: 72057594037928259
+    parent: 216172782840400980
+    technicalName: 
+    articyType: VariableSet
+    childCount: 0
+  - id: 72057594037929173
     parent: 216172782840400980
     technicalName: 
     articyType: VariableSet
@@ -287,7 +312,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_C32A169C
     articyType: Dialogue
-    childCount: 7
+    childCount: 8
   - id: 72057594037928536
     parent: 72057594037928530
     technicalName: DFr_A8A8D7B5
@@ -308,14 +333,19 @@ MonoBehaviour:
     technicalName: DFr_85F663F3
     articyType: DialogueFragment
     childCount: 0
+  - id: 72057594037929142
+    parent: 72057594037928530
+    technicalName: Ins_5C8BC705
+    articyType: Instruction
+    childCount: 0
   - id: 72057594037928576
     parent: 72057594037928530
     technicalName: DFr_3E765C0A
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037929142
+  - id: 72057594037929180
     parent: 72057594037928530
-    technicalName: Ins_5C8BC705
+    technicalName: Ins_DFBFD2DA
     articyType: Instruction
     childCount: 0
   - id: 72057594037929135
@@ -502,10 +532,20 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_F461E9F9
     articyType: Dialogue
-    childCount: 1
+    childCount: 3
   - id: 72057594037929165
     parent: 72057594037929158
     technicalName: DFr_AE889D6F
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929187
+    parent: 72057594037929158
+    technicalName: Ins_6439E0CC
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037929192
+    parent: 72057594037929158
+    technicalName: DFr_70992D00
     articyType: DialogueFragment
     childCount: 0
   - id: 216172785005863603
@@ -793,15 +833,3 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
---- !u!114 &4274333971609641753
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
-  m_Name: ArticyScriptFragments
-  m_EditorClassIdentifier: 
