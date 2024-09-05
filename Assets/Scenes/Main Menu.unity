@@ -195,13 +195,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Move:
 
-    Talk:
+    Jump:
 
-    Interact:
+    Talk/Interact:
 
-    Cancel Dialogue:
-
-    Restart Scene:'
+    Cancel Dialogue:'
 --- !u!222 &9606745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5639,7 +5637,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " W A S D\n E\n Q\n Esc\n R"
+  m_Text: " W-A-S-D & Mouse\n Space\n E\n Esc\n"
 --- !u!222 &444563258
 CanvasRenderer:
   m_ObjectHideFlags: 0
