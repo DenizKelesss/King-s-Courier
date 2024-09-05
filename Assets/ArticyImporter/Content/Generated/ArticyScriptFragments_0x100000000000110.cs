@@ -124,6 +124,15 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
         
         /// <summary>
+        /// ObjectID: 0x1000000000007DD
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929949?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_720575940379282080x1000000000007DDExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.DialogueOptions.ProtoGuyOpt1Visited;
+        }
+        
+        /// <summary>
         /// ObjectID: 0x100000000000154
         /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928276?pane=selected&amp;tab=current
         /// </summary>
@@ -295,6 +304,15 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
         
         /// <summary>
+        /// ObjectID: 0x1000000000007D7
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929943?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000007D7Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.DialogueOptions.ProtoGuyOpt1Visited = true;
+        }
+        
+        /// <summary>
         /// ObjectID: 0x10000000000078B
         /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037929867?pane=selected&amp;tab=current
         /// </summary>
@@ -318,6 +336,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             Conditions.Add(1546889675u, this.Script_720575940379282080x1000000000005FAExpression);
             Conditions.Add(1764382563u, this.Script_720575940379282080x100000000000603Expression);
             Conditions.Add(766770013u, this.Script_720575940379282080x100000000000791Expression);
+            Conditions.Add(492132183u, this.Script_720575940379282080x1000000000007DDExpression);
             Instructions.Add(101404872u, this.Script_720575940379282080x100000000000154Expression);
             Instructions.Add(799694506u, this.Script_720575940379282080x10000000000015FExpression);
             Instructions.Add(515138219u, this.Script_720575940379282080x100000000000235Expression);
@@ -337,6 +356,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             Instructions.Add(3099527483u, this.Script_720575940379282080x1000000000005EBExpression);
             Instructions.Add(2385738272u, this.Script_720575940379282080x100000000000782Expression);
             Instructions.Add(1058493958u, this.Script_720575940379282080x10000000000063DExpression);
+            Instructions.Add(628589984u, this.Script_720575940379282080x1000000000007D7Expression);
             Instructions.Add(2910530535u, this.Script_720575940379282080x10000000000078BExpression);
         }
         #endregion
