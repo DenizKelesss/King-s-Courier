@@ -46,7 +46,7 @@ public class PlayerLinesManager : MonoBehaviour
 
     public void EndDialogue ()
     {
-        Destroy(dialogueUI); // dialogueUI.SetActive(false) --> could work better.
+        dialogueUI.SetActive(false);
     }
 
 

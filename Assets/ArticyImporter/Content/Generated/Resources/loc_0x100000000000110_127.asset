@@ -15,13 +15,17 @@ MonoBehaviour:
   mLocalizedStringsKeys:
   - Dlg_3B82B7B1.DisplayName
   - Dlg_C32A169C.DisplayName
-  - Dlg_4B1DBD62.DisplayName
+  - Dlg_8A350933.DisplayName
   - Dlg_2E6FDE1D.DisplayName
   - Dlg_AF4221C7.DisplayName
   - Dlg_71F837B6.DisplayName
+  - Dlg_71F837B6.Text
   - Dlg_22C536F6.DisplayName
   - Dlg_F461E9F9.DisplayName
-  - DFr_2B4DDE3F.Text
+  - Dlg_F461E9F9.Text
+  - Dlg_1F21A5B9.DisplayName
+  - Dlg_1F21A5B9.Text
+  - DFr_23CAA2CE.Text
   - DFr_FAA0DDB1.Text
   - DFr_A775F5D8.Text
   - DFr_D272AF9A.Text
@@ -32,14 +36,14 @@ MonoBehaviour:
   - DFr_85F663F3.Text
   - DFr_3E765C0A.Text
   - DFr_511985D8.Text
-  - DFr_AFA4262D.Text
-  - DFr_475340F8.Text
-  - DFr_B07BC0C2.Text
-  - DFr_071AC678.Text
-  - DFr_41229C34.Text
-  - DFr_2BEB25FC.Text
-  - DFr_442F991C.Text
-  - DFr_D49E0904.Text
+  - DFr_19684299.Text
+  - DFr_C7DA8D74.Text
+  - DFr_C4CBA0C2.Text
+  - DFr_0F9E1948.Text
+  - DFr_8B450BBE.Text
+  - DFr_13A50256.Text
+  - DFr_BE79F617.Text
+  - DFr_D4E4A3EB.Text
   - DFr_9B47FA1C.Text
   - DFr_1E8C3F95.Text
   - DFr_ED397613.Text
@@ -60,7 +64,45 @@ MonoBehaviour:
   - DFr_AE889D6F.Text
   - DFr_70992D00.Text
   - DFr_DDE2F9D5.Text
+  - DFr_0F61A83C.Text
+  - DFr_B8F72562.Text
+  - DFr_AA60C60D.Text
+  - DFr_4E86BFC5.Text
+  - DFr_E4948548.Text
+  - DFr_27735341.Text
+  - DFr_DC02DA37.Text
+  - DFr_64EF975F.Text
+  - DFr_F6C24EB4.Text
+  - DFr_5DEC568B.Text
+  - DFr_14CB1961.Text
+  - DFr_6306FD83.Text
+  - DFr_C9C24764.Text
+  - DFr_1126D30F.Text
+  - DFr_95125820.Text
+  - DFr_406C0B05.Text
+  - DFr_99184E5E.Text
+  - DFr_D8872B23.Text
+  - DFr_CAEA81DA.Text
+  - DFr_10D9CFD9.Text
+  - DFr_A4517A24.Text
+  - DFr_4DCC8B91.Text
+  - DFr_7C2A301B.Text
+  - DFr_BDDBDD49.Text
+  - DFr_D4BA5519.Text
+  - DFr_DA01A222.Text
+  - DFr_A47731AC.Text
+  - DFr_6A74B920.Text
+  - DFr_013631CB.Text
+  - DFr_9C3B67D6.Text
+  - DFr_58E57DD8.Text
+  - DFr_D8CB7150.Text
+  - DFr_FF7B0344.Text
+  - DFr_6D5149AF.Text
+  - DFr_DC66A825.Text
+  - DFr_99102CAC.Text
+  - DFr_AA6F2C4D.Text
   - Ntt_67B1B7A7.DisplayName
+  - Ntt_8082BF0B.DisplayName
   - Ntt_A624AC80.DisplayName
   - Ntt_AE9402FD.DisplayName
   - Ntt_E6F65F47.DisplayName
@@ -69,66 +111,118 @@ MonoBehaviour:
   - Ntt_FAA63B2B.DisplayName
   - Ntt_BC330191.DisplayName
   - Ntt_B97CC7E8.DisplayName
+  - Ntt_3D194A87.DisplayName
   mLocalizedStringsValues:
   - SentryGuard
   - Lord Paramount Philippe
+  - Gate Guard
+  - Peasant
   - Sad Kid
-  - Leaning Villager
-  - Sad Kid experiment
   - ArgueMomSon
-  - SittingLady
-  - CultLady
-  - Halt by the name of King Harlach!
-  - I'm King Harlach's royal courier, here to deliver a message to your liege lord.
-  - Your arrival was expected courier. Open the gates!
-  - Appreciated guard, thank you!
-  - Who goes there?
+  - '<color=#ffa61aff>Richard</color>
+
+    
+
+    <color=#ffa61aff>Furious Mother</color>'
+  - Drunk Lady
+  - Lady in Red
+  - <color=#ffa61aff>Lady in Red</color>
+  - Ominous Stone
+  - <color=#ffa61aff>Ominous Stone</color>
+  - As kind as he ever was. But I imagine he sent you here for a reason.
+  - I'm King Renard's royal courier, here to deliver a message to your liege lord.
+  - I see, your arrival was expected courier. Open the gates!
+  - Appreciated guard.
+  - Halt! Who goes there?
   - Oh, you must be the courier my uncle sent.
   - What news do you bear, do tell.
   - Thank you for having me  in your halls my lord.
   - His majesty King Renard demands you pay the fealty of 5000 lejors at once!
-  - It's my duty to host the King's envoy.
-  - Farewell, my lord.
+  - You may take your leave now, safe journeys.
+  - Thank you my lord, farewell.
+  - That's not how... anyway, good night to you miss.
+  - Oooh, right. Apologies your lordship majesty...
+  - Oh, no thanks, I'm on duty.
+  - Well, the gates are open for you, you want an invitation or something.
+  - He's literally standing right over there...
+  - You need to talk to my Captain if you seek entry.
+  - Right, I'm sorry ma'am
+  - Do you mind, sir! I'm tyring to discipline my son in here!
+  - Could've been worse?
   - Everything...
   - What's wrong kid?
-  - You can tell me about it if you want, I'm the king's courier.
   - Perhaps your parents can help with it? Where are they?
-  - You! You're the courier!? Just leave me alone!
-  - That's the thing... they're gone, both of them.
-  - Go away, I won't talk to you!
-  - Hey
-  - Fuck my life...
-  - Everything...
-  - What's wrong kid?
   - You can tell me about it if you want, I'm the king's courier.
-  - Perhaps your parents can help with it? Where are they?
-  - You! You're the courier!? Just leave me alone!
   - That's the thing... they're gone, both of them.
+  - You! You're the courier!? Just leave me alone!
   - Go away, I won't talk to you!
   - Hey
   - How many times do I have to tell you Richard,
   - Prayer nights aren't negotiable!
   - But mummy...
-  - No buts, Richard! I don't know what's gotten into you since your papa left!
-  - While he's defending our way of life all the way in Raspedia, you're attempting
+  - Richard! I don't know what's gotten into you since your papa left!
+  - While he's defending our way of life all the way in foreign lands, you're attempting
     to abandon our faith.
-  - I heard the kids talking about Proctor Lewis, he's not a good man ma...
-  - Shush! No more of that none sense! Proctor is a kind and noble man who means
-    for the good of us all.
-  - Hey there hot stuff
+  - I heard the kids talking about the new preacher, he's not a good man ma...
+  - Shush! No more of that none sense! He is a kind and honest man with noble intentions.
+  - Hey there, you look like you could use a drink.
   - I'm trying to pray, go away!
   - Go, begone I say!
-  - The ever-watchful Greita shall spare me from the horrors of that place.
+  - The ever-watchful Greitha shall spare me from the horrors of that place.
+  - Greetings, my Lord Philippe, warden of the east and lord paramount of Arevignet.
+  - Your cousin King Renard II sends his regards.
+  - As per your annual tribute to the crown.
+  - The annual tribute of my region, which shall be delivered soon, as it's always
+    been.
+  - I see, it seems my cousin haven't taught any manners to you.
+  - Anyway, the tribute of my region will be sent in due time as always.
+  - Very happy to hear that my lord.
+  - Anything else, lad?
+  - There may be a thing or two, but first I'll take a gander here, sir.
+  - How goes your region, my lord?
+  - Have you sighted anything odd, anything you'd want me to report to his majesty?
+  - How goes? Splendid of course! Is there any doubt at my cousin's court?
+  - None that I know of, sir. His grace always spoke highly of you.
+  - Good. All is well here, courier. Our churches are open and prayer halls are filled.
+  - Peculiar? What nonsense. Everything is perfectly fine in here! Have you seen
+    something?
+  - I've met a lady in the woods, she was running away from your keep.
+  - No my lord, all seems fine in your region.
+  - Fine, you have my leave. Return to me if you must tell anything else.
+  - We even have a new preacher, trained by Lord Weigar himself!
+  - No my lord, I'm all set.
+  - What! How did... okay, listen to me very carefully now.
+  - I do not know what you think you saw, but none of that will be spoken outside
+    these walls.
+  - Otherwise... well, let's not go there, shall we?
+  - Indeed so! My region has only thrived under my rule.
+  - His grace will be happy to hear that, my lord.
+  - Alright...
+  - Are you still here... whatever for, just leave me be.
+  - Err, excuse me?
+  - Never you mind. I was an archer once, fought in the war of succession.
+  - I'm sure everyone is thankful for your services to your kingdom.
+  - Oh sure... my dad specially. He's up there contemplating why I didn't die in
+    the field
+  - Well I'm King Renard's courier, perhaps there somethi...
+  - and instead came home as a jobless, useless leech to him. Why am I even telling
+    these to you...
+  - Yuck! Should've known from the fancy robes... what good could a court jester
+    do me... bugger off!
+  - What in the hells!
+  - '*Stone resonates in silence*'
+  - Piss off, will ya!
   - Courier
-  - Sentry
+  - Ominous Stone
+  - Captain of the Guard
   - Lord Philippe
-  - Sad Kid
-  - Leaning Villager
-  - ArgueMom
-  - ArgueSon
-  - SittingLady
-  - CultLady
+  - Gloomy Kid
+  - Peasant
+  - Furious Mother
+  - Richard
+  - Drunk Lady
+  - Lady in Red
+  - Gate Guard
   mLocalizedAudioAssetsKeys:
-  - DFr_2B4DDE3F.Text
   - DFr_FAA0DDB1.Text
-  mLocalizedAudioAssetsValues: 00000000000000000000000000000000
+  mLocalizedAudioAssetsValues: 0000000000000000

@@ -72,6 +72,15 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("DialogueOptions.SadKidOpt1");
             variableNames.Add("DialogueOptions.SadKidRegOpt1Visited");
             variableNames.Add("DialogueOptions.SadKidRegOpt2Visited");
+            variableNames.Add("DialogueOptions.Philippe1OptsVisited");
+            variableNames.Add("DialogueOptions.Philippe2_1OptVisited");
+            variableNames.Add("DialogueOptions.Philippe2_2OptVisited");
+            variableNames.Add("DialogueOptions.Philippe2_3OptVisited");
+            variableNames.Add("DialogueOptions.Philippe2_2_1OptVisited");
+            variableNames.Add("DialogueOptions.MomArgueOpt1Visited");
+            variableNames.Add("DialogueOptions.CaptainVisited");
+            variableNames.Add("DialogueOptions.DrunkLadyOpt1Visited");
+            variableNames.Add("DialogueOptions.PeasantOpt1Visited");
             variableNames.Add("EventTriggers.CultistLadyRun");
             variableNames.Add("EventTriggers.CultistLadyGone");
             variableNames.Add("Scene1Finishing.CultLadyDone");
