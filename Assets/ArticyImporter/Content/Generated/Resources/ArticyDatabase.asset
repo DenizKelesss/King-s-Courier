@@ -699,14 +699,14 @@ MonoBehaviour:
     technicalName: DFr_4DCC8B91
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037928576
-    parent: 72057594037928530
-    technicalName: DFr_3E765C0A
-    articyType: DialogueFragment
-    childCount: 0
   - id: 72057594037929551
     parent: 72057594037928530
     technicalName: DFr_D4BA5519
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928576
+    parent: 72057594037928530
+    technicalName: DFr_3E765C0A
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929511
