@@ -20,7 +20,7 @@ namespace Articy.King_s_Courier.GlobalVariables
 {
     
     
-    [Articy.Unity.ArticyCodeGenerationHashAttribute(638611107512534170)]
+    [Articy.Unity.ArticyCodeGenerationHashAttribute(638621774606695508)]
     public partial class ArticyScriptFragments : BaseScriptFragments, ISerializationCallbackReceiver
     {
         

@@ -420,6 +420,32 @@ namespace Articy.King_s_Courier.GlobalVariables
             }
         }
         
+        // 
+        public bool Philippe1_1OptVisited
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(22);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(22, value);
+            }
+        }
+        
+        // 
+        public bool Philippe1_2OptVisited
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueBoolean(23);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueBoolean(23, value);
+            }
+        }
+        
         public void RegisterVariables(BaseGlobalVariables aStorage)
         {
             _VariableStorage = aStorage;
@@ -436,6 +462,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             aStorage.RegisterVariable("DialogueOptions.DrunkLadyOpt1Visited", false);
             aStorage.RegisterVariable("DialogueOptions.PeasantOpt1Visited", false);
             aStorage.RegisterVariable("DialogueOptions.ProtoGuyOpt1Visited", false);
+            aStorage.RegisterVariable("DialogueOptions.Philippe1_1OptVisited", false);
+            aStorage.RegisterVariable("DialogueOptions.Philippe1_2OptVisited", false);
         }
     }
 }
@@ -455,11 +483,11 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             get
             {
-                return _VariableStorage.Internal_GetVariableValueBoolean(22);
+                return _VariableStorage.Internal_GetVariableValueBoolean(24);
             }
             set
             {
-                _VariableStorage.Internal_SetVariableValueBoolean(22, value);
+                _VariableStorage.Internal_SetVariableValueBoolean(24, value);
             }
         }
         
@@ -468,11 +496,11 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             get
             {
-                return _VariableStorage.Internal_GetVariableValueBoolean(23);
+                return _VariableStorage.Internal_GetVariableValueBoolean(25);
             }
             set
             {
-                _VariableStorage.Internal_SetVariableValueBoolean(23, value);
+                _VariableStorage.Internal_SetVariableValueBoolean(25, value);
             }
         }
         
@@ -500,11 +528,11 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             get
             {
-                return _VariableStorage.Internal_GetVariableValueBoolean(24);
+                return _VariableStorage.Internal_GetVariableValueBoolean(26);
             }
             set
             {
-                _VariableStorage.Internal_SetVariableValueBoolean(24, value);
+                _VariableStorage.Internal_SetVariableValueBoolean(26, value);
             }
         }
         
@@ -513,11 +541,11 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             get
             {
-                return _VariableStorage.Internal_GetVariableValueBoolean(25);
+                return _VariableStorage.Internal_GetVariableValueBoolean(27);
             }
             set
             {
-                _VariableStorage.Internal_SetVariableValueBoolean(25, value);
+                _VariableStorage.Internal_SetVariableValueBoolean(27, value);
             }
         }
         
