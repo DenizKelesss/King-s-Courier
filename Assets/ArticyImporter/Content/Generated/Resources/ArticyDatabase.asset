@@ -1,27 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8175130696941439569
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LocalizationManager
-  m_EditorClassIdentifier: 
-  mLocalizeObjectDefinitions: 0
-  mLanguageId: 127
-  mLanguages:
-  - mArticyLanguageId: 127
-    mCultureName: en-GB
-    mLanguageName: English (United Kingdom)
-    mIsVoiceOver: 1
-  mThrowOnMissingText: 0
-  mClearOnLanguageSwitch: 1
---- !u!114 &-4990410858567115857
+--- !u!114 &-8671982930088832678
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,6 +94,12 @@ MonoBehaviour:
   - mFullQualifiedName: DialogueOptions.GateGuardOp1Visited
     mVar:
       values: 00
+  - mFullQualifiedName: DialogueOptions.CaptainVisited2
+    mVar:
+      values: 00
+  - mFullQualifiedName: DialogueOptions.CaptainVisited3
+    mVar:
+      values: 00
   - mFullQualifiedName: EventTriggers.CultistLadyRun
     mVar:
       values: 00
@@ -137,22 +122,43 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: -4990410858567115857}
+    _VariableStorage: {fileID: -8671982930088832678}
   mFallGate:
-    _VariableStorage: {fileID: -4990410858567115857}
+    _VariableStorage: {fileID: -8671982930088832678}
   mScene1Objectives:
-    _VariableStorage: {fileID: -4990410858567115857}
+    _VariableStorage: {fileID: -8671982930088832678}
   mKingdomReputation:
-    _VariableStorage: {fileID: -4990410858567115857}
+    _VariableStorage: {fileID: -8671982930088832678}
   mVOTriggers:
-    _VariableStorage: {fileID: -4990410858567115857}
+    _VariableStorage: {fileID: -8671982930088832678}
   mDialogueOptions:
-    _VariableStorage: {fileID: -4990410858567115857}
+    _VariableStorage: {fileID: -8671982930088832678}
   mEventTriggers:
-    _VariableStorage: {fileID: -4990410858567115857}
+    _VariableStorage: {fileID: -8671982930088832678}
   mScene1Finishing:
-    _VariableStorage: {fileID: -4990410858567115857}
---- !u!114 &-3553078031264502641
+    _VariableStorage: {fileID: -8671982930088832678}
+--- !u!114 &-8175130696941439569
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocalizationManager
+  m_EditorClassIdentifier: 
+  mLocalizeObjectDefinitions: 0
+  mLanguageId: 127
+  mLanguages:
+  - mArticyLanguageId: 127
+    mCultureName: en-GB
+    mLanguageName: English (United Kingdom)
+    mIsVoiceOver: 1
+  mThrowOnMissingText: 0
+  mClearOnLanguageSwitch: 1
+--- !u!114 &-218012524903803700
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,8 +192,8 @@ MonoBehaviour:
     mTechnicalName: King_s_Courier
   mImportedAssets:
   - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: -4990410858567115857}
-  mScriptFragments: {fileID: -3553078031264502641}
+  mDefaultGlobalVariables: {fileID: -8671982930088832678}
+  mScriptFragments: {fileID: -218012524903803700}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
@@ -290,7 +296,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_3B82B7B1
     articyType: Dialogue
-    childCount: 17
+    childCount: 27
   - id: 72057594037930127
     parent: 72057594037928226
     technicalName: Cnd_EF377955
@@ -306,10 +312,10 @@ MonoBehaviour:
     technicalName: DFr_E0EF06E2
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037930165
+  - id: 72057594037930346
     parent: 72057594037928226
-    technicalName: DFr_2F6CA0A5
-    articyType: DialogueFragment
+    technicalName: Cnd_9D602654
+    articyType: Condition
     childCount: 0
   - id: 72057594037930152
     parent: 72057594037928226
@@ -321,19 +327,34 @@ MonoBehaviour:
     technicalName: Ins_40B63741
     articyType: Instruction
     childCount: 0
-  - id: 72057594037930172
+  - id: 72057594037930388
     parent: 72057594037928226
-    technicalName: DFr_8F571604
-    articyType: DialogueFragment
+    technicalName: Cnd_55C08DFB
+    articyType: Condition
     childCount: 0
   - id: 72057594037928501
     parent: 72057594037928226
     technicalName: Ins_F3DD9B55
     articyType: Instruction
     childCount: 0
-  - id: 72057594037930179
+  - id: 72057594037930165
     parent: 72057594037928226
-    technicalName: DFr_FF7AC793
+    technicalName: DFr_2F6CA0A5
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930401
+    parent: 72057594037928226
+    technicalName: DFr_4351A5BD
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930353
+    parent: 72057594037928226
+    technicalName: DFr_264CDA1F
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930172
+    parent: 72057594037928226
+    technicalName: DFr_8F571604
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928250
@@ -341,9 +362,19 @@ MonoBehaviour:
     technicalName: DFr_FAA0DDB1
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037930186
+  - id: 72057594037930408
     parent: 72057594037928226
-    technicalName: DFr_4C151BD7
+    technicalName: DFr_8794E039
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930360
+    parent: 72057594037928226
+    technicalName: DFr_C74D4A3E
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930179
+    parent: 72057594037928226
+    technicalName: DFr_FF7AC793
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928276
@@ -351,15 +382,30 @@ MonoBehaviour:
     technicalName: Ins_54EFF7F1
     articyType: Instruction
     childCount: 0
-  - id: 72057594037930193
+  - id: 72057594037930367
     parent: 72057594037928226
-    technicalName: DFr_C32F49EC
+    technicalName: DFr_859BFFA6
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930186
+    parent: 72057594037928226
+    technicalName: DFr_4C151BD7
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928269
     parent: 72057594037928226
     technicalName: DFr_A775F5D8
     articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930382
+    parent: 72057594037928226
+    technicalName: Ins_A439E2AE
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037930340
+    parent: 72057594037928226
+    technicalName: Ins_6A295771
+    articyType: Instruction
     childCount: 0
   - id: 72057594037929699
     parent: 72057594037928226
@@ -370,6 +416,16 @@ MonoBehaviour:
     parent: 72057594037928226
     technicalName: Ins_1466A114
     articyType: Instruction
+    childCount: 0
+  - id: 72057594037930374
+    parent: 72057594037928226
+    technicalName: DFr_9637F623
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930193
+    parent: 72057594037928226
+    technicalName: DFr_C32F49EC
+    articyType: DialogueFragment
     childCount: 0
   - id: 72057594037928510
     parent: 72057594037928226
