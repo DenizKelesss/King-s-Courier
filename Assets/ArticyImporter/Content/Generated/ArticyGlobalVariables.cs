@@ -84,6 +84,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("DialogueOptions.ProtoGuyOpt1Visited");
             variableNames.Add("DialogueOptions.Philippe1_1OptVisited");
             variableNames.Add("DialogueOptions.Philippe1_2OptVisited");
+            variableNames.Add("DialogueOptions.CultLadyTriggerDialogueVisited");
             variableNames.Add("EventTriggers.CultistLadyRun");
             variableNames.Add("EventTriggers.CultistLadyGone");
             variableNames.Add("Scene1Finishing.CultLadyDone");

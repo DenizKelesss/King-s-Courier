@@ -31,6 +31,8 @@ public class ObjectInteractions : MonoBehaviour
         {
             isPlayerInRange = false;
             interactionPrompt.SetActive(false); // Show the prompt
+            interactionText.SetActive(false);
+
         }
     }
     // Start is called before the first frame update

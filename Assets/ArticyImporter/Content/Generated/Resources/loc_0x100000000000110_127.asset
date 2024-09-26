@@ -72,6 +72,8 @@ MonoBehaviour:
   - DFr_D8CB7150.Text
   - DFr_6D5149AF.Text
   - DFr_AA6F2C4D.Text
+  - DFr_20FE9191.Text
+  - DFr_E7F9E49E.Text
   - DFr_1E8C3F95.Text
   - DFr_ED397613.Text
   - DFr_59F48133.Text
@@ -101,6 +103,9 @@ MonoBehaviour:
   - DFr_13A50256.Text
   - DFr_8B450BBE.Text
   - DFr_0F9E1948.Text
+  - DFr_70019607.Text
+  - DFr_79EEB290.Text
+  - DFr_F5001C44.Text
   - DFr_DC66A825.Text
   - DFr_99102CAC.Text
   - DFr_32EBCCE7.Text
@@ -111,11 +116,14 @@ MonoBehaviour:
   - DFr_2A4A10D5.Text
   - DFr_71BEE1EB.Text
   - DFr_DCF92B00.Text
-  - DFr_20FE9191.Text
-  - DFr_E7F9E49E.Text
-  - DFr_70019607.Text
-  - DFr_79EEB290.Text
-  - DFr_F5001C44.Text
+  - DFr_2F6CA0A5.Text
+  - DFr_F03B15D1.Text
+  - DFr_8F571604.Text
+  - DFr_FF7AC793.Text
+  - DFr_4C151BD7.Text
+  - DFr_C32F49EC.Text
+  - DFr_AB81D60D.Text
+  - DFr_81A07C7F.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_8082BF0B.DisplayName
   - Ntt_A624AC80.DisplayName
@@ -198,6 +206,8 @@ MonoBehaviour:
   - Yuck! Should've known from the fancy robes... what good could a court jester
     do me... bugger off!
   - Piss off, will ya!
+  - A lady in red ran outside the gates just now...
+  - She must have thought the woods would be better than here.
   - Everything...
   - What's wrong kid?
   - Perhaps your parents can help with it? Where are they?
@@ -228,6 +238,9 @@ MonoBehaviour:
   - You need to talk to my Captain if you seek entry.
   - He's literally standing right over there...
   - Well, the gates are open for you, you want an invitation or something.
+  - Hey, I think a lady just ran out these gates, where is she?
+  - What lady? You ask too many questions you now...
+  - Just mind your own business and stay out of trouble, courier.
   - What in the hells!
   - '*Stone resonates in silence*'
   - Right, you're probably wondering why a half naked man is waving at you...
@@ -241,11 +254,14 @@ MonoBehaviour:
   - Once again, thank you and have a lovely day.
   - No but for real, leave. Click the exit button.
   - It just over there on the top left corner, byee!
-  - A lady in red ran outside the gates just now...
-  - She must have thought the woods would be better than here.
-  - Hey, I think a lady just ran out these gates, where is she?
-  - What lady? You ask too many questions you now...
-  - Just mind your own business and stay out of trouble, courier.
+  - Sir, have you seen a lady running into the woods?
+  - Lord Philippe should be in the main hall, courier.
+  - Sshhh. Lower your voice courier.
+  - Yes. I did see her, she ran to the woods to your left.
+  - She must've gone near the mountainside...
+  - No one can know we had this conversation, go way now!
+  - A lady in red ran away from the keep just now, probably into the woods.
+  - I wish I had the strength to join her, I hate it here...
   - Courier
   - Ominous Stone
   - Captain of the Guard
