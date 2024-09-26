@@ -23,6 +23,7 @@ MonoBehaviour:
   - Dlg_F461E9F9.DisplayName
   - Dlg_F461E9F9.Text
   - Dlg_8A350933.DisplayName
+  - Dlg_6B765D6A.DisplayName
   - Dlg_12368A1D.DisplayName
   - Dlg_12368A1D.Text
   - DFr_FAA0DDB1.Text
@@ -104,6 +105,7 @@ MonoBehaviour:
   - DFr_70019607.Text
   - DFr_79EEB290.Text
   - DFr_F5001C44.Text
+  - DFr_089DE553.Text
   - DFr_644D6FAE.Text
   - DFr_32EBCCE7.Text
   - DFr_6BF20146.Text
@@ -122,6 +124,10 @@ MonoBehaviour:
   - DFr_AB81D60D.Text
   - DFr_81A07C7F.Text
   - DFr_9A84A242.Text
+  - DFr_577F2847.Text
+  - DFr_F8407ECA.Text
+  - DFr_43E77F3D.Text
+  - DFr_6253612C.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_8082BF0B.DisplayName
   - Ntt_A624AC80.DisplayName
@@ -149,6 +155,7 @@ MonoBehaviour:
   - Lady in Red
   - <color=#ffa61aff>Lady in Red</color>
   - Gate Guard
+  - Lady In Red Test
   - Proto Guy
   - <color=#ffa61aff>Proto Guy</color>
   - I'm King Renard's royal courier, here to deliver a message to your liege lord.
@@ -228,7 +235,7 @@ MonoBehaviour:
   - That's not how... anyway, good night to you miss.
   - Are you still here... whatever for, just leave me be.
   - Alright...
-  - I'm trying to pray, go away!
+  - Go away! I'm trying to pray!
   - Go, begone I say!
   - The ever-watchful Greitha shall spare me from the horrors of that place.
   - You need to talk to my Captain if you seek entry.
@@ -238,6 +245,7 @@ MonoBehaviour:
   - What lady? You ask too many questions you now...
   - Just mind your own business and stay out of trouble, courier.<i> (The captain
     of the guard looks at you for a moment.)</i>
+  - Miss? Are you alright?
   - Just go your way, courier.
   - Right, you're probably wondering why a half naked man is waving at you...
   - Well much like this guy, this game is far from being fully covered.
@@ -259,6 +267,10 @@ MonoBehaviour:
   - A lady in red ran away from the keep just now, probably into the woods.
   - I wish I had the strength to join her, I hate it here...
   - Leave me be, courtier, would you!
+  - Are you alright, ma'am?
+  - Go away! I'm trying to pray in here!
+  - Begone I say!
+  - work please
   - Courier
   - Ominous Stone
   - Captain of the Guard

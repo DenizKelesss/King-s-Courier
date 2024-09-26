@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody playerRB;
     private DialogueManager dialogueManager;
-    private ArticyObject availableDialogue;
+    public ArticyObject availableDialogue;
     private Camera mainCamera;
 
     // Variables to limit vertical camera rotation
