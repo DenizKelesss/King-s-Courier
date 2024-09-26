@@ -447,24 +447,6 @@ namespace Articy.King_s_Courier.GlobalVariables
         {
             aGlobalVariablesState.DialogueOptions.GateGuardOp1Visited = true;
         }
-        
-        /// <summary>
-        /// ObjectID: 0x100000000000949
-        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037930313?pane=selected&amp;tab=current
-        /// </summary>
-        public void Script_720575940379282080x100000000000949Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
-        {
-            aGlobalVariablesState.Scene1Finishing.CultLadyDone = true;
-        }
-        
-        /// <summary>
-        /// ObjectID: 0x100000000000955
-        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037930325?pane=selected&amp;tab=current
-        /// </summary>
-        public void Script_720575940379282080x100000000000955Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
-        {
-            aGlobalVariablesState.EventTriggers.CultistLadyGone = true;
-        }
         #endregion
         
         #region Unity serialization
@@ -517,8 +499,6 @@ namespace Articy.King_s_Courier.GlobalVariables
             Instructions.Add(1528239165u, this.Script_720575940379282080x100000000000889Expression);
             Instructions.Add(1606142957u, this.Script_720575940379282080x1000000000008EFExpression);
             Instructions.Add(707428295u, this.Script_720575940379282080x100000000000905Expression);
-            Instructions.Add(2695778277u, this.Script_720575940379282080x100000000000949Expression);
-            Instructions.Add(258025091u, this.Script_720575940379282080x100000000000955Expression);
         }
         #endregion
     }

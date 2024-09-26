@@ -23,7 +23,6 @@ MonoBehaviour:
   - Dlg_F461E9F9.DisplayName
   - Dlg_F461E9F9.Text
   - Dlg_8A350933.DisplayName
-  - Dlg_6B765D6A.DisplayName
   - Dlg_12368A1D.DisplayName
   - Dlg_12368A1D.Text
   - DFr_FAA0DDB1.Text
@@ -124,10 +123,6 @@ MonoBehaviour:
   - DFr_AB81D60D.Text
   - DFr_81A07C7F.Text
   - DFr_9A84A242.Text
-  - DFr_577F2847.Text
-  - DFr_F8407ECA.Text
-  - DFr_43E77F3D.Text
-  - DFr_6253612C.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_8082BF0B.DisplayName
   - Ntt_A624AC80.DisplayName
@@ -155,7 +150,6 @@ MonoBehaviour:
   - Lady in Red
   - <color=#ffa61aff>Lady in Red</color>
   - Gate Guard
-  - Lady In Red Test
   - Proto Guy
   - <color=#ffa61aff>Proto Guy</color>
   - I'm King Renard's royal courier, here to deliver a message to your liege lord.
@@ -263,14 +257,10 @@ MonoBehaviour:
   - Sshhh. Lower your voice courier.
   - Yes. I did see her, she ran to the woods to your left.
   - She must've gone near the mountainside...
-  - No one can know we had this conversation, go way now!
+  - No one can know we had this conversation, off you go!
   - A lady in red ran away from the keep just now, probably into the woods.
   - I wish I had the strength to join her, I hate it here...
   - Leave me be, courtier, would you!
-  - Are you alright, ma'am?
-  - Go away! I'm trying to pray in here!
-  - Begone I say!
-  - work please
   - Courier
   - Ominous Stone
   - Captain of the Guard
