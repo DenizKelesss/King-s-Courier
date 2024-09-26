@@ -8,7 +8,7 @@ public class PlayerLinesManager : MonoBehaviour
     public TextMeshProUGUI characterNameText;
     public TextMeshProUGUI dialogueText;
     public GameObject dialogueUI;
-    public float autoSkipTime = 4f; // Time to wait before automatically skipping to the next sentence
+    public float autoSkipTime = 3f; // Time to wait before automatically skipping to the next sentence
 
     private Queue<string> sentences;
     private Coroutine autoSkipCoroutine;
