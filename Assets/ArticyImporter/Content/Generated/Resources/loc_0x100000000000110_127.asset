@@ -23,8 +23,6 @@ MonoBehaviour:
   - Dlg_F461E9F9.DisplayName
   - Dlg_F461E9F9.Text
   - Dlg_8A350933.DisplayName
-  - Dlg_1F21A5B9.DisplayName
-  - Dlg_1F21A5B9.Text
   - Dlg_12368A1D.DisplayName
   - Dlg_12368A1D.Text
   - DFr_FAA0DDB1.Text
@@ -106,8 +104,7 @@ MonoBehaviour:
   - DFr_70019607.Text
   - DFr_79EEB290.Text
   - DFr_F5001C44.Text
-  - DFr_DC66A825.Text
-  - DFr_99102CAC.Text
+  - DFr_644D6FAE.Text
   - DFr_32EBCCE7.Text
   - DFr_6BF20146.Text
   - DFr_C48C9FE7.Text
@@ -124,6 +121,7 @@ MonoBehaviour:
   - DFr_C32F49EC.Text
   - DFr_AB81D60D.Text
   - DFr_81A07C7F.Text
+  - DFr_9A84A242.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_8082BF0B.DisplayName
   - Ntt_A624AC80.DisplayName
@@ -151,8 +149,6 @@ MonoBehaviour:
   - Lady in Red
   - <color=#ffa61aff>Lady in Red</color>
   - Gate Guard
-  - Ominous Stone
-  - <color=#ffa61aff>Ominous Stone</color>
   - Proto Guy
   - <color=#ffa61aff>Proto Guy</color>
   - I'm King Renard's royal courier, here to deliver a message to your liege lord.
@@ -240,9 +236,9 @@ MonoBehaviour:
   - Well, the gates are open for you, you want an invitation or something.
   - Hey, I think a lady just ran out these gates, where is she?
   - What lady? You ask too many questions you now...
-  - Just mind your own business and stay out of trouble, courier.
-  - What in the hells!
-  - '*Stone resonates in silence*'
+  - Just mind your own business and stay out of trouble, courier.<i> (The captain
+    of the guard looks at you for a moment.)</i>
+  - Just go your way, courier.
   - Right, you're probably wondering why a half naked man is waving at you...
   - Well much like this guy, this game is far from being fully covered.
   - But thank you for taking your time to go through what I've got so far. I hope
@@ -262,6 +258,7 @@ MonoBehaviour:
   - No one can know we had this conversation, go way now!
   - A lady in red ran away from the keep just now, probably into the woods.
   - I wish I had the strength to join her, I hate it here...
+  - Leave me be, courtier, would you!
   - Courier
   - Ominous Stone
   - Captain of the Guard

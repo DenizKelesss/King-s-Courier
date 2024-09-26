@@ -196,6 +196,24 @@ namespace Articy.King_s_Courier.GlobalVariables
         }
         
         /// <summary>
+        /// ObjectID: 0x1000000000008F5
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037930229?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_720575940379282080x1000000000008F5Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.DialogueOptions.PeasantOpt2Visited;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x10000000000090B
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037930251?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_720575940379282080x10000000000090BExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.DialogueOptions.GateGuardOp1Visited;
+        }
+        
+        /// <summary>
         /// ObjectID: 0x100000000000154
         /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037928276?pane=selected&amp;tab=current
         /// </summary>
@@ -411,6 +429,24 @@ namespace Articy.King_s_Courier.GlobalVariables
             aGlobalVariablesState.DialogueOptions.CultLadyTriggerDialogueVisited = true
 ;
         }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000008EF
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037930223?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x1000000000008EFExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.DialogueOptions.PeasantOpt2Visited = true;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x100000000000905
+        /// Articy Object ref: articy://localhost/view/f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834/72057594037930245?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_720575940379282080x100000000000905Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.DialogueOptions.GateGuardOp1Visited = true;
+        }
         #endregion
         
         #region Unity serialization
@@ -435,6 +471,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             Conditions.Add(249843160u, this.Script_720575940379282080x10000000000088FExpression);
             Conditions.Add(3786267151u, this.Script_720575940379282080x10000000000089CExpression);
             Conditions.Add(22105558u, this.Script_720575940379282080x1000000000008D8Expression);
+            Conditions.Add(1073996746u, this.Script_720575940379282080x1000000000008F5Expression);
+            Conditions.Add(316909618u, this.Script_720575940379282080x10000000000090BExpression);
             Instructions.Add(101404872u, this.Script_720575940379282080x100000000000154Expression);
             Instructions.Add(799694506u, this.Script_720575940379282080x10000000000015FExpression);
             Instructions.Add(515138219u, this.Script_720575940379282080x100000000000235Expression);
@@ -459,6 +497,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             Instructions.Add(2818780625u, this.Script_720575940379282080x1000000000004F1Expression);
             Instructions.Add(628589984u, this.Script_720575940379282080x1000000000007D7Expression);
             Instructions.Add(1528239165u, this.Script_720575940379282080x100000000000889Expression);
+            Instructions.Add(1606142957u, this.Script_720575940379282080x1000000000008EFExpression);
+            Instructions.Add(707428295u, this.Script_720575940379282080x100000000000905Expression);
         }
         #endregion
     }
