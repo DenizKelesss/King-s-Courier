@@ -29,6 +29,18 @@ MonoBehaviour:
   - DFr_A775F5D8.Text
   - DFr_D272AF9A.Text
   - DFr_E0EF06E2.Text
+  - DFr_F03B15D1.Text
+  - DFr_2F6CA0A5.Text
+  - DFr_8F571604.Text
+  - DFr_FF7AC793.Text
+  - DFr_4C151BD7.Text
+  - DFr_C32F49EC.Text
+  - DFr_264CDA1F.Text
+  - DFr_C74D4A3E.Text
+  - DFr_859BFFA6.Text
+  - DFr_9637F623.Text
+  - DFr_4351A5BD.Text
+  - DFr_8794E039.Text
   - DFr_A8A8D7B5.Text
   - DFr_93B95C41.Text
   - DFr_2F3C8BA6.Text
@@ -72,6 +84,7 @@ MonoBehaviour:
   - DFr_AA6F2C4D.Text
   - DFr_20FE9191.Text
   - DFr_E7F9E49E.Text
+  - DFr_9A84A242.Text
   - DFr_1E8C3F95.Text
   - DFr_ED397613.Text
   - DFr_59F48133.Text
@@ -80,6 +93,8 @@ MonoBehaviour:
   - DFr_538F7AAD.Text
   - DFr_FB2B2CB5.Text
   - DFr_90296EB3.Text
+  - DFr_AB81D60D.Text
+  - DFr_81A07C7F.Text
   - DFr_9FAC80A8.Text
   - DFr_AD61BE9E.Text
   - DFr_C55ED6E9.Text
@@ -98,13 +113,13 @@ MonoBehaviour:
   - DFr_AE889D6F.Text
   - DFr_70992D00.Text
   - DFr_DDE2F9D5.Text
+  - DFr_089DE553.Text
   - DFr_13A50256.Text
   - DFr_8B450BBE.Text
   - DFr_0F9E1948.Text
   - DFr_70019607.Text
   - DFr_79EEB290.Text
   - DFr_F5001C44.Text
-  - DFr_089DE553.Text
   - DFr_644D6FAE.Text
   - DFr_32EBCCE7.Text
   - DFr_6BF20146.Text
@@ -114,21 +129,10 @@ MonoBehaviour:
   - DFr_2A4A10D5.Text
   - DFr_71BEE1EB.Text
   - DFr_DCF92B00.Text
-  - DFr_2F6CA0A5.Text
-  - DFr_F03B15D1.Text
-  - DFr_8F571604.Text
-  - DFr_FF7AC793.Text
-  - DFr_4C151BD7.Text
-  - DFr_C32F49EC.Text
-  - DFr_AB81D60D.Text
-  - DFr_81A07C7F.Text
-  - DFr_9A84A242.Text
-  - DFr_9637F623.Text
-  - DFr_859BFFA6.Text
-  - DFr_C74D4A3E.Text
-  - DFr_264CDA1F.Text
-  - DFr_4351A5BD.Text
-  - DFr_8794E039.Text
+  - DFr_E452C721.Text
+  - DFr_3F53F486.Text
+  - DFr_20C55454.Text
+  - DFr_6C076835.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_8082BF0B.DisplayName
   - Ntt_A624AC80.DisplayName
@@ -162,6 +166,18 @@ MonoBehaviour:
   - I see, your arrival was expected courier. Open the gates!
   - Appreciated guard.
   - Halt! Who goes there?
+  - Lord Philippe should be in the main hall, courier.
+  - Sir, have you seen a lady running into the woods?
+  - Sshhh. Lower your voice courier.
+  - Yes. I did see her, she ran to the woods to your left.
+  - She must've gone near the mountainside...
+  - No one can know we had this conversation, off you go!
+  - You'd do well to be careful out here, courier.
+  - It's nothing like the courts of your... I mean our King.
+  - Mind what you tell people. May the gods ease your burden.
+  - Thank you, captain. I shall give heed to your words.
+  - Grateful for your watchful eye, captain.
+  - Godspeed, courier.
   - Oh, you must be the courier my uncle sent.
   - What news do you bear, do tell.
   - Thank you for having me  in your halls my lord.
@@ -211,6 +227,7 @@ MonoBehaviour:
   - Piss off, will ya!
   - A lass in red robes rushed outside the gates just now...
   - She must have thought even the woods would be better than here.
+  - Leave me be, courtier, would you!
   - Everything...
   - What's wrong kid?
   - Perhaps your parents can help with it? Where are they?
@@ -219,6 +236,8 @@ MonoBehaviour:
   - You! You're the courier!? Just leave me alone!
   - Go away, I won't talk to you!
   - Hey
+  - A lady in red ran away from the keep just now, probably into the woods.
+  - I wish I had the strength to join her, I hate it here...
   - How many times do I have to tell you Richard,
   - Prayer nights aren't negotiable!
   - But mummy...
@@ -226,7 +245,7 @@ MonoBehaviour:
   - While he's defending our way of life all the way in foreign lands, you're attempting
     to abandon our faith.
   - I heard the kids talking about the new preacher, he's not a good man ma...
-  - Shush! No more of that none sense! He is a kind and honest man with noble intentions.
+  - Shush! No more of that nonsense! He is a kind and honest man with noble intentions.
   - Do you mind, sir! I'm tyring to discipline my son in here!
   - Right, I'm sorry ma'am
   - Hey there, you look like you could use a drink.
@@ -238,6 +257,7 @@ MonoBehaviour:
   - Go away! I'm trying to pray!
   - Go, begone I say!
   - The ever-watchful Greitha shall spare me from the horrors of that place.
+  - Miss? Are you alright?
   - You need to talk to my Captain if you seek entry.
   - He's literally standing right over there...
   - Well, the gates are open for you, you want an invitation or something.
@@ -245,7 +265,6 @@ MonoBehaviour:
   - What lady? You ask too many questions you now...
   - Just mind your own business and stay out of trouble, courier.<i> (The captain
     of the guard looks at you for a moment.)</i>
-  - Miss? Are you alright?
   - Just go your way, courier.
   - Right, you're probably wondering why a half naked man is waving at you...
   - Well much like this guy, this game is far from being fully covered.
@@ -258,21 +277,10 @@ MonoBehaviour:
   - Once again, thank you and have a lovely day.
   - No but for real, leave. Click the exit button.
   - It just over there on the top left corner, byee!
-  - Sir, have you seen a lady running into the woods?
-  - Lord Philippe should be in the main hall, courier.
-  - Sshhh. Lower your voice courier.
-  - Yes. I did see her, she ran to the woods to your left.
-  - She must've gone near the mountainside...
-  - No one can know we had this conversation, off you go!
-  - A lady in red ran away from the keep just now, probably into the woods.
-  - I wish I had the strength to join her, I hate it here...
-  - Leave me be, courtier, would you!
-  - Thank you, captain. I shall give heed to your words.
-  - Mind what you tell people. May the gods ease your burden.
-  - It's nothing like the courts of your... I mean our King.
-  - You'd do well to be careful out here, courier.
-  - Grateful for your watchful eye, captain.
-  - Godspeed, courier.
+  - Nothing I've noticed so far your lordship?
+  - Were you expecting otherwise?
+  - Of course not, sir.
+  - Very well, then.
   - Courier
   - Ominous Stone
   - Captain of the Guard

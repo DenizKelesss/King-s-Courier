@@ -74,8 +74,7 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("DialogueOptions.SadKidRegOpt2Visited");
             variableNames.Add("DialogueOptions.Philippe1OptsVisited");
             variableNames.Add("DialogueOptions.Philippe2_1OptVisited");
-            variableNames.Add("DialogueOptions.Philippe2_2OptVisited");
-            variableNames.Add("DialogueOptions.Philippe2_3OptVisited");
+            variableNames.Add("DialogueOptions.Philippe2_2OptsVisited");
             variableNames.Add("DialogueOptions.Philippe2_2_1OptVisited");
             variableNames.Add("DialogueOptions.MomArgueOpt1Visited");
             variableNames.Add("DialogueOptions.CaptainVisited");
@@ -89,6 +88,8 @@ namespace Articy.King_s_Courier.GlobalVariables
             variableNames.Add("DialogueOptions.GateGuardOp1Visited");
             variableNames.Add("DialogueOptions.CaptainVisited2");
             variableNames.Add("DialogueOptions.CaptainVisited3");
+            variableNames.Add("DialogueOptions.Philippe2_4OptVisited");
+            variableNames.Add("DialogueOptions.Philippe2_3OptVisited");
             variableNames.Add("EventTriggers.CultistLadyRun");
             variableNames.Add("EventTriggers.CultistLadyGone");
             variableNames.Add("Scene1Finishing.CultLadyDone");

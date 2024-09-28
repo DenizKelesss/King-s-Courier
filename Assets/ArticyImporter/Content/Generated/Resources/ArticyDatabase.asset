@@ -1,6 +1,56 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8671982930088832678
+--- !u!114 &-8175130696941439569
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocalizationManager
+  m_EditorClassIdentifier: 
+  mLocalizeObjectDefinitions: 0
+  mLanguageId: 127
+  mLanguages:
+  - mArticyLanguageId: 127
+    mCultureName: en-GB
+    mLanguageName: English (United Kingdom)
+    mIsVoiceOver: 1
+  mThrowOnMissingText: 0
+  mClearOnLanguageSwitch: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: 3217360529399469231}
+  mLocalization: {fileID: -8175130696941439569}
+  mRuleSetId: 269
+  mInternalProject:
+    mName: King's Courier
+    mDetailName: 
+    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
+    mTechnicalName: King_s_Courier
+  mImportedAssets:
+  - Assets/Voiceover_Lines/Scene1/line1
+  mDefaultGlobalVariables: {fileID: 1779676265797476945}
+  mScriptFragments: {fileID: 6786039414836506197}
+  mPackages:
+  - PackageId: 72057594037928208
+    PackageName: All objects
+    PackagePath: package_0x100000000000110
+    mIsDefaultPackage: 1
+--- !u!114 &1779676265797476945
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,10 +105,7 @@ MonoBehaviour:
   - mFullQualifiedName: DialogueOptions.Philippe2_1OptVisited
     mVar:
       values: 00
-  - mFullQualifiedName: DialogueOptions.Philippe2_2OptVisited
-    mVar:
-      values: 00
-  - mFullQualifiedName: DialogueOptions.Philippe2_3OptVisited
+  - mFullQualifiedName: DialogueOptions.Philippe2_2OptsVisited
     mVar:
       values: 00
   - mFullQualifiedName: DialogueOptions.Philippe2_2_1OptVisited
@@ -100,6 +147,12 @@ MonoBehaviour:
   - mFullQualifiedName: DialogueOptions.CaptainVisited3
     mVar:
       values: 00
+  - mFullQualifiedName: DialogueOptions.Philippe2_4OptVisited
+    mVar:
+      values: 00
+  - mFullQualifiedName: DialogueOptions.Philippe2_3OptVisited
+    mVar:
+      values: 00
   - mFullQualifiedName: EventTriggers.CultistLadyRun
     mVar:
       values: 00
@@ -122,83 +175,21 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: -8671982930088832678}
+    _VariableStorage: {fileID: 1779676265797476945}
   mFallGate:
-    _VariableStorage: {fileID: -8671982930088832678}
+    _VariableStorage: {fileID: 1779676265797476945}
   mScene1Objectives:
-    _VariableStorage: {fileID: -8671982930088832678}
+    _VariableStorage: {fileID: 1779676265797476945}
   mKingdomReputation:
-    _VariableStorage: {fileID: -8671982930088832678}
+    _VariableStorage: {fileID: 1779676265797476945}
   mVOTriggers:
-    _VariableStorage: {fileID: -8671982930088832678}
+    _VariableStorage: {fileID: 1779676265797476945}
   mDialogueOptions:
-    _VariableStorage: {fileID: -8671982930088832678}
+    _VariableStorage: {fileID: 1779676265797476945}
   mEventTriggers:
-    _VariableStorage: {fileID: -8671982930088832678}
+    _VariableStorage: {fileID: 1779676265797476945}
   mScene1Finishing:
-    _VariableStorage: {fileID: -8671982930088832678}
---- !u!114 &-8175130696941439569
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LocalizationManager
-  m_EditorClassIdentifier: 
-  mLocalizeObjectDefinitions: 0
-  mLanguageId: 127
-  mLanguages:
-  - mArticyLanguageId: 127
-    mCultureName: en-GB
-    mLanguageName: English (United Kingdom)
-    mIsVoiceOver: 1
-  mThrowOnMissingText: 0
-  mClearOnLanguageSwitch: 1
---- !u!114 &-218012524903803700
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
-  m_Name: ArticyScriptFragments
-  m_EditorClassIdentifier: 
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ArticyDatabase
-  m_EditorClassIdentifier: 
-  mHierarchy: {fileID: 3217360529399469231}
-  mLocalization: {fileID: -8175130696941439569}
-  mRuleSetId: 269
-  mInternalProject:
-    mName: King's Courier
-    mDetailName: 
-    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
-    mTechnicalName: King_s_Courier
-  mImportedAssets:
-  - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: -8671982930088832678}
-  mScriptFragments: {fileID: -218012524903803700}
-  mPackages:
-  - PackageId: 72057594037928208
-    PackageName: All objects
-    PackagePath: package_0x100000000000110
-    mIsDefaultPackage: 1
+    _VariableStorage: {fileID: 1779676265797476945}
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -296,7 +287,12 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_3B82B7B1
     articyType: Dialogue
-    childCount: 27
+    childCount: 28
+  - id: 72057594037930488
+    parent: 72057594037928226
+    technicalName: Cnd_3F39D14E
+    articyType: Condition
+    childCount: 0
   - id: 72057594037930127
     parent: 72057594037928226
     technicalName: Cnd_EF377955
@@ -626,7 +622,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_C32A169C
     articyType: Dialogue
-    childCount: 54
+    childCount: 63
   - id: 72057594037929263
     parent: 72057594037928530
     technicalName: Cnd_EA71F512
@@ -812,6 +808,26 @@ MonoBehaviour:
     technicalName: Ins_0DB6DC18
     articyType: Instruction
     childCount: 0
+  - id: 72057594037930465
+    parent: 72057594037928530
+    technicalName: Cnd_8525A0AF
+    articyType: Condition
+    childCount: 0
+  - id: 72057594037930474
+    parent: 72057594037928530
+    technicalName: Cnd_50C17395
+    articyType: Condition
+    childCount: 0
+  - id: 72057594037930415
+    parent: 72057594037928530
+    technicalName: DFr_E452C721
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929374
+    parent: 72057594037928530
+    technicalName: DFr_1126D30F
+    articyType: DialogueFragment
+    childCount: 0
   - id: 72057594037929394
     parent: 72057594037928530
     technicalName: DFr_406C0B05
@@ -822,9 +838,14 @@ MonoBehaviour:
     technicalName: DFr_99184E5E
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037929374
+  - id: 72057594037929451
     parent: 72057594037928530
-    technicalName: DFr_1126D30F
+    technicalName: Ins_CF8D39B9
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037930422
+    parent: 72057594037928530
+    technicalName: DFr_3F53F486
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929533
@@ -832,10 +853,45 @@ MonoBehaviour:
     technicalName: Ins_908BA3AE
     articyType: Instruction
     childCount: 0
-  - id: 72057594037929451
+  - id: 72057594037930459
     parent: 72057594037928530
-    technicalName: Ins_CF8D39B9
+    technicalName: Ins_D8391E4C
     articyType: Instruction
+    childCount: 0
+  - id: 72057594037929419
+    parent: 72057594037928530
+    technicalName: DFr_CAEA81DA
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930449
+    parent: 72057594037928530
+    technicalName: Ins_E0C8F29C
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037930496
+    parent: 72057594037928530
+    technicalName: Ins_B8E566A2
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037930500
+    parent: 72057594037928530
+    technicalName: Ins_304946CF
+    articyType: Instruction
+    childCount: 0
+  - id: 72057594037928576
+    parent: 72057594037928530
+    technicalName: DFr_3E765C0A
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037929511
+    parent: 72057594037928530
+    technicalName: Jmp_2EFACFEE
+    articyType: Jump
+    childCount: 0
+  - id: 72057594037930431
+    parent: 72057594037928530
+    technicalName: DFr_20C55454
+    articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929484
     parent: 72057594037928530
@@ -847,14 +903,14 @@ MonoBehaviour:
     technicalName: DFr_BDDBDD49
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037929858
+  - id: 72057594037929180
     parent: 72057594037928530
-    technicalName: Ins_31C4D8CC
+    technicalName: Ins_DFBFD2DA
     articyType: Instruction
     childCount: 0
-  - id: 72057594037929419
+  - id: 72057594037930438
     parent: 72057594037928530
-    technicalName: DFr_CAEA81DA
+    technicalName: DFr_6C076835
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929491
@@ -867,29 +923,14 @@ MonoBehaviour:
     technicalName: DFr_D4BA5519
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037928576
+  - id: 72057594037929135
     parent: 72057594037928530
-    technicalName: DFr_3E765C0A
+    technicalName: DFr_511985D8
     articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037929511
-    parent: 72057594037928530
-    technicalName: Jmp_2EFACFEE
-    articyType: Jump
     childCount: 0
   - id: 72057594037929498
     parent: 72057594037928530
     technicalName: DFr_7C2A301B
-    articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037929180
-    parent: 72057594037928530
-    technicalName: Ins_DFBFD2DA
-    articyType: Instruction
-    childCount: 0
-  - id: 72057594037929135
-    parent: 72057594037928530
-    technicalName: DFr_511985D8
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929516
@@ -1427,3 +1468,15 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
+--- !u!114 &6786039414836506197
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453c54a8127c7f409e3d0b20c785f75, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 

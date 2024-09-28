@@ -22,7 +22,7 @@ namespace Articy.King_s_Courier
     
     
     [Serializable()]
-    [Articy.Unity.ArticyCodeGenerationHashAttribute(638629641334390431)]
+    [Articy.Unity.ArticyCodeGenerationHashAttribute(638631410817280433)]
     public class InputPin : ArticyPrimitive, IInputPin
     {
         
