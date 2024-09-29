@@ -622,7 +622,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_C32A169C
     articyType: Dialogue
-    childCount: 63
+    childCount: 64
   - id: 72057594037929263
     parent: 72057594037928530
     technicalName: Cnd_EA71F512
@@ -817,6 +817,11 @@ MonoBehaviour:
     parent: 72057594037928530
     technicalName: Cnd_50C17395
     articyType: Condition
+    childCount: 0
+  - id: 72057594037930533
+    parent: 72057594037928530
+    technicalName: Hub_ED41D1D6
+    articyType: Hub
     childCount: 0
   - id: 72057594037929374
     parent: 72057594037928530
