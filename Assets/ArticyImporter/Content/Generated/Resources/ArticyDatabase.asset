@@ -43,14 +43,14 @@ MonoBehaviour:
     mTechnicalName: King_s_Courier
   mImportedAssets:
   - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: 1779676265797476945}
-  mScriptFragments: {fileID: 6786039414836506197}
+  mDefaultGlobalVariables: {fileID: 3068001030197708995}
+  mScriptFragments: {fileID: 9151306766676729671}
   mPackages:
   - PackageId: 72057594037928208
     PackageName: All objects
     PackagePath: package_0x100000000000110
     mIsDefaultPackage: 1
---- !u!114 &1779676265797476945
+--- !u!114 &3068001030197708995
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,21 +175,21 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
   mFallGate:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
   mScene1Objectives:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
   mKingdomReputation:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
   mVOTriggers:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
   mDialogueOptions:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
   mEventTriggers:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
   mScene1Finishing:
-    _VariableStorage: {fileID: 1779676265797476945}
+    _VariableStorage: {fileID: 3068001030197708995}
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -622,7 +622,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_C32A169C
     articyType: Dialogue
-    childCount: 63
+    childCount: 62
   - id: 72057594037929263
     parent: 72057594037928530
     technicalName: Cnd_EA71F512
@@ -808,24 +808,19 @@ MonoBehaviour:
     technicalName: Ins_0DB6DC18
     articyType: Instruction
     childCount: 0
-  - id: 72057594037930465
-    parent: 72057594037928530
-    technicalName: Cnd_8525A0AF
-    articyType: Condition
-    childCount: 0
   - id: 72057594037930474
     parent: 72057594037928530
     technicalName: Cnd_50C17395
     articyType: Condition
     childCount: 0
-  - id: 72057594037930415
-    parent: 72057594037928530
-    technicalName: DFr_E452C721
-    articyType: DialogueFragment
-    childCount: 0
   - id: 72057594037929374
     parent: 72057594037928530
     technicalName: DFr_1126D30F
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037930415
+    parent: 72057594037928530
+    technicalName: DFr_E452C721
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929394
@@ -1468,7 +1463,7 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
---- !u!114 &6786039414836506197
+--- !u!114 &9151306766676729671
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}

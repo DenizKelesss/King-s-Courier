@@ -73,6 +73,10 @@ MonoBehaviour:
   - DFr_7C2A301B.Text
   - DFr_BDDBDD49.Text
   - DFr_D4BA5519.Text
+  - DFr_E452C721.Text
+  - DFr_3F53F486.Text
+  - DFr_20C55454.Text
+  - DFr_6C076835.Text
   - DFr_9B47FA1C.Text
   - DFr_6A74B920.Text
   - DFr_013631CB.Text
@@ -129,10 +133,6 @@ MonoBehaviour:
   - DFr_2A4A10D5.Text
   - DFr_71BEE1EB.Text
   - DFr_DCF92B00.Text
-  - DFr_E452C721.Text
-  - DFr_3F53F486.Text
-  - DFr_20C55454.Text
-  - DFr_6C076835.Text
   - Ntt_67B1B7A7.DisplayName
   - Ntt_8082BF0B.DisplayName
   - Ntt_A624AC80.DisplayName
@@ -213,6 +213,10 @@ MonoBehaviour:
   - Otherwise... well, let's not go there, shall we?
   - Indeed so! My region has only thrived under my rule.
   - His grace will be happy to hear that, my lord.
+  - Nothing I've noticed so far your lordship?
+  - Were you expecting otherwise?
+  - Of course not, sir.
+  - Very well, then.
   - Could've been worse?
   - Err, excuse me?
   - Never you mind. I was an archer once, fought in the war of succession.
@@ -277,10 +281,6 @@ MonoBehaviour:
   - Once again, thank you and have a lovely day.
   - No but for real, leave. Click the exit button.
   - It just over there on the top left corner, byee!
-  - Nothing I've noticed so far your lordship?
-  - Were you expecting otherwise?
-  - Of course not, sir.
-  - Very well, then.
   - Courier
   - Ominous Stone
   - Captain of the Guard
