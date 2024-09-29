@@ -21,36 +21,7 @@ MonoBehaviour:
     mIsVoiceOver: 1
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ArticyDatabase
-  m_EditorClassIdentifier: 
-  mHierarchy: {fileID: 3217360529399469231}
-  mLocalization: {fileID: -8175130696941439569}
-  mRuleSetId: 269
-  mInternalProject:
-    mName: King's Courier
-    mDetailName: 
-    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
-    mTechnicalName: King_s_Courier
-  mImportedAssets:
-  - Assets/Voiceover_Lines/Scene1/line1
-  mDefaultGlobalVariables: {fileID: 3068001030197708995}
-  mScriptFragments: {fileID: 9151306766676729671}
-  mPackages:
-  - PackageId: 72057594037928208
-    PackageName: All objects
-    PackagePath: package_0x100000000000110
-    mIsDefaultPackage: 1
---- !u!114 &3068001030197708995
+--- !u!114 &-5834241070482469806
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,21 +146,50 @@ MonoBehaviour:
   mLiveStringVariableCache: []
   mIsInitialized: 1
   mObjectives:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
   mFallGate:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
   mScene1Objectives:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
   mKingdomReputation:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
   mVOTriggers:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
   mDialogueOptions:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
   mEventTriggers:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
   mScene1Finishing:
-    _VariableStorage: {fileID: 3068001030197708995}
+    _VariableStorage: {fileID: -5834241070482469806}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: 3217360529399469231}
+  mLocalization: {fileID: -8175130696941439569}
+  mRuleSetId: 269
+  mInternalProject:
+    mName: King's Courier
+    mDetailName: 
+    mId: f0d0e3ed-90fe-43ac-8d88-8ad8ef9a5834
+    mTechnicalName: King_s_Courier
+  mImportedAssets:
+  - Assets/Voiceover_Lines/Scene1/line1
+  mDefaultGlobalVariables: {fileID: -5834241070482469806}
+  mScriptFragments: {fileID: 4493285093465871153}
+  mPackages:
+  - PackageId: 72057594037928208
+    PackageName: All objects
+    PackagePath: package_0x100000000000110
+    mIsDefaultPackage: 1
 --- !u!114 &3217360529399469231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -622,7 +622,7 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_C32A169C
     articyType: Dialogue
-    childCount: 62
+    childCount: 63
   - id: 72057594037929263
     parent: 72057594037928530
     technicalName: Cnd_EA71F512
@@ -748,15 +748,20 @@ MonoBehaviour:
     technicalName: Cnd_2F0F5398
     articyType: Condition
     childCount: 0
+  - id: 72057594037929466
+    parent: 72057594037928530
+    technicalName: Cnd_089BC809
+    articyType: Condition
+    childCount: 0
   - id: 72057594037929475
     parent: 72057594037928530
     technicalName: Cnd_4F0B61C8
     articyType: Condition
     childCount: 0
-  - id: 72057594037929466
+  - id: 72057594037929352
     parent: 72057594037928530
-    technicalName: Cnd_089BC809
-    articyType: Condition
+    technicalName: DFr_14CB1961
+    articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929443
     parent: 72057594037928530
@@ -773,19 +778,14 @@ MonoBehaviour:
     technicalName: DFr_5DEC568B
     articyType: DialogueFragment
     childCount: 0
-  - id: 72057594037929352
+  - id: 72057594037929381
     parent: 72057594037928530
-    technicalName: DFr_14CB1961
+    technicalName: DFr_95125820
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929360
     parent: 72057594037928530
     technicalName: DFr_6306FD83
-    articyType: DialogueFragment
-    childCount: 0
-  - id: 72057594037929381
-    parent: 72057594037928530
-    technicalName: DFr_95125820
     articyType: DialogueFragment
     childCount: 0
   - id: 72057594037929410
@@ -807,6 +807,11 @@ MonoBehaviour:
     parent: 72057594037928530
     technicalName: Ins_0DB6DC18
     articyType: Instruction
+    childCount: 0
+  - id: 72057594037930520
+    parent: 72057594037928530
+    technicalName: Cnd_664A3A3D
+    articyType: Condition
     childCount: 0
   - id: 72057594037930474
     parent: 72057594037928530
@@ -997,7 +1002,12 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_8A350933
     articyType: Dialogue
-    childCount: 11
+    childCount: 12
+  - id: 72057594037930512
+    parent: 72057594037929652
+    technicalName: Cnd_6665F7E2
+    articyType: Condition
+    childCount: 0
   - id: 72057594037929678
     parent: 72057594037929652
     technicalName: Cnd_2E881CE0
@@ -1463,7 +1473,7 @@ MonoBehaviour:
     technicalName: Ast_E1AB76A5
     articyType: Asset
     childCount: 0
---- !u!114 &9151306766676729671
+--- !u!114 &4493285093465871153
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
