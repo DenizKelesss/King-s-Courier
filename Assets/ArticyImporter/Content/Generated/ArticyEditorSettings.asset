@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 704907223, guid: 538242286e35fb84f8e90dd86ba08b80, type: 3}
   m_Name: ArticyEditorSettings
   m_EditorClassIdentifier: 
-  mIsImporting: 0
+  mIsImporting: 1
   mAwaitingModelImport: 0
   mAwaitingFragmentsImport: 0
   mFileHashesKeys:
@@ -34,9 +34,9 @@ MonoBehaviour:
   mScriptFragmentHashesKeys: 1001000000000001
   mScriptFragmentHashesValues:
   - hzamgTB1kfme+hKYf5duxrQgJoxKUCugqrMfhtPAXYk=
-  mLastBuildCode: 1
-  mLastEditorStartupTimeTicks: 638632088200585270
+  mLastBuildCode: -100
+  mLastEditorStartupTimeTicks: 638967806152130656
   mUseModelPickerHierarchyView: 0
-  mNewVersionAvailable: 0
+  mNewVersionAvailable: 1
   mLastSelectedCustomGvPath: 
   mLastAttachedFlowPlayerValue: 0
